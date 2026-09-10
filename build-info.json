@@ -1,0 +1,12 @@
+{
+  "version": "0.4.0",
+  "source_commit": "d4701c8",
+  "verification": "23 simulation checks, 24 browser touch checks, 9 finale checks and 17 native input/render flags passed before publication.",
+  "files": {
+    "Build/TouchDemo.data": "c29d0122a0594e4b050006fd4484b705dc34b8cabd1d657026b159a9d9da650d",
+    "Build/TouchDemo.framework.js": "65f7609066249e68ff1432625c2882404df530a443a843b38617626a755732b7",
+    "Build/TouchDemo.loader.js": "7387b75f0a2d3c33065de23d530e70e4f8788e61d40a5fb4d2d4c2f80585ad5f",
+    "Build/TouchDemo.wasm": "296bfd6e2d32dad1728ad2b75f25c97cba942d53c878143c8c57743b9477b7d1",
+    "index.html": "0f4e69b078d2ba4f829e8709d38e60e22738a1a3bf851cc93c37fc27f2bc8317"
+  }
+}
