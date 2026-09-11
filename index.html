@@ -20,7 +20,7 @@
 <body>
   <main id="game">
     <canvas id="unity-canvas" tabindex="0" aria-label="Hightower surfing playtest"></canvas>
-    <section id="loading"><h1>Find your line.</h1><p>Hightower Beach · Find the final barrel · playtest 0.4</p><p>Pull toward yourself to catch. Guide your line through the green face. Carve and land your tricks, then line up beneath the last lip. The barrel is your finish.</p><progress id="progress" value="0" max="1"></progress><p id="status">Loading the beach…</p><button id="enter" hidden>Enter the water</button></section>
+    <section id="loading"><h1>Find your line.</h1><p>Hightower Beach · Find the final barrel · playtest 0.6.1</p><p>Pull toward yourself to catch. Draw low for speed; approach the lip gently to slide, or drive through it to launch. In air: sideways spins, down returns to the face, up exits the back. Release grabs before landing. Finish in the final barrel.</p><progress id="progress" value="0" max="1"></progress><p id="status">Loading the beach…</p><button id="enter" hidden>Enter the water</button></section>
     <aside id="rotate"><h1>Turn toward the coast.</h1><p>Rotate your phone to landscape for this playtest.</p></aside>
   </main>
   <script>
@@ -38,7 +38,7 @@
     const script=document.createElement('script');script.src='Build/TouchDemo.loader.js';
     script.onload=()=>createUnityInstance(canvas,{
       dataUrl:'Build/TouchDemo.data',frameworkUrl:'Build/TouchDemo.framework.js',codeUrl:'Build/TouchDemo.wasm',
-      streamingAssetsUrl:'StreamingAssets',companyName:'Independent Surf Prototype',productName:'Hightower Surf Demo',productVersion:'0.4.0',
+      streamingAssetsUrl:'StreamingAssets',companyName:'Independent Surf Prototype',productName:'Hightower Surf Demo',productVersion:'0.6.1',
       devicePixelRatio:Math.min(window.devicePixelRatio||1,1.5),matchWebGLToCanvasSize:true,
       showBanner:(message,type)=>{if(type==='error'){document.getElementById('status').textContent=message;console.error(message);}}
     },p=>document.getElementById('progress').value=p).then(instance=>{
