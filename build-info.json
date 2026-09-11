@@ -1,12 +1,12 @@
 {
-  "version": "0.6.1",
-  "source_commit": "643ce862f68762d1a0591f05827a5e6044c17a89",
-  "verification": "23 simulation checks, 15 flow/anatomy checks, production browser touch flow and standard gameplay client passed before publication.",
+  "version": "0.7.0",
+  "source_commit": "cc6a8e9e63ee4f02750843e5dfa47ae26554c616",
+  "verification": "23 simulation scenarios, 15 flow/anatomy checks, 10 catch/ocean groups, native touch/controller smoke and production browser catch/touch/flow/finale plus standard client passed before publication.",
   "files": {
-    "index.html": "a1937c7ad10dcf1d5a45acfee0299ba1b7713dc500a66fc0a6df63ec9be2de4b",
-    "Build/TouchDemo.data": "c5fc3b84d1fcc20cf3d570964039ad92e32ec06708a63319e620cca44074294b",
-    "Build/TouchDemo.framework.js": "7340febd9b20312828dea21ce115bc68c0f3da85844c3e1a8d0790f2a35f9ba0",
-    "Build/TouchDemo.loader.js": "adff465cb405ac16f11a76b32089518ef002c0f0bc01dfd1ba98646c297a525a",
-    "Build/TouchDemo.wasm": "4e1bd0333c4ff54a0bc3e56a3a7e0ba1b2ea9f113259d679982cbcfb73529351"
+    "index.html": "0f53ec9533478b610c019a62084c29417c4840fb2a266928e1aa380871730f4d",
+    "Build/TouchDemo.data": "1eab83a9aa31d99b97b6fb81f5d37a51fa8eb7127169714b2865e80b963ea714",
+    "Build/TouchDemo.loader.js": "ee03bef7888a695422a0bc96a798823bdfde7d29adcf893a877f7f5d6aef50b2",
+    "Build/TouchDemo.wasm": "3f0085336db3b33f8f07790ce4892abc03950b8ae423a5f32c5bb5dd60e806e3",
+    "Build/TouchDemo.framework.js": "e1bc7fb21663caafa7b5b26fe214994a3a76b1890cb02f17652770a44b7930b5"
   }
 }
