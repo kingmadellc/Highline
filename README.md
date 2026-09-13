@@ -1,6 +1,6 @@
-# Satellite Surf playtest
+# Highline playtest
 
-[Play the current demo](https://kingmadellc.github.io/satellite-surf-demo/)
+[Play the current demo](https://kingmadellc.github.io/Highline/)
 
 Unity WebGL playtest 0.7.0, set at Hightower Beach in Satellite Beach, Florida. Open on a phone in landscape or a desktop browser. The first load downloads approximately 58 MB. This repository contains the playable build.
 
