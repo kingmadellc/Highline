@@ -1,12 +1,30 @@
 {
-  "version": "0.7.0",
-  "source_commit": "cc6a8e9e63ee4f02750843e5dfa47ae26554c616",
-  "verification": "23 simulation scenarios, 15 flow/anatomy checks, 10 catch/ocean groups, native touch/controller smoke and production browser catch/touch/flow/finale plus standard client passed before publication.",
+  "version": "0.16.0",
+  "source_commit": "2cb2bd50578550ad4bb3dd66a96b15411b08efd9",
+  "entrypoint": "releases/0.16.0/index.html",
+  "artifact_bytes": 75408044,
+  "verification": "173 editor groups, standard web-game client, 7 browser touch smoke, 38 menu, 19 entry/fallback, 6 Retina, 21 motion, 5 layout, 16 sound checks and 17 native flags passed. WebGL and Mac builds have zero errors/warnings.",
+  "cache_policy": "Each release has its own asset directory. The root entry opens the latest release.",
   "files": {
-    "index.html": "0f53ec9533478b610c019a62084c29417c4840fb2a266928e1aa380871730f4d",
-    "Build/TouchDemo.data": "1eab83a9aa31d99b97b6fb81f5d37a51fa8eb7127169714b2865e80b963ea714",
-    "Build/TouchDemo.loader.js": "ee03bef7888a695422a0bc96a798823bdfde7d29adcf893a877f7f5d6aef50b2",
-    "Build/TouchDemo.wasm": "3f0085336db3b33f8f07790ce4892abc03950b8ae423a5f32c5bb5dd60e806e3",
-    "Build/TouchDemo.framework.js": "e1bc7fb21663caafa7b5b26fe214994a3a76b1890cb02f17652770a44b7930b5"
+    "releases/0.16.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "releases/0.16.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
+    "releases/0.16.0/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "releases/0.16.0/Brand/HighlineTide.woff2": "3915c602b0a48cd7e31d72b46bbd33f4c0ce4cefd24930f3df586054dc90de62",
+    "releases/0.16.0/Brand/hero-masks.png": "5ac32c7f39fcd3032eb4c7bd189817cffb185bba10e60183e9cb94301bde34fc",
+    "releases/0.16.0/Brand/hero.frag": "d0cb9222025e737c85a073f4d2848caaa59a52164f29fffb7ca562092fb794cf",
+    "releases/0.16.0/Brand/hero.js": "28d4dd75bfafb8d2a2cfde89fcd727b49e79592e14951f68a8bbe25491855f0a",
+    "releases/0.16.0/Brand/highline-plate.png": "f119f34b48633bac55ee7241e48a90eb302737728b58cb1b882e930a25175e57",
+    "releases/0.16.0/Brand/highline.png": "1e47b821ddc7e69e1b0d6228dc5872b5ef9e0dc960e589bd60c1ffb8e5d54fb7",
+    "releases/0.16.0/Brand/start.css": "7ea1727d59600e2c949550bf4783b5d802524f43af0738375a1c343fe88fde9c",
+    "releases/0.16.0/Brand/water-flow.png": "a5f13f9e5cf3fb9c48b4742599cab62a82ffe6d8288dafc5e5b01155b0dfd697",
+    "releases/0.16.0/Brand/water-splash-v15.png": "61c0f2a365fd1a77221963b4654db61eed281eedbd09843fcdb0c4eaf5e14122",
+    "releases/0.16.0/Brand/water-spray.png": "d2e1032d0831644b5dcc811ee86f848b65f21f1404ff1b33c4929aba1ac2b73c",
+    "releases/0.16.0/Build/TouchDemo.data": "77c75574de3ad74526f94486413805ddbf538320c796d52ee47020a0573da8b1",
+    "releases/0.16.0/Build/TouchDemo.framework.js": "4db1a666c5bf972d7b9b59b0255dc739a009de4dcbb9e52846f8f8b523704c36",
+    "releases/0.16.0/Build/TouchDemo.loader.js": "35b06b954f0a59649ca1ad078b66afbb5d6c85e833bca0f6485377e49cb8db2c",
+    "releases/0.16.0/Build/TouchDemo.wasm": "19c06a8f1214e48177d3464967f73549c3019b7fe38bb4bc0a8c22fb8bce4716",
+    "releases/0.16.0/StreamingAssets/Highline-font-licenses.txt": "b394c35769d8a69ff68d4a3966df0a2e5dd6203f000119ae27e99fab216bdded",
+    "releases/0.16.0/index.html": "0e7acf5a89a54deaf312c0c3c4e2ed782e26967a80311339843406bb17f67cac",
+    "index.html": "1d013913224e2ec784143ebda4a4bc2b387cc9eb2b48a2cc424c460474a1541f"
   }
 }

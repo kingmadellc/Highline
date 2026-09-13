@@ -1,11 +1,13 @@
-# Highline playtest
+# Highline
 
-[Play the current demo](https://kingmadellc.github.io/Highline/)
+[Play the latest build — v0.16.0](https://kingmadellc.github.io/Highline/?v=0.16.0)
 
-Unity WebGL playtest 0.7.0, set at Hightower Beach in Satellite Beach, Florida. Open on a phone in landscape or a desktop browser. The first load downloads approximately 58 MB. This repository contains the playable build.
+A Unity surfing playtest set in Satellite Beach, Florida. Play in landscape on a phone or in a desktop browser. The first visit downloads roughly 75 MB; later visits can reuse the browser cache. This repository contains the playable WebGL release.
 
-The latest revision adds rolling swell, persistent foam and revised crest lighting, a timed catch with a complete paddle-to-pop-up sequence, offshore barrel spacing, rescue-red lifeguard towers and character styling, and a quick shark cameo for spectacular aerial falls.
+Version 0.16 includes the latest surfing loop and menus, a detailed animated start screen, stronger crest foam that spreads and dissolves into the sea, a crisp static Highline wordmark, and water-based launch, landing and wipeout sounds. Repetitive score chirps have been removed.
 
-Pull toward yourself and hold to paddle; release in the green glide window to stand. Draw low for speed; approach the lip gently to slide, or drive through it to launch. In the air, sideways movement spins, down returns toward the wave, and up exits the back. Use a second touch or controller shoulder to grab; release before landing. Keep riding to bank the air. Finish in the final barrel.
+Pull toward yourself and hold to paddle; release in the timing window to stand. Draw low for speed, approach the lip to ride it, or drive through it to launch. Move sideways in the air to rotate and release before landing. Keep riding to bank the air. Practice a line, catch a wave, or try a three-wave filming set.
 
-A prototype for playtesting. Physical phone performance and controller hardware compatibility are still being evaluated.
+The canonical Play link opens the latest release. Each version uses its own asset directory to avoid stale mixtures of game files. Reload an already-open game tab to pick up a new release. `build-info.json` records the version and exact file hashes.
+
+Browser and native engineering checks passed before publication. Physical-phone performance and controller hardware compatibility are still being evaluated. See [credits](CREDITS.md) for audio and font attribution.

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#07363b">
+  <link rel="icon" href="data:,">
+  <link rel="preload" as="font" href="Brand/HighlineTide.woff2" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="Brand/start.css">
+  <title>Highline · Satellite Beach, FL</title>
+</head>
+<body>
+  <main id="game">
+    <canvas id="unity-canvas" width="1280" height="720" tabindex="0" aria-label="Highline surfing game"></canvas>
+    <section id="loading" aria-label="Highline start screen">
+      <img class="keyart" src="Brand/highline.png" alt="Highline — a surfer on a red board inside a sunlit turquoise wave, with the cream and red Highline wordmark above Hightower Beach">
+      <canvas id="hero-motion" class="ocean-motion" aria-hidden="true"></canvas><div class="shade" aria-hidden="true"></div>
+      <h1 class="sr-only">Highline</h1>
+      <div class="launch">
+        <h2>Satellite Beach, FL</h2>
+        <div class="ready"><progress id="progress" value="0" max="1" aria-label="Loading Highline"></progress><p id="status" role="status" aria-live="polite">Loading…</p><button id="enter" hidden>Let it rip</button></div>
+      </div>
+    </section>
+    <div id="entry-swell" aria-hidden="true"><svg viewBox="0 0 1400 800" preserveAspectRatio="none"><defs><filter id="foam-edge"><feTurbulence type="fractalNoise" baseFrequency=".018 .035" numOctaves="2" seed="7"/><feDisplacementMap in="SourceGraphic" scale="22"/></filter></defs><path fill="#e7f3dc" filter="url(#foam-edge)" d="M120 0H1210Q1390 190 1190 400T1270 800H80Q250 580 110 380T120 0Z"/><path fill="#249e96" opacity=".92" d="M70 0H1140Q1320 190 1120 400T1200 800H20Q180 580 40 380T70 0Z"/><path fill="#073f49" opacity=".86" d="M0 0H1030Q1220 240 1040 420T1080 800H0Z"/></svg></div>
+    <aside id="rotate"><span class="rotate-mark" aria-hidden="true">Highline</span><h2>Rotate to landscape.</h2></aside>
+  </main>
+  <script>
+    const canvas=document.getElementById('unity-canvas');
+    window.render_game_to_text=()=>JSON.stringify(window.surfState||{mode:'loading'});
+    // Register before Unity: entering the shell must not also activate the
+    // currently selected Unity menu action behind it.
+    window.addEventListener('keydown',event=>{
+      if((!document.getElementById('loading').hidden||window.highlineEntering)&&['Enter',' ','ArrowDown','ArrowUp'].includes(event.key)){
+        event.preventDefault();event.stopImmediatePropagation();
+        if((event.key==='Enter'||event.key===' ')&&!document.getElementById('enter').hidden)document.getElementById('enter').click();
+      }
+    },true);
+    let unity;
+    const motion=matchMedia('(prefers-reduced-motion: reduce)');
+    const syncMotion=()=>unity?.SendMessage('Hightower Surf Demo','SetMenuSystemMotion',motion.matches?'reduced':'full');
+    motion.addEventListener('change',syncMotion);
+    const ready=new Promise(resolve=>window.surfReady=resolve);
+    window.advanceTime=async ms=>{
+      await ready;
+      if(window.highlineTransition)await window.highlineTransition;
+      while(!window.surfState)await new Promise(requestAnimationFrame);
+      await new Promise(requestAnimationFrame);
+      unity.SendMessage('Hightower Surf Demo','Advance',String(ms));
+      await new Promise(requestAnimationFrame);
+    };
+    const fail=message=>{const status=document.getElementById('status');status.textContent=message;status.hidden=false;document.getElementById('progress').hidden=true;console.error(message);};
+    const script=document.createElement('script');script.src='Build/TouchDemo.loader.js';
+    script.onerror=()=>fail('The beach could not load. Check your connection and reload.');
+    script.onload=()=>createUnityInstance(canvas,{
+      dataUrl:'Build/TouchDemo.data',frameworkUrl:'Build/TouchDemo.framework.js',codeUrl:'Build/TouchDemo.wasm',
+      streamingAssetsUrl:'StreamingAssets',companyName:'Independent Surf Prototype',productName:'Hightower Surf Demo',productVersion:'0.16.0',
+      devicePixelRatio:Math.min(window.devicePixelRatio||1,1.5),matchWebGLToCanvasSize:true,
+      showBanner:(message,type)=>{if(type==='error')fail(message);}
+    },p=>document.getElementById('progress').value=p).then(instance=>{
+      unity=instance;window.surfUnity=unity;unity.SendMessage('Hightower Surf Demo','SetMenuShellVisible','1');syncMotion();window.surfReady();
+      document.getElementById('progress').hidden=true;document.getElementById('status').textContent='';document.getElementById('status').hidden=true;document.getElementById('enter').hidden=false;
+    }).catch(error=>fail('The beach could not start. Please reload. '+error.message));
+    document.body.appendChild(script);
+    document.getElementById('enter').onclick=()=>{
+      if(window.highlineEntering||document.getElementById('loading').hidden)return;
+      const shell=document.getElementById('loading'),button=document.getElementById('enter'),veil=document.getElementById('entry-swell');
+      const reduced=motion.matches||window.surfState?.reducedMotion;
+      window.highlineEntering=true;button.disabled=true;
+      unity?.SendMessage('Hightower Surf Demo','SetMenuPhase',String(window.highlineHero?.state().ready?window.highlineHero.time:2));
+      unity?.SendMessage('Hightower Surf Demo','SetMenuShellVisible','0');
+      window.highlineTransition=new Promise(resolve=>{
+        const finish=()=>{shell.hidden=true;veil.classList.remove('sweeping');window.highlineHero?.dispose();window.highlineEntering=false;canvas.focus();resolve();};
+        if(reduced){finish();return;}
+        shell.classList.add('entering');veil.classList.add('sweeping');
+        setTimeout(()=>{shell.hidden=true;},260);setTimeout(finish,540);
+      });
+    };
+    document.addEventListener('keydown',event=>{if(event.key.toLowerCase()==='f'&&unity)unity.SetFullscreen(document.fullscreenElement?0:1);});
+    canvas.addEventListener('contextmenu',event=>event.preventDefault());
+  </script>
+  <script src="Brand/hero.js"></script>
+</body>
+</html>
