@@ -1,10 +1,10 @@
 # Highline
 
-[Play the latest build — v0.16.0](https://kingmadellc.github.io/Highline/?v=0.16.0)
+[Play the latest build — v0.17.0](https://kingmadellc.github.io/Highline/?v=0.16.0)
 
-A Unity surfing playtest set in Satellite Beach, Florida. Play in landscape on a phone or in a desktop browser. The first visit downloads roughly 75 MB; later visits can reuse the browser cache. This repository contains the playable WebGL release.
+A Unity surfing playtest set in Satellite Beach, Florida. Play in landscape on a phone or in a desktop browser. The WebGL assets total roughly 71 MB; later visits can reuse the browser cache. This repository contains the playable WebGL release.
 
-Version 0.16 includes the latest surfing loop and menus, a detailed animated start screen, stronger crest foam that spreads and dissolves into the sea, a crisp static Highline wordmark, and water-based launch, landing and wipeout sounds. Repetitive score chirps have been removed.
+Version 0.17 adds quicker thumb steering, stronger drive from the drop and bottom turn, connected breaking water with spreading foam, improved hand and foot support during the pop-up, and load-driven rail spray. The original start-art scene stays still; the Highline wordmark makes one brief light reveal. Fresh profiles start with the Close camera; saved camera choices remain available.
 
 Pull toward yourself and hold to paddle; release in the timing window to stand. Draw low for speed, approach the lip to ride it, or drive through it to launch. Move sideways in the air to rotate and release before landing. Keep riding to bank the air. Practice a line, catch a wave, or try a three-wave filming set.
 
