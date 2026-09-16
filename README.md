@@ -10,7 +10,7 @@ Catch a wave, find your line, and carry the landing into the next move. **Highli
 
 ## Play
 
-Use landscape orientation on a phone, or open the game in a desktop browser. Allow roughly **71 MB** for the first WebGL download; subsequent visits can reuse the browser cache.
+Use landscape orientation on a phone, or open the game in a desktop browser. The release contains roughly **71 MB of unpacked assets**. GitHub serves the core engine and game data with gzip compression: those three requests total about **23.5 MB** (verified September 15, 2026), before supporting artwork, fonts, and audio. Total transfer varies with browser caching; subsequent visits can reuse cached files.
 
 1. Pull toward yourself and hold to paddle. Release in the timing window to stand.
 2. Draw low on the wave to build speed. Approach the lip to ride a high line, or push through the crest to launch.
