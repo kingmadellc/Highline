@@ -2,11 +2,11 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing prototype set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.18.0](https://kingmadellc.github.io/Highline/releases/0.18.0/?v=0.18.0) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.20.0](https://kingmadellc.github.io/Highline/releases/0.20.0/?v=0.20.0) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.18.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.20.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.18.0/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.20.0/Brand/highline.png).*
 
 ## Play
 
@@ -20,7 +20,7 @@ Practice a line, catch a wave, or try a three-wave filming set. Learn mode helps
 
 ## Current build
 
-**v0.18.0** refines short thumb corrections, board and rider feedback, rail spray, lip entry, and momentum between moves. The illustrated start scene stays still while a brief title signature plays. Experience that motion in the playable build; the cover above is not a gameplay screenshot.
+**v0.20.0** adds crest stamps: small, three-tier reward callouts that pop over the surfer in a Space Coast script with a lens-flare sweep. Turns and lip slides earn a nod, clean landings and kick-outs earn more, and finding the final barrel stamps the Highline wordmark. A clean kick-out now holds for a beat before the ride card. Earlier releases stay available under `releases/`.
 
 This is a browser playtest. Physical-phone performance and controller hardware compatibility remain under evaluation.
 
@@ -39,7 +39,7 @@ Open **http://localhost:8000**. Serve over HTTP instead of opening `index.html` 
 | Path | Purpose |
 | --- | --- |
 | `index.html` | Entry point for the latest release |
-| `releases/0.18.0/` | Versioned game, fonts, audio, and artwork |
+| `releases/0.20.0/` | Versioned game, fonts, audio, and artwork |
 | `build-info.json` | Published version, entry point, and exact file hashes |
 | `CREDITS.md` | Audio and font attribution |
 
