@@ -3,7 +3,7 @@
   "source_commit": "505d2ba",
   "entrypoint": "releases/0.22.0/index.html",
   "artifact_bytes": 72316768,
-  "verification": "Playtest 1 remainder, built with the pinned Unity 6000.3.0f1. All 12 editor check groups passed inside the build (incl. the new playtest group: takeoff grades, pocket meter, gates, board slide, set lines). Production WebGL checks in scripted Chromium: guided first wave, pocket meter and live multiplier, practice gates, board slide, late/pearl takeoffs, shark sting. Physical-phone feel remains a user playtest question.",
+  "verification": "Playtest 1 remainder, built with the pinned Unity 6000.3.0f1. All 11 editor check groups passed inside the build (incl. the new playtest group: takeoff grades, pocket meter, gates, board slide, set lines). Production WebGL checks in scripted Chromium: guided first wave, pocket meter and live multiplier, practice gates, board slide, late/pearl takeoffs, shark sting. Physical-phone feel remains a user playtest question.",
   "cache_policy": "Each release has its own asset directory. The root entry opens the latest release.",
   "files": {
     "releases/0.22.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
