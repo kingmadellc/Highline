@@ -21,7 +21,11 @@
     "releases/0.18.0/Build/TouchDemo.loader.js": "8d5976ee0ce1977f6078fc1edf0fdff4fde323b6a371152a94d99374d00edc4b",
     "releases/0.18.0/Build/TouchDemo.wasm": "9a067c6b87cb92e281c8447af3c62b1e6ea5410215e3bae44ed524c98b17e10a",
     "releases/0.18.0/StreamingAssets/Highline-font-licenses.txt": "b394c35769d8a69ff68d4a3966df0a2e5dd6203f000119ae27e99fab216bdded",
-    "releases/0.18.0/index.html": "28e05da4675042eb39c271e7ed6436da056e90baff2d874a69ddbae32e96610b",
-    "index.html": "5162b0f272f9dbcdeb672d26b697fb5541853f99eb4a780bef0f431ad9904b7d"
+    "releases/0.18.0/index.html": "83b74b6e580903725ccdc1e7f60d3863d8bb88c5c8063ddab07d161e8b4feb3e",
+    "icon-180.png": "8406332eb1334fd0d0d047cad78b3bd4291f300d52d20dd7f7fcd91ec44f9094",
+    "icon-192.png": "ca5ddd9bcb5fc1c21958ddd66edb0b2ecc18e779f87e77881b6295fcab52f1b9",
+    "icon-512.png": "8caef8e78d4c5fc40e2c1ad8ad1e805cad3721f7c0d1e2562c74ef1059625a69",
+    "index.html": "5162b0f272f9dbcdeb672d26b697fb5541853f99eb4a780bef0f431ad9904b7d",
+    "manifest.webmanifest": "6afab9fec24dbe51af67ad81a1746c024c8f25d111197eeda2092fc8089af304"
   }
 }
