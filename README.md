@@ -2,23 +2,25 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing prototype set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.23.1](https://kingmadellc.github.io/Highline/releases/0.23.1/?v=0.23.1) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.23.2](https://kingmadellc.github.io/Highline/releases/0.23.2/?v=0.23.2) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.23.1/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.23.2/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.23.1/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.23.2/Brand/highline.png).*
 
 ## Play
 
 Use landscape orientation on a phone, or open the game in a desktop browser. The release contains roughly **71 MB of unpacked assets**. GitHub serves the core engine and game data with gzip compression: those three requests total about **23.5 MB** (verified September 15, 2026), before supporting artwork, fonts, and audio. Total transfer varies with browser caching; subsequent visits can reuse cached files.
 
-1. Pull toward yourself and hold to paddle. Release in the timing window to stand.
+1. Make quick paddle strokes with the swell, then hold the final stroke. Release in the green timing window to stand.
 2. Draw low on the wave to build speed. Approach the lip to ride a high line, or push through the crest to launch.
 3. Move sideways in the air to rotate, then release before landing. Keep riding to bank the air and preserve momentum.
 
 Practice a line, catch a wave, or try a three-wave filming set. Learn mode helps released rotations settle; Standard asks for more precise landings.
 
 ## Current build
+
+**v0.23.2** promotes Rhythm paddling into the normal game, varies the ideal stand-up moment between waves, opens more rideable space in the flats, and makes riding over the back an intentional sustained-line exit. Lip grinds now last at most 2.6 seconds, permit one style switch, and require a one-second fins-set recovery before another grind. The rider’s screen-left arm now follows the moving body with a lower, softer elbow and aligned wrist instead of lagging or lifting into a chicken-wing pose. Everything below from v0.23.1 is included.
 
 **v0.23.1** fills the lineup with a distinct cast: seven men and three women, each with their own build, hair, swimwear and board, with repeats kept apart. Everything below from v0.23.0 is included.
 
@@ -41,7 +43,7 @@ Open **http://localhost:8000**. Serve over HTTP instead of opening `index.html` 
 | Path | Purpose |
 | --- | --- |
 | `index.html` | Entry point for the latest release |
-| `releases/0.23.1/` | Versioned game, fonts, audio, and artwork |
+| `releases/0.23.2/` | Versioned game, fonts, audio, and artwork |
 | `build-info.json` | Published version, entry point, and exact file hashes |
 | `CREDITS.md` | Audio and font attribution |
 
