@@ -2,11 +2,11 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing prototype set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.22.0](https://kingmadellc.github.io/Highline/releases/0.22.0/?v=0.22.0) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.22.1](https://kingmadellc.github.io/Highline/releases/0.22.1/?v=0.22.1) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.22.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.22.1/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.22.0/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.22.1/Brand/highline.png).*
 
 ## Play
 
@@ -20,7 +20,7 @@ Practice a line, catch a wave, or try a three-wave filming set. Learn mode helps
 
 ## Current build
 
-**v0.22.0** finishes the first playtest list and rebuilds the surfer. The rider is now a proper anatomical body with a painted face and sun-bleached hair, in the teal-and-orange trunks and on the red board from the key art. "Let it rip" drops a new player straight onto a guided first wave that teaches one move at a time; afterwards it goes straight to a wave, with the mode menu behind pause. A glowing pocket band under the curl fills a meter that lifts your multiplier live, and Practice has slalom gates. On the lip, a sideways sweep slides the board with the fins free. Late releases drop steep and fast, early ones bury the nose, and a perfect one gets a slow-motion beat. The wave washes out behind the break with set lines rolling in behind it, and the shark announces itself with a low sting. v0.21 fixed the shark approach, board, arm flip, paddle-in and cutbacks; v0.20 added the crest stamps. Earlier releases stay available under `releases/`.
+**v0.22.1** finishes the first playtest list and rebuilds the surfer. The rider is now a proper anatomical body with a painted face and sun-bleached hair, in the teal-and-orange trunks and on the red board from the key art. "Let it rip" drops a new player straight onto a guided first wave that teaches one move at a time; afterwards it goes straight to a wave, with the mode menu behind pause. A glowing pocket band under the curl fills a meter that lifts your multiplier live, and Practice has slalom gates. On the lip, a sideways sweep slides the board with the fins free. Late releases drop steep and fast, early ones bury the nose, and a perfect one gets a slow-motion beat. The wave washes out behind the break with set lines rolling in behind it, and the shark announces itself with a low sting. v0.22.1 corrects the name and version the build reports about itself; the game is identical to v0.22.0. v0.21 fixed the shark approach, board, arm flip, paddle-in and cutbacks; v0.20 added the crest stamps. Earlier releases stay available under `releases/`.
 
 This is a browser playtest. Physical-phone performance and controller hardware compatibility remain under evaluation.
 
@@ -39,7 +39,7 @@ Open **http://localhost:8000**. Serve over HTTP instead of opening `index.html` 
 | Path | Purpose |
 | --- | --- |
 | `index.html` | Entry point for the latest release |
-| `releases/0.22.0/` | Versioned game, fonts, audio, and artwork |
+| `releases/0.22.1/` | Versioned game, fonts, audio, and artwork |
 | `build-info.json` | Published version, entry point, and exact file hashes |
 | `CREDITS.md` | Audio and font attribution |
 

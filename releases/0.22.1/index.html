@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#07363b">
+  <link rel="icon" href="data:,">
+  <link rel="preload" as="font" href="Brand/HighlineTide.woff2" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="Brand/start.css">
+  <link rel="manifest" href="../../manifest.webmanifest">
+  <link rel="apple-touch-icon" href="../../icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Highline">
+  <style>
+    #a2hs{margin:10px 0 0 auto;max-width:300px;font:500 13px/1.35 Barlow,system-ui,sans-serif;color:#fff0d7;background:#07363bd9;border:1px solid #fff0d733;border-radius:10px;padding:8px 30px 8px 12px;position:relative;text-align:left}
+    #a2hs[hidden]{display:none}
+    #a2hs b{font-weight:700;color:#fff}
+    #a2hs>button{all:unset;position:absolute;top:4px;right:6px;width:22px;height:22px;display:grid;place-items:center;font:18px/1 system-ui,sans-serif;color:#fff0d7;cursor:pointer;opacity:.8}
+    #a2hs>button::before,#a2hs>button::after{content:none!important;display:none!important}
+  </style>
+  <title>Highline · Satellite Beach, FL</title>
+</head>
+<body>
+  <main id="game">
+    <canvas id="unity-canvas" width="1280" height="720" tabindex="0" aria-label="Highline surfing game"></canvas>
+    <section id="loading" aria-label="Highline start screen">
+      <img class="keyart" src="Brand/highline.png" alt="Highline — a surfer on a red board inside a sunlit turquoise wave, with the cream and red Highline wordmark above Hightower Beach">
+      <canvas id="hero-motion" class="ocean-motion" aria-hidden="true"></canvas><div class="shade" aria-hidden="true"></div>
+      <h1 class="sr-only">Highline</h1>
+      <div class="launch">
+        <h2>Satellite Beach, FL</h2>
+        <div class="ready"><progress id="progress" value="0" max="1" aria-label="Loading Highline"></progress><p id="status" role="status" aria-live="polite">Loading…</p><button id="enter" hidden>Let it rip</button><p id="a2hs" hidden>For full screen, tap <b>Share</b> then <b>Add to Home Screen</b> and launch Highline from there.<button type="button" aria-label="Dismiss">×</button></p></div>
+      </div>
+    </section>
+    <div id="entry-swell" aria-hidden="true"></div>
+    <aside id="rotate"><span class="rotate-mark" aria-hidden="true">Highline</span><h2>Rotate to landscape.</h2></aside>
+  </main>
+  <script>
+    const canvas=document.getElementById('unity-canvas');
+    window.render_game_to_text=()=>JSON.stringify(window.surfState||{mode:'loading'});
+    // Register before Unity: entering the shell must not also activate the
+    // currently selected Unity menu action behind it.
+    window.addEventListener('keydown',event=>{
+      if((!document.getElementById('loading').hidden||window.highlineEntering)&&['Enter',' ','ArrowDown','ArrowUp'].includes(event.key)){
+        event.preventDefault();event.stopImmediatePropagation();
+        if((event.key==='Enter'||event.key===' ')&&!document.getElementById('enter').hidden)document.getElementById('enter').click();
+      }
+    },true);
+    let unity;
+    const motion=matchMedia('(prefers-reduced-motion: reduce)');
+    const syncMotion=()=>unity?.SendMessage('Hightower Surf Demo','SetMenuSystemMotion',motion.matches?'reduced':'full');
+    motion.addEventListener('change',syncMotion);
+    const ready=new Promise(resolve=>window.surfReady=resolve);
+    window.advanceTime=async ms=>{
+      await ready;
+      if(window.highlineTransition)await window.highlineTransition;
+      while(!window.surfState)await new Promise(requestAnimationFrame);
+      await new Promise(requestAnimationFrame);
+      unity.SendMessage('Hightower Surf Demo','Advance',String(ms));
+      await new Promise(requestAnimationFrame);
+    };
+    const fail=message=>{const status=document.getElementById('status');status.textContent=message;status.hidden=false;document.getElementById('progress').hidden=true;console.error(message);};
+    const script=document.createElement('script');script.src='Build/TouchDemo.loader.js';
+    script.onerror=()=>fail('The beach could not load. Check your connection and reload.');
+    script.onload=()=>createUnityInstance(canvas,{
+      dataUrl:'Build/TouchDemo.data',frameworkUrl:'Build/TouchDemo.framework.js',codeUrl:'Build/TouchDemo.wasm',
+      streamingAssetsUrl:'StreamingAssets',companyName:'King Made',productName:'Highline',productVersion:'0.22.1',
+      devicePixelRatio:Math.min(window.devicePixelRatio||1,1.5),matchWebGLToCanvasSize:true,
+      showBanner:(message,type)=>{if(type==='error')fail(message);}
+    },p=>document.getElementById('progress').value=p).then(instance=>{
+      unity=instance;window.surfUnity=unity;unity.SendMessage('Hightower Surf Demo','SetMenuShellVisible','1');syncMotion();window.surfReady();
+      document.getElementById('progress').hidden=true;document.getElementById('status').textContent='';document.getElementById('status').hidden=true;document.getElementById('enter').hidden=false;
+    }).catch(error=>fail('The beach could not start. Please reload. '+error.message));
+    document.body.appendChild(script);
+    const standalone=matchMedia('(display-mode: fullscreen)').matches||matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
+    const iOS=/iP(hone|od|ad)/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+    const hint=document.getElementById('a2hs');
+    let hintDismissed=false;try{hintDismissed=localStorage.getItem('highline.a2hs')==='1';}catch(e){}
+    if(iOS&&!standalone&&!hintDismissed)hint.hidden=false;
+    hint.querySelector('button').onclick=()=>{hint.hidden=true;try{localStorage.setItem('highline.a2hs','1');}catch(e){}};
+    const goFullscreen=()=>{
+      if(standalone||iOS||document.fullscreenElement||!document.fullscreenEnabled)return;
+      const game=document.getElementById('game');
+      game.requestFullscreen({navigationUI:'hide'}).then(()=>screen.orientation?.lock?.('landscape').catch(()=>{})).catch(()=>{});
+    };
+    document.getElementById('enter').onclick=()=>{
+      if(window.highlineEntering||document.getElementById('loading').hidden)return;
+      goFullscreen();
+      const shell=document.getElementById('loading'),button=document.getElementById('enter'),veil=document.getElementById('entry-swell');
+      const reduced=motion.matches||window.surfState?.reducedMotion;
+      window.highlineEntering=true;button.disabled=true;
+      unity?.SendMessage('Hightower Surf Demo','SetMenuPhase','3');
+      unity?.SendMessage('Hightower Surf Demo','SetMenuShellVisible','0');
+      window.highlineTransition=new Promise(resolve=>{
+        const finish=()=>{shell.hidden=true;veil.classList.remove('sweeping');window.highlineHero?.dispose();window.highlineEntering=false;canvas.focus();resolve();};
+        if(reduced){finish();return;}
+        shell.classList.add('entering');veil.classList.add('sweeping');
+        setTimeout(()=>{shell.hidden=true;},150);setTimeout(finish,240);
+      });
+    };
+    document.addEventListener('keydown',event=>{if(event.key.toLowerCase()==='f'&&unity)unity.SetFullscreen(document.fullscreenElement?0:1);});
+    canvas.addEventListener('contextmenu',event=>event.preventDefault());
+  </script>
+  <script src="Brand/hero.js"></script>
+</body>
+</html>
