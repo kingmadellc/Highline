@@ -2,25 +2,25 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing prototype set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.23.2](https://kingmadellc.github.io/Highline/releases/0.23.2/?v=0.23.2) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.25.0](https://kingmadellc.github.io/Highline/releases/0.25.0/?v=0.25.0) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.23.2/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.25.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.23.2/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.25.0/Brand/highline.png).*
 
-## New fun playtest: 0.24.1
+## Current playtest: 0.25.0
 
-**[Play Highline 0.24.1](https://kingmadellc.github.io/Highline/releases/0.24.1/?v=0.24.1)** on your phone in landscape or in a desktop browser.
+**[Play Highline 0.25.0](https://kingmadellc.github.io/Highline/releases/0.25.0/?v=0.25.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
 
-The 0.24.1 update gives the rider more natural arm balance: relaxed palms and wrists, separate lead-arm and counterbalance responses, gentle irregular motion, and smoother transitions through turns, grabs, landings and tubes.
+This update brings the fun features, natural arm balance and replay fixes together. Connected-line rewards, three wave experiences, focused practice, Free Surf, magazine photo covers, personal bests and shared wave codes are included. From a ride, use **Pause → Beach menu → Surf club** to explore the modes.
 
-This candidate adds connected-line rewards, richer water sounds and music, distinct wave opportunities, six focused practice starts including a controllable tube, Free Surf, magazine photo covers with save/export/archive, personal bests and shareable wave codes. It also revises waiting-surfer placement, wave transitions, the pier and shoreline detail. From a ride, use **Pause → Beach menu → Surf club** to explore the new modes.
+Two background surfers now paddle and coast along clear channels beyond the break. Shore wash, water around the pier and the camera boat have quiet positional sound that fades with distance. Replays stop on their final frame and can restart cleanly. The approved illustrated sharing image is retained.
 
-The default release remains 0.23.2. The 0.24 candidate is the separately tested fun-brief branch; it has not yet incorporated every independent replay/material update from the default release. Earlier builds remain available. The first load contains about 75 MB of uncompressed assets; actual transfer depends on compression and caching. Physical-phone feel and performance still need playtesting.
+Earlier versioned builds remain available. The first load contains about 75 MB of unpacked assets; actual transfer depends on compression and caching. Physical-phone feel, performance, audio listening and player enjoyment still need playtesting.
 
 ## Play
 
-Use landscape orientation on a phone, or open the game in a desktop browser. The release contains roughly **71 MB of unpacked assets**. GitHub serves the core engine and game data with gzip compression: those three requests total about **23.5 MB** (verified September 15, 2026), before supporting artwork, fonts, and audio. Total transfer varies with browser caching; subsequent visits can reuse cached files.
+Use landscape orientation on a phone, or open the game in a desktop browser. Allow the initial game download to finish, then select **Let it rip**. Subsequent visits can reuse cached assets.
 
 1. Make quick paddle strokes with the swell, then hold the final stroke. Release in the green timing window to stand.
 2. Draw low on the wave to build speed. Approach the lip to ride a high line, or push through the crest to launch.
@@ -28,7 +28,7 @@ Use landscape orientation on a phone, or open the game in a desktop browser. The
 
 Practice a line, catch a wave, or try a three-wave filming set. Learn mode helps released rotations settle; Standard asks for more precise landings.
 
-## Current build
+## Earlier builds
 
 **v0.23.2** promotes Rhythm paddling into the normal game, varies the ideal stand-up moment between waves, opens more rideable space in the flats, and makes riding over the back an intentional sustained-line exit. Lip grinds now last at most 2.6 seconds, permit one style switch, and require a one-second fins-set recovery before another grind. The rider’s screen-left arm now follows the moving body with a lower, softer elbow and aligned wrist instead of lagging or lifting into a chicken-wing pose. Everything below from v0.23.1 is included.
 
@@ -53,7 +53,7 @@ Open **http://localhost:8000**. Serve over HTTP instead of opening `index.html` 
 | Path | Purpose |
 | --- | --- |
 | `index.html` | Entry point for the latest release |
-| `releases/0.23.2/` | Versioned game, fonts, audio, and artwork |
+| `releases/0.25.0/` | Versioned game, fonts, audio, and artwork |
 | `build-info.json` | Published version, entry point, and exact file hashes |
 | `CREDITS.md` | Audio and font attribution |
 
