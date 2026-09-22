@@ -1,0 +1,28 @@
+{
+  "version": "0.26.0",
+  "channel": "public-playtest",
+  "source_commit": "45009b2d8b53cc095f287b54ce434d7a436c420a",
+  "entrypoint": "releases/0.26.0/index.html",
+  "artifact_bytes": 77112820,
+  "verification": "Verified integrated WebGL build and 392 production browser assertions, including small-screen layouts, audio controls, replay isolation, and pixel-identical cover save/reload/export. Paired desktop rendering performance remains effectively unchanged from 0.25.1. Formal human playtests and physical-phone validation remain deferred.",
+  "changes": "A coordinated surfing polish pass: rail-driven spray and landing water, connected whole-body motion, deeper wave shading, smoother cameras, immediate next-wave actions, refined beach atmosphere, and better recorded magazine photographs.",
+  "files": {
+    "releases/0.26.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "releases/0.26.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
+    "releases/0.26.0/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "releases/0.26.0/Brand/HighlineTide.woff2": "3915c602b0a48cd7e31d72b46bbd33f4c0ce4cefd24930f3df586054dc90de62",
+    "releases/0.26.0/Brand/hero-masks.png": "5ac32c7f39fcd3032eb4c7bd189817cffb185bba10e60183e9cb94301bde34fc",
+    "releases/0.26.0/Brand/hero.frag": "b3fb2deada90277a09a67b9a7a7f9de6003c7f632901c900689145bfb29773b1",
+    "releases/0.26.0/Brand/hero.js": "2266a28383e09fe86be4b1adf8b817eb184090d89bd0a8684b507e89bfdee1e2",
+    "releases/0.26.0/Brand/highline-plate.png": "f119f34b48633bac55ee7241e48a90eb302737728b58cb1b882e930a25175e57",
+    "releases/0.26.0/Brand/highline.png": "1e47b821ddc7e69e1b0d6228dc5872b5ef9e0dc960e589bd60c1ffb8e5d54fb7",
+    "releases/0.26.0/Brand/start.css": "8ac7621d198575179801937ad2ac5ee17f04f85240861e8568f77ddd56e3f3b4",
+    "releases/0.26.0/Build/TouchDemo.data": "874c3f11c385740ab441fe8e054fb0d1303310bcad5d90869cb0cf32f415fd3c",
+    "releases/0.26.0/Build/TouchDemo.framework.js": "fbd4735c0f2fefd0cf0dc5760a48be1c73eec7ffd9e69ff461ffa4aed82f8f1a",
+    "releases/0.26.0/Build/TouchDemo.loader.js": "eff85133cf0d688908ae4f0b771661589656957ee0bc5e4bd7b691df3a405996",
+    "releases/0.26.0/Build/TouchDemo.wasm": "1df70c39980abfe7f201343cd2dcdedb3c52fae9a375f6b54f301816a62ac34f",
+    "releases/0.26.0/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
+    "releases/0.26.0/credits.html": "debb4278ede771d408e232f5c1139aa540897b96d85fdb9af502c6dc31c731d3",
+    "releases/0.26.0/index.html": "c70ddbe3e3a1e6094a97ff9e28e22a73594da6b603742a9732c0f0639a22df85"
+  }
+}
