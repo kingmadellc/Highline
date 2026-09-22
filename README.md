@@ -8,6 +8,14 @@ Catch a wave, find your line, and carry the landing into the next move. **Highli
 
 *Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.23.2/Brand/highline.png).*
 
+## New fun playtest: 0.24.0
+
+**[Play Highline 0.24.0](https://kingmadellc.github.io/Highline/releases/0.24.0/?v=0.24.0)** on your phone in landscape or in a desktop browser.
+
+This candidate adds connected-line rewards, richer water sounds and music, distinct wave opportunities, six focused practice starts including a controllable tube, Free Surf, magazine photo covers with save/export/archive, personal bests and shareable wave codes. It also revises waiting-surfer placement, wave transitions, the pier and shoreline detail. From a ride, use **Pause → Beach menu → Surf club** to explore the new modes.
+
+The default release remains 0.23.2. The 0.24 candidate is the separately tested fun-brief branch; it has not yet incorporated every independent replay/material update from the default release. Earlier builds remain available. The first load contains about 75 MB of uncompressed assets; actual transfer depends on compression and caching. Physical-phone feel and performance still need playtesting.
+
 ## Play
 
 Use landscape orientation on a phone, or open the game in a desktop browser. The release contains roughly **71 MB of unpacked assets**. GitHub serves the core engine and game data with gzip compression: those three requests total about **23.5 MB** (verified September 15, 2026), before supporting artwork, fonts, and audio. Total transfer varies with browser caching; subsequent visits can reuse cached files.
