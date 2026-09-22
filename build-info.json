@@ -1,9 +1,9 @@
 {
-  "version": "0.23.2",
-  "source_commit": "1f964fc6b4ad7dba9d1968ab4c2057f143cd9b37",
-  "entrypoint": "releases/0.23.2/index.html",
-  "artifact_bytes": 74052516,
-  "verification": "v0.23.2 integrates the approved Rhythm paddle, variable stand-up target, deeper recoverable flats, intentional over-the-back exit, bounded grind sessions and corrected grounded rear arm onto the published v0.23.1 lineup/replay baseline. Built with Unity 6000.3.0f1. Integrated editor checks pass, including the 810-sample rider-arm and four-group phone-feedback checks. Production Chromium passes 26 paddle and 10 phone-flow assertions with no page or console errors; the standard client reports v0.23.2, Rhythm and the correct first-wave cue. Gameplay capture reviewed. Physical-phone motion and feel remain a user playtest question.",
+  "version": "0.25.0",
+  "source_commit": "7b8940d71acf06850c274631bedf71b5ae926ec0",
+  "entrypoint": "releases/0.25.0/index.html",
+  "artifact_bytes": 74929576,
+  "verification": "Unity 6000.3 WebGL and native builds succeed with zero errors/warnings; all editor suites, 286 feature browser assertions, 10 production-touch flow assertions and native cover persistence/export pass. Close paddler motion and Metal gameplay reviewed. Paired desktop rendering p95 remains 27.1 ms. Physical-phone comfort, sustained performance, audio listening and the 12-person study remain pending.",
   "cache_policy": "Each release has its own asset directory. The root entry opens the latest release.",
   "files": {
     "releases/0.23.2/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
@@ -25,7 +25,7 @@
     "icon-180.png": "8406332eb1334fd0d0d047cad78b3bd4291f300d52d20dd7f7fcd91ec44f9094",
     "icon-192.png": "ca5ddd9bcb5fc1c21958ddd66edb0b2ecc18e779f87e77881b6295fcab52f1b9",
     "icon-512.png": "8caef8e78d4c5fc40e2c1ad8ad1e805cad3721f7c0d1e2562c74ef1059625a69",
-    "index.html": "e4114266bca1411d9656db9eab93c9b6b36636ede72c7bc4ead746a84939fc4c",
+    "index.html": "a1cc82990212787f7ee2cbdb32000a2939f14bdb3b89dc6654dce7ed7f34ea6c",
     "manifest.webmanifest": "6afab9fec24dbe51af67ad81a1746c024c8f25d111197eeda2092fc8089af304",
     "social/highline-social-preview-1280x640.jpg": "666b89ae79d92e195d28f6ff03d06db66e0d62a443f081b6857c8e5ccaa6ebdf",
     "social/highline-social-preview-1280x640.png": "5927e516fa763b9f0f0aae5cdc260fd6616ac6cf572689bb2522e8ce7238bb46",
@@ -46,7 +46,24 @@
     "releases/0.24.0/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
     "releases/0.24.0/index.html": "074b547c748e80685ee8df47c68aa67d6f6857ed796b5bfb55a2c3182731d8a1",
     "releases/0.24.0/build-info.json": "eb4da3adb6b4413334b46abc6b9fdd4be867725320aee78ff446c3eaf44dc87f",
-    "social/highline-social-preview-v024.jpg": "666b89ae79d92e195d28f6ff03d06db66e0d62a443f081b6857c8e5ccaa6ebdf"
+    "social/highline-social-preview-v024.jpg": "666b89ae79d92e195d28f6ff03d06db66e0d62a443f081b6857c8e5ccaa6ebdf",
+    "releases/0.25.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "releases/0.25.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
+    "releases/0.25.0/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "releases/0.25.0/Brand/HighlineTide.woff2": "3915c602b0a48cd7e31d72b46bbd33f4c0ce4cefd24930f3df586054dc90de62",
+    "releases/0.25.0/Brand/hero-masks.png": "5ac32c7f39fcd3032eb4c7bd189817cffb185bba10e60183e9cb94301bde34fc",
+    "releases/0.25.0/Brand/hero.frag": "b3fb2deada90277a09a67b9a7a7f9de6003c7f632901c900689145bfb29773b1",
+    "releases/0.25.0/Brand/hero.js": "2266a28383e09fe86be4b1adf8b817eb184090d89bd0a8684b507e89bfdee1e2",
+    "releases/0.25.0/Brand/highline-plate.png": "f119f34b48633bac55ee7241e48a90eb302737728b58cb1b882e930a25175e57",
+    "releases/0.25.0/Brand/highline.png": "1e47b821ddc7e69e1b0d6228dc5872b5ef9e0dc960e589bd60c1ffb8e5d54fb7",
+    "releases/0.25.0/Brand/start.css": "8ac7621d198575179801937ad2ac5ee17f04f85240861e8568f77ddd56e3f3b4",
+    "releases/0.25.0/Build/TouchDemo.data": "2c158df6d29010463e92428c2075cd3cb2f6c025d917e15b1fb6fbdd6662e195",
+    "releases/0.25.0/Build/TouchDemo.framework.js": "cc5f978927423cd5a7b058cbcbc268b4f52dddd979f81d8488773fdfd4d2f879",
+    "releases/0.25.0/Build/TouchDemo.loader.js": "06d1d4adaf5d32a4f7948aa9e912ddad609dfa919e13ecb5e369bb5d312bb8af",
+    "releases/0.25.0/Build/TouchDemo.wasm": "9a42fbd9d62be985ba3d6321c0f54645c36b95f21670491a12b45aa66089c88b",
+    "releases/0.25.0/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
+    "releases/0.25.0/index.html": "9265b100c4fc1aa729a7dec15bb2f85c37e2b25509cdbb937724f36b31b270c4",
+    "releases/0.25.0/build-info.json": "ace9ad1a650046951817aeddd802502fa22ae1f4e00a3b402e5835aa35c36b1b"
   },
   "playtests": [
     {
@@ -56,7 +73,16 @@
       "entrypoint": "releases/0.24.0/index.html",
       "artifact_bytes": 74630634,
       "verification": "Tested WebGL game payload; sharing metadata updated in its HTML entry. All 18 editor check groups, 286 browser assertions, 10 production-touch regression assertions, and native cover save/reload/export passed. Phone ergonomics, performance, audio listening and human enjoyment remain playtest questions."
+    },
+    {
+      "version": "0.25.0",
+      "channel": "public-playtest",
+      "source_commit": "7b8940d71acf06850c274631bedf71b5ae926ec0",
+      "entrypoint": "releases/0.25.0/index.html",
+      "artifact_bytes": 74929576,
+      "verification": "Unity 6000.3 WebGL and native builds succeed with zero errors/warnings; all editor suites, 286 feature browser assertions, 10 production-touch flow assertions and native cover persistence/export pass. Close paddler motion and Metal gameplay reviewed. Paired desktop rendering p95 remains 27.1 ms. Physical-phone comfort, sustained performance, audio listening and the 12-person study remain pending.",
+      "changes": "Unifies the fun features, natural arm balance and independent replay/material fixes; adds two authored channel paddlers, rendered-surface scenery buoyancy and distance-aware shore, pier and boat sound."
     }
   ],
-  "metadata_revision": "Root and current versioned links use the illustrated Highline sharing image."
+  "metadata_revision": "The default and versioned 0.25.0 links use the approved illustrated sharing image."
 }
