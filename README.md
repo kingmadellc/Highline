@@ -2,21 +2,21 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing prototype set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.25.0](https://kingmadellc.github.io/Highline/releases/0.25.0/?v=0.25.0) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.25.1](https://kingmadellc.github.io/Highline/releases/0.25.1/?v=0.25.1) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.25.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.25.1/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.25.0/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.25.1/Brand/highline.png).*
 
-## Current playtest: 0.25.0
+## Current playtest: 0.25.1
 
-**[Play Highline 0.25.0](https://kingmadellc.github.io/Highline/releases/0.25.0/?v=0.25.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
+**[Play Highline 0.25.1](https://kingmadellc.github.io/Highline/releases/0.25.1/?v=0.25.1)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
 
-This update brings the fun features, natural arm balance and replay fixes together. Connected-line rewards, three wave experiences, focused practice, Free Surf, magazine photo covers, personal bests and shared wave codes are included. From a ride, use **Pause → Beach menu → Surf club** to explore the modes.
+This update brings recorded water into the surf: ocean and shoreline ambience, board glide and loaded turns, varied spray and landings, and a distinct barrel wash. Paddle splashes follow the animated hands meeting the water. The barrel sound follows actual wave coverage, while pause, mute, menus, and replay silence the affected layers. [Sound credits](releases/0.25.1/credits.html).
 
-Two background surfers now paddle and coast along clear channels beyond the break. Shore wash, water around the pier and the camera boat have quiet positional sound that fades with distance. Replays stop on their final frame and can restart cleanly. The approved illustrated sharing image is retained.
+All existing surfing, natural arm balance, focused practice, Free Surf, magazine covers, wave challenges, and replay features remain available. From a ride, use **Pause → Beach menu → Surf club** to explore the modes.
 
-Earlier versioned builds remain available. The first load contains about 75 MB of unpacked assets; actual transfer depends on compression and caching. Physical-phone feel, performance, audio listening and player enjoyment still need playtesting.
+The package grew about 2.1 MB to 77.1 MB of unpacked build content; actual transfer depends on hosting compression and caching. The paired desktop frame-time sample was unchanged. Physical-phone listening, sustained performance, and player enjoyment remain playtest questions. Earlier versioned builds stay available.
 
 ## Play
 
@@ -53,7 +53,7 @@ Open **http://localhost:8000**. Serve over HTTP instead of opening `index.html` 
 | Path | Purpose |
 | --- | --- |
 | `index.html` | Entry point for the latest release |
-| `releases/0.25.0/` | Versioned game, fonts, audio, and artwork |
+| `releases/0.25.1/` | Versioned game, fonts, audio, and artwork |
 | `build-info.json` | Published version, entry point, and exact file hashes |
 | `CREDITS.md` | Audio and font attribution |
 

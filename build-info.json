@@ -1,9 +1,9 @@
 {
-  "version": "0.25.0",
-  "source_commit": "7b8940d71acf06850c274631bedf71b5ae926ec0",
-  "entrypoint": "releases/0.25.0/index.html",
-  "artifact_bytes": 74929576,
-  "verification": "Unity 6000.3 WebGL and native builds succeed with zero errors/warnings; all editor suites, 286 feature browser assertions, 10 production-touch flow assertions and native cover persistence/export pass. Close paddler motion and Metal gameplay reviewed. Paired desktop rendering p95 remains 27.1 ms. Physical-phone comfort, sustained performance, audio listening and the 12-person study remain pending.",
+  "version": "0.25.1",
+  "source_commit": "f1f05534d293bfdd87a8eff652fa1dfb92447233",
+  "entrypoint": "releases/0.25.1/index.html",
+  "artifact_bytes": 77076187,
+  "verification": "WebGL build succeeds with zero errors/warnings; required editor suites plus 94 recorded-water checks, 24 browser audio/playback checks and 30 paddle-variant touch checks pass. Desktop Chromium p95 frame interval is unchanged at 26.1 ms in the paired sample. Physical-phone and subjective listening acceptance remain pending.",
   "cache_policy": "Each release has its own asset directory. The root entry opens the latest release.",
   "files": {
     "releases/0.23.2/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
@@ -25,7 +25,7 @@
     "icon-180.png": "8406332eb1334fd0d0d047cad78b3bd4291f300d52d20dd7f7fcd91ec44f9094",
     "icon-192.png": "ca5ddd9bcb5fc1c21958ddd66edb0b2ecc18e779f87e77881b6295fcab52f1b9",
     "icon-512.png": "8caef8e78d4c5fc40e2c1ad8ad1e805cad3721f7c0d1e2562c74ef1059625a69",
-    "index.html": "a1cc82990212787f7ee2cbdb32000a2939f14bdb3b89dc6654dce7ed7f34ea6c",
+    "index.html": "11763eaa7606c3a022d5636a2bbb25801e75f222833045947c3bb695079414a2",
     "manifest.webmanifest": "6afab9fec24dbe51af67ad81a1746c024c8f25d111197eeda2092fc8089af304",
     "social/highline-social-preview-1280x640.jpg": "666b89ae79d92e195d28f6ff03d06db66e0d62a443f081b6857c8e5ccaa6ebdf",
     "social/highline-social-preview-1280x640.png": "5927e516fa763b9f0f0aae5cdc260fd6616ac6cf572689bb2522e8ce7238bb46",
@@ -63,7 +63,27 @@
     "releases/0.25.0/Build/TouchDemo.wasm": "9a42fbd9d62be985ba3d6321c0f54645c36b95f21670491a12b45aa66089c88b",
     "releases/0.25.0/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
     "releases/0.25.0/index.html": "9265b100c4fc1aa729a7dec15bb2f85c37e2b25509cdbb937724f36b31b270c4",
-    "releases/0.25.0/build-info.json": "ace9ad1a650046951817aeddd802502fa22ae1f4e00a3b402e5835aa35c36b1b"
+    "releases/0.25.0/build-info.json": "ace9ad1a650046951817aeddd802502fa22ae1f4e00a3b402e5835aa35c36b1b",
+    "releases/0.25.1/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "releases/0.25.1/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
+    "releases/0.25.1/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "releases/0.25.1/Brand/HighlineTide.woff2": "3915c602b0a48cd7e31d72b46bbd33f4c0ce4cefd24930f3df586054dc90de62",
+    "releases/0.25.1/Brand/hero-masks.png": "5ac32c7f39fcd3032eb4c7bd189817cffb185bba10e60183e9cb94301bde34fc",
+    "releases/0.25.1/Brand/hero.frag": "b3fb2deada90277a09a67b9a7a7f9de6003c7f632901c900689145bfb29773b1",
+    "releases/0.25.1/Brand/hero.js": "2266a28383e09fe86be4b1adf8b817eb184090d89bd0a8684b507e89bfdee1e2",
+    "releases/0.25.1/Brand/highline-plate.png": "f119f34b48633bac55ee7241e48a90eb302737728b58cb1b882e930a25175e57",
+    "releases/0.25.1/Brand/highline.png": "1e47b821ddc7e69e1b0d6228dc5872b5ef9e0dc960e589bd60c1ffb8e5d54fb7",
+    "releases/0.25.1/Brand/start.css": "8ac7621d198575179801937ad2ac5ee17f04f85240861e8568f77ddd56e3f3b4",
+    "releases/0.25.1/Build/TouchDemo.data": "166ca216fa896402d084e4085a76118171ca51110fa60fd48360524c98a3b433",
+    "releases/0.25.1/Build/TouchDemo.framework.js": "cc5f978927423cd5a7b058cbcbc268b4f52dddd979f81d8488773fdfd4d2f879",
+    "releases/0.25.1/Build/TouchDemo.loader.js": "24b283d4e5a20f4eb06652a038a4b9b56b8e133cea25b3cc5751e2d708dd8364",
+    "releases/0.25.1/Build/TouchDemo.wasm": "4886bb5f13d59eaecb1ba48508a4972680bc9f5633abf491659894c4603508c6",
+    "releases/0.25.1/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
+    "releases/0.25.1/credits.html": "debb4278ede771d408e232f5c1139aa540897b96d85fdb9af502c6dc31c731d3",
+    "releases/0.25.1/index.html": "a3a46b2d824b21ad49bfca661e5a65799ab915ecc903dd5237bd3056f6df3435",
+    "releases/0.25.1/build-info.json": "3a809227bb424fe543d3ef894b5e33f6edc2a552a6a24e2b6024781897610a90",
+    "CREDITS.md": "3e5fbffc5366b3e7caca1d8da5fc0df7bdf93155c107dff0bf165eba226fb501",
+    "README.md": "5d10ade23c188eaf9aca362357b3071f3e8a0afeb75fc21fbbec8d4b97e8dfc6"
   },
   "playtests": [
     {
@@ -82,7 +102,16 @@
       "artifact_bytes": 74929576,
       "verification": "Unity 6000.3 WebGL and native builds succeed with zero errors/warnings; all editor suites, 286 feature browser assertions, 10 production-touch flow assertions and native cover persistence/export pass. Close paddler motion and Metal gameplay reviewed. Paired desktop rendering p95 remains 27.1 ms. Physical-phone comfort, sustained performance, audio listening and the 12-person study remain pending.",
       "changes": "Unifies the fun features, natural arm balance and independent replay/material fixes; adds two authored channel paddlers, rendered-surface scenery buoyancy and distance-aware shore, pier and boat sound."
+    },
+    {
+      "version": "0.25.1",
+      "channel": "public-playtest",
+      "source_commit": "f1f05534d293bfdd87a8eff652fa1dfb92447233",
+      "entrypoint": "releases/0.25.1/index.html",
+      "artifact_bytes": 77076187,
+      "verification": "WebGL build succeeds with zero errors/warnings; required editor suites plus 94 recorded-water checks, 24 browser audio/playback checks and 30 paddle-variant touch checks pass. Desktop Chromium p95 frame interval is unchanged at 26.1 ms in the paired sample. Physical-phone and subjective listening acceptance remain pending.",
+      "changes": "Adds 19 field-recording edits for ocean, shore, board/rail, actual-barrel wash, varied releases/landings/wipeouts, and hand-contact paddle gestures; ships creator attribution."
     }
   ],
-  "metadata_revision": "The default and versioned 0.25.0 links use the approved illustrated sharing image."
+  "metadata_revision": "The default and versioned 0.25.1 links retain the approved illustrated sharing image."
 }
