@@ -2,7 +2,7 @@
   "version": "0.23.2",
   "source_commit": "1f964fc6b4ad7dba9d1968ab4c2057f143cd9b37",
   "entrypoint": "releases/0.23.2/index.html",
-  "artifact_bytes": 74050988,
+  "artifact_bytes": 74052516,
   "verification": "v0.23.2 integrates the approved Rhythm paddle, variable stand-up target, deeper recoverable flats, intentional over-the-back exit, bounded grind sessions and corrected grounded rear arm onto the published v0.23.1 lineup/replay baseline. Built with Unity 6000.3.0f1. Integrated editor checks pass, including the 810-sample rider-arm and four-group phone-feedback checks. Production Chromium passes 26 paddle and 10 phone-flow assertions with no page or console errors; the standard client reports v0.23.2, Rhythm and the correct first-wave cue. Gameplay capture reviewed. Physical-phone motion and feel remain a user playtest question.",
   "cache_policy": "Each release has its own asset directory. The root entry opens the latest release.",
   "files": {
@@ -21,11 +21,11 @@
     "releases/0.23.2/Build/TouchDemo.loader.js": "1e701854990d239461ee23cc0c75d16a92e9c47aff754f54c3b48fb98471d310",
     "releases/0.23.2/Build/TouchDemo.wasm": "23c9514de608b6b6215ca10159a120553a1f972c617c041734b0085914e645f0",
     "releases/0.23.2/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
-    "releases/0.23.2/index.html": "f43cb618372a2f5e104596e4efcad878db7a22d3e8556f719b459031da946d05",
+    "releases/0.23.2/index.html": "c657d8b847652f85330ec8bd89b9dab087bf7cd27eb97eb74f91ea57762be9f4",
     "icon-180.png": "8406332eb1334fd0d0d047cad78b3bd4291f300d52d20dd7f7fcd91ec44f9094",
     "icon-192.png": "ca5ddd9bcb5fc1c21958ddd66edb0b2ecc18e779f87e77881b6295fcab52f1b9",
     "icon-512.png": "8caef8e78d4c5fc40e2c1ad8ad1e805cad3721f7c0d1e2562c74ef1059625a69",
-    "index.html": "7a91a67c32f21a091ddbff6473e8c02b501d1c5f48f70fc2cbd5a427759ce3c3",
+    "index.html": "e4114266bca1411d9656db9eab93c9b6b36636ede72c7bc4ead746a84939fc4c",
     "manifest.webmanifest": "6afab9fec24dbe51af67ad81a1746c024c8f25d111197eeda2092fc8089af304",
     "social/highline-social-preview-1280x640.jpg": "666b89ae79d92e195d28f6ff03d06db66e0d62a443f081b6857c8e5ccaa6ebdf",
     "social/highline-social-preview-1280x640.png": "5927e516fa763b9f0f0aae5cdc260fd6616ac6cf572689bb2522e8ce7238bb46",
@@ -44,8 +44,9 @@
     "releases/0.24.0/Build/TouchDemo.loader.js": "41d28cf4ea6f0621efc5e826ee593b1978637342dc76df98ee5c617638fab54d",
     "releases/0.24.0/Build/TouchDemo.wasm": "5556447869578237855f8341020fe14b3245857a2197f78e4c4c9151218da05a",
     "releases/0.24.0/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
-    "releases/0.24.0/index.html": "692515ef93b0f6c542d9eb189ecbea2e7e5d9d9cd47de818972d4c5d1707ef1b",
-    "releases/0.24.0/build-info.json": "f619df9c1ffe53714662beede8b44aafbb627353a304dfa18759314e96d4405c"
+    "releases/0.24.0/index.html": "074b547c748e80685ee8df47c68aa67d6f6857ed796b5bfb55a2c3182731d8a1",
+    "releases/0.24.0/build-info.json": "eb4da3adb6b4413334b46abc6b9fdd4be867725320aee78ff446c3eaf44dc87f",
+    "social/highline-social-preview-v024.jpg": "666b89ae79d92e195d28f6ff03d06db66e0d62a443f081b6857c8e5ccaa6ebdf"
   },
   "playtests": [
     {
@@ -53,8 +54,9 @@
       "channel": "playtest",
       "source_commit": "2c9ef876e926b84fa827957b52adcb49d269d2fb",
       "entrypoint": "releases/0.24.0/index.html",
-      "artifact_bytes": 74629106,
-      "verification": "Exact tested WebGL artifact. All 18 editor check groups, 286 browser assertions, 10 production-touch regression assertions, and native cover save/reload/export passed. Phone ergonomics, performance, audio listening and human enjoyment remain playtest questions."
+      "artifact_bytes": 74630634,
+      "verification": "Tested WebGL game payload; sharing metadata updated in its HTML entry. All 18 editor check groups, 286 browser assertions, 10 production-touch regression assertions, and native cover save/reload/export passed. Phone ergonomics, performance, audio listening and human enjoyment remain playtest questions."
     }
-  ]
+  ],
+  "metadata_revision": "Root and current versioned links use the illustrated Highline sharing image."
 }

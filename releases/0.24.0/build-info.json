@@ -3,8 +3,8 @@
   "channel": "playtest",
   "source_commit": "2c9ef876e926b84fa827957b52adcb49d269d2fb",
   "entrypoint": "releases/0.24.0/index.html",
-  "artifact_bytes": 74629106,
-  "verification": "Exact tested WebGL artifact. All 18 editor check groups, 286 browser assertions, 10 production-touch regression assertions, and native cover save/reload/export passed. Phone ergonomics, performance, audio listening and human enjoyment remain playtest questions.",
+  "artifact_bytes": 74630634,
+  "verification": "Tested WebGL game payload; sharing metadata updated in its HTML entry. All 18 editor check groups, 286 browser assertions, 10 production-touch regression assertions, and native cover save/reload/export passed. Phone ergonomics, performance, audio listening and human enjoyment remain playtest questions.",
   "files": {
     "releases/0.24.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
     "releases/0.24.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
@@ -21,6 +21,7 @@
     "releases/0.24.0/Build/TouchDemo.loader.js": "41d28cf4ea6f0621efc5e826ee593b1978637342dc76df98ee5c617638fab54d",
     "releases/0.24.0/Build/TouchDemo.wasm": "5556447869578237855f8341020fe14b3245857a2197f78e4c4c9151218da05a",
     "releases/0.24.0/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
-    "releases/0.24.0/index.html": "692515ef93b0f6c542d9eb189ecbea2e7e5d9d9cd47de818972d4c5d1707ef1b"
-  }
+    "releases/0.24.0/index.html": "074b547c748e80685ee8df47c68aa67d6f6857ed796b5bfb55a2c3182731d8a1"
+  },
+  "metadata_revision": "Sharing metadata added; compiled game files and gameplay scripts are unchanged."
 }
