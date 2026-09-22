@@ -8,9 +8,11 @@ Catch a wave, find your line, and carry the landing into the next move. **Highli
 
 *Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.23.2/Brand/highline.png).*
 
-## New fun playtest: 0.24.0
+## New fun playtest: 0.24.1
 
-**[Play Highline 0.24.0](https://kingmadellc.github.io/Highline/releases/0.24.0/?v=0.24.0)** on your phone in landscape or in a desktop browser.
+**[Play Highline 0.24.1](https://kingmadellc.github.io/Highline/releases/0.24.1/?v=0.24.1)** on your phone in landscape or in a desktop browser.
+
+The 0.24.1 update gives the rider more natural arm balance: relaxed palms and wrists, separate lead-arm and counterbalance responses, gentle irregular motion, and smoother transitions through turns, grabs, landings and tubes.
 
 This candidate adds connected-line rewards, richer water sounds and music, distinct wave opportunities, six focused practice starts including a controllable tube, Free Surf, magazine photo covers with save/export/archive, personal bests and shareable wave codes. It also revises waiting-surfer placement, wave transitions, the pier and shoreline detail. From a ride, use **Pause → Beach menu → Surf club** to explore the new modes.
 
