@@ -1,9 +1,9 @@
 {
-  "version": "0.28.0",
-  "source_commit": "db6e3aee3a75eda7ea44f34088e70ac934d84b1b",
-  "entrypoint": "releases/0.28.0/index.html",
-  "artifact_bytes": 77270293,
-  "verification": "Verified with 31 Unity validation groups, a zero-error/zero-warning WebGL build, 89 production-touch progression checks, stepped and real-clock motion checks, compiled audio output and recovery in Chromium and WebKit, and actual 0.27-to-0.28 save continuity. Physical-phone listening and comfort remain device checks.",
+  "version": "0.29.0",
+  "source_commit": "3df80bb2c1c8fe4e78d4a5b85871386ba3f258b1",
+  "entrypoint": "releases/0.29.0/index.html",
+  "artifact_bytes": 79978946,
+  "verification": "All 34 Unity validation groups passed with zero build errors or warnings. Browser checks passed for 95 real-time gesture assertions, 12 handling/menu checks, 145 magazine checks, 11 inspected full-resolution photographs and compiled 0.28-to-0.29 save continuity. Chromium and WebKit audio recovery passed; 227 offline audio checks and 31 distinct recorded-water browser checks are retained. Desktop profiling found no repeated presentation clocks across 482 sampled frames; water CPU cost stayed roughly unchanged. Physical iPhone listening, touch feel and performance remain unverified. This is a browser playtest.",
   "cache_policy": "Each release has its own asset directory. The root entry opens the latest release.",
   "files": {
     "releases/0.23.2/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
@@ -25,7 +25,7 @@
     "icon-180.png": "8406332eb1334fd0d0d047cad78b3bd4291f300d52d20dd7f7fcd91ec44f9094",
     "icon-192.png": "ca5ddd9bcb5fc1c21958ddd66edb0b2ecc18e779f87e77881b6295fcab52f1b9",
     "icon-512.png": "8caef8e78d4c5fc40e2c1ad8ad1e805cad3721f7c0d1e2562c74ef1059625a69",
-    "index.html": "b9d8e84259de8d41e260557afd09b7aec0cc175765a7b752513913d037e03ccf",
+    "index.html": "48bc6990b3873d93909fd15902144ec9495d7c557b1b47ce8344e6ab95a3195b",
     "manifest.webmanifest": "6afab9fec24dbe51af67ad81a1746c024c8f25d111197eeda2092fc8089af304",
     "social/highline-social-preview-1280x640.jpg": "666b89ae79d92e195d28f6ff03d06db66e0d62a443f081b6857c8e5ccaa6ebdf",
     "social/highline-social-preview-1280x640.png": "5927e516fa763b9f0f0aae5cdc260fd6616ac6cf572689bb2522e8ce7238bb46",
@@ -82,8 +82,8 @@
     "releases/0.25.1/credits.html": "debb4278ede771d408e232f5c1139aa540897b96d85fdb9af502c6dc31c731d3",
     "releases/0.25.1/index.html": "a3a46b2d824b21ad49bfca661e5a65799ab915ecc903dd5237bd3056f6df3435",
     "releases/0.25.1/build-info.json": "3a809227bb424fe543d3ef894b5e33f6edc2a552a6a24e2b6024781897610a90",
-    "CREDITS.md": "a60f6f01af58b918bb1c6cc894630167cff0ccc091a00e60af4a311dc22a0bf1",
-    "README.md": "6d5485d81101a86dcd3e7340fbec1c6d7ffd904911586f19761eb314e1b3061f",
+    "CREDITS.md": "0366b46eeb1118c92db1c547c535d297aafa56e82924242db25c17471962ea4a",
+    "README.md": "50a329f16090cc920027ee8fe040e03083dde8d83286aef5e6f25a80d4d4622f",
     "releases/0.26.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
     "releases/0.26.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
     "releases/0.26.0/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
@@ -137,7 +137,25 @@
     "releases/0.28.0/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
     "releases/0.28.0/credits.html": "debb4278ede771d408e232f5c1139aa540897b96d85fdb9af502c6dc31c731d3",
     "releases/0.28.0/index.html": "44aa4605818d85827ef5e31eeec0715f694eaf9e29a8a7e86fd4be6fdfdf89fd",
-    "releases/0.28.0/build-info.json": "321d54effe7b20ba32a3cbb5267dd68a7a42ff40b4f4ebf8871fd86bf5045fb3"
+    "releases/0.28.0/build-info.json": "321d54effe7b20ba32a3cbb5267dd68a7a42ff40b4f4ebf8871fd86bf5045fb3",
+    "releases/0.29.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "releases/0.29.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
+    "releases/0.29.0/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "releases/0.29.0/Brand/HighlineTide.woff2": "3915c602b0a48cd7e31d72b46bbd33f4c0ce4cefd24930f3df586054dc90de62",
+    "releases/0.29.0/Brand/hero-masks.png": "5ac32c7f39fcd3032eb4c7bd189817cffb185bba10e60183e9cb94301bde34fc",
+    "releases/0.29.0/Brand/hero.frag": "b3fb2deada90277a09a67b9a7a7f9de6003c7f632901c900689145bfb29773b1",
+    "releases/0.29.0/Brand/hero.js": "2266a28383e09fe86be4b1adf8b817eb184090d89bd0a8684b507e89bfdee1e2",
+    "releases/0.29.0/Brand/highline-plate.png": "f119f34b48633bac55ee7241e48a90eb302737728b58cb1b882e930a25175e57",
+    "releases/0.29.0/Brand/highline.png": "1e47b821ddc7e69e1b0d6228dc5872b5ef9e0dc960e589bd60c1ffb8e5d54fb7",
+    "releases/0.29.0/Brand/start.css": "8ac7621d198575179801937ad2ac5ee17f04f85240861e8568f77ddd56e3f3b4",
+    "releases/0.29.0/Build/TouchDemo.data": "b29c7248f6c52356e1e1f6b51b8c246a5a0e3724816e6ba49ea8faf83972f41a",
+    "releases/0.29.0/Build/TouchDemo.framework.js": "696b77db0ad562ecf4451b95fca65206a0f1ad80750c02286e384ac13f7af4b8",
+    "releases/0.29.0/Build/TouchDemo.loader.js": "b8f707bdf3307c5b901ec3bd179dbd5aacdb4b16c791c448110dfea59b0b355d",
+    "releases/0.29.0/Build/TouchDemo.wasm": "97a9f4c67a5c0c3083161f62a76712adc46425fcddfccc30d7c529c9d8e17217",
+    "releases/0.29.0/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
+    "releases/0.29.0/credits.html": "092ab90e685f1e8dc9d2f3f879e9c07229b015c222925c38f76411266026d14e",
+    "releases/0.29.0/index.html": "3ad3bec4d7345f7270d9f1964ef029a6226b2df19bd81da591de2e991a64b4ce",
+    "releases/0.29.0/build-info.json": "5f047e529ddf725f3c201d677e62b6a15ee6d61b0e6debda528397416b45d55a"
   },
   "playtests": [
     {
@@ -192,7 +210,16 @@
       "artifact_bytes": 77270293,
       "verification": "Verified with 31 Unity validation groups, a zero-error/zero-warning WebGL build, 89 production-touch progression checks, stepped and real-clock motion checks, compiled audio output and recovery in Chromium and WebKit, and actual 0.27-to-0.28 save continuity. Physical-phone listening and comfort remain device checks.",
       "changes": "Browser sound now starts and recovers through the existing audio context, the wave blocks far-side foam, ordinary faces are roughly six to seven feet, and rebuilt Blender hand alignment drives connected shoulder-led surfing balance. The tube camera and physical exit opening keep the rider readable. Earlier photos and summer progress remain owned."
+    },
+    {
+      "version": "0.29.0",
+      "channel": "public-playtest",
+      "source_commit": "3df80bb2c1c8fe4e78d4a5b85871386ba3f258b1",
+      "entrypoint": "releases/0.29.0/index.html",
+      "artifact_bytes": 79978946,
+      "verification": "All 34 Unity validation groups passed with zero build errors or warnings. Browser checks passed for 95 real-time gesture assertions, 12 handling/menu checks, 145 magazine checks, 11 inspected full-resolution photographs and compiled 0.28-to-0.29 save continuity. Chromium and WebKit audio recovery passed; 227 offline audio checks and 31 distinct recorded-water browser checks are retained. Desktop profiling found no repeated presentation clocks across 482 sampled frames; water CPU cost stayed roughly unchanged. Physical iPhone listening, touch feel and performance remain unverified. This is a browser playtest.",
+      "changes": "Five handling settings from Arcade to Simulation, symmetric circle controls, easier crest ollies and 180-in/slide/180-out transitions. Three surf POV paddle recordings and expanded water banks vary without adjacent repeats. Editorial magazine menus, revised surfer anatomy and materials, screened photography, more varied foam, improved board contact and smoother rendering complete this pass. Existing saves and owned photographs remain intact; new shots use the revised renderer."
     }
   ],
-  "metadata_revision": "The default and versioned 0.28.0 links retain the existing sharing image."
+  "metadata_revision": "The default and versioned 0.29.0 links retain the existing sharing image."
 }
