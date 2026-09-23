@@ -2,19 +2,19 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing prototype set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.27.0](https://kingmadellc.github.io/Highline/releases/0.27.0/?v=0.27.0) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.28.0](https://kingmadellc.github.io/Highline/releases/0.28.0/?v=0.28.0) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.27.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.28.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.27.0/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.28.0/Brand/highline.png).*
 
-## Current playtest: 0.27.0
+## Current playtest: 0.28.0
 
-**[Play Highline 0.27.0](https://kingmadellc.github.io/Highline/releases/0.27.0/?v=0.27.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
+**[Play Highline 0.28.0](https://kingmadellc.github.io/Highline/releases/0.28.0/?v=0.28.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
 
-Hightower Summer turns six surfing assignments into a personal six-page issue. Keep favorite photographs, read authored wave sequences, choose guided barrels or earn controlled exits, take optional focused practice back to your original wave, share exact-wave cover invitations, and follow a short original Space Coast chapter. Six editorial prompts stay available. Browser progress uses stable storage with a tested upgrade from 0.26.
+Browser sound now starts and recovers through the existing audio context, the wave blocks far-side foam, ordinary faces are roughly six to seven feet, and rebuilt Blender hand alignment drives connected shoulder-led surfing balance. The tube camera and physical exit opening keep the rider readable. Earlier photos and summer progress remain owned.
 
-Verified WebGL candidate: 30 editor gate groups; 89 production-touch checks with no browser errors; four actual browser-save migration scenarios; six focused manual-tube checks; inspected cover, story, invitation and small-phone layouts. Build has zero errors/warnings. Human enjoyment and physical-phone acceptance remain unmeasured. Native iOS source is included in the private authoring repository, but the missing iOS toolchain prevents a signed iOS release.
+Verified with 31 Unity validation groups, a zero-error/zero-warning WebGL build, 89 production-touch progression checks, stepped and real-clock motion checks, compiled audio output and recovery in Chromium and WebKit, and actual 0.27-to-0.28 save continuity. Physical-phone listening and comfort remain device checks.
 ## Play
 
 Use landscape orientation on a phone, or open the game in a desktop browser. Allow the initial game download to finish, then select **Let it rip**. Subsequent visits can reuse cached assets.
@@ -26,6 +26,13 @@ Use landscape orientation on a phone, or open the game in a desktop browser. All
 Practice a line, catch a wave, or try a three-wave filming set. Learn mode helps released rotations settle; Standard asks for more precise landings.
 
 ## Earlier builds
+
+**[v0.27.0](https://kingmadellc.github.io/Highline/releases/0.27.0/?v=0.27.0)**
+
+Hightower Summer turns six surfing assignments into a personal six-page issue. Keep favorite photographs, read authored wave sequences, choose guided barrels or earn controlled exits, take optional focused practice back to your original wave, share exact-wave cover invitations, and follow a short original Space Coast chapter. Six editorial prompts stay available. Browser progress uses stable storage with a tested upgrade from 0.26.
+
+Verified WebGL candidate: 30 editor gate groups; 89 production-touch checks with no browser errors; four actual browser-save migration scenarios; six focused manual-tube checks; inspected cover, story, invitation and small-phone layouts. Build has zero errors/warnings. Human enjoyment and physical-phone acceptance remain unmeasured. Native iOS source is included in the private authoring repository, but the missing iOS toolchain prevents a signed iOS release.
+
 
 **[v0.26.0](https://kingmadellc.github.io/Highline/releases/0.26.0/?v=0.26.0)**
 
