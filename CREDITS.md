@@ -16,4 +16,4 @@ From v0.22.0 the surfer's body is built from the **realistic male** base mesh in
 - **Big waves hit land.wav** by **straget**, [CC0](https://creativecommons.org/publicdomain/zero/1.0/). [Creator and recording](https://freesound.org/people/straget/sounds/412308/). Adapted for rail, spray, barrel wash, landing, and wipeout effects.
 - **Paddling a Kayak.wav** by **Danjocross**, [CC0](https://creativecommons.org/publicdomain/zero/1.0/). [Creator and recording](https://freesound.org/people/Danjocross/sounds/503208/). Water gestures trimmed, filtered, resampled, faded, and level-adjusted for paddling.
 
-These use the creators' licensed public high-quality MP3 previews. Music and remaining procedural sounds are by King Made. No creator endorsement is implied. [In-game credits](releases/0.26.0/credits.html).
+These use the creators' licensed public high-quality MP3 previews. Music and remaining procedural sounds are by King Made. No creator endorsement is implied. [In-game credits](releases/0.27.0/credits.html).
