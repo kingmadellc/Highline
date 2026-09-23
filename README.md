@@ -2,19 +2,19 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing prototype set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.28.0](https://kingmadellc.github.io/Highline/releases/0.28.0/?v=0.28.0) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.29.0](https://kingmadellc.github.io/Highline/releases/0.29.0/?v=0.29.0) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.28.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.29.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.28.0/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.29.0/Brand/highline.png).*
 
-## Current playtest: 0.28.0
+## Current playtest: 0.29.0
 
-**[Play Highline 0.28.0](https://kingmadellc.github.io/Highline/releases/0.28.0/?v=0.28.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
+**[Play Highline 0.29.0](https://kingmadellc.github.io/Highline/releases/0.29.0/?v=0.29.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
 
-Browser sound now starts and recovers through the existing audio context, the wave blocks far-side foam, ordinary faces are roughly six to seven feet, and rebuilt Blender hand alignment drives connected shoulder-led surfing balance. The tube camera and physical exit opening keep the rider readable. Earlier photos and summer progress remain owned.
+Five handling settings from Arcade to Simulation, symmetric circle controls, easier crest ollies and 180-in/slide/180-out transitions. Three surf POV paddle recordings and expanded water banks vary without adjacent repeats. Editorial magazine menus, revised surfer anatomy and materials, screened photography, more varied foam, improved board contact and smoother rendering complete this pass. Existing saves and owned photographs remain intact; new shots use the revised renderer.
 
-Verified with 31 Unity validation groups, a zero-error/zero-warning WebGL build, 89 production-touch progression checks, stepped and real-clock motion checks, compiled audio output and recovery in Chromium and WebKit, and actual 0.27-to-0.28 save continuity. Physical-phone listening and comfort remain device checks.
+All 34 Unity validation groups passed with zero build errors or warnings. Browser checks passed for 95 real-time gesture assertions, 12 handling/menu checks, 145 magazine checks, 11 inspected full-resolution photographs and compiled 0.28-to-0.29 save continuity. Chromium and WebKit audio recovery passed; 227 offline audio checks and 31 distinct recorded-water browser checks are retained. Desktop profiling found no repeated presentation clocks across 482 sampled frames; water CPU cost stayed roughly unchanged. Physical iPhone listening, touch feel and performance remain unverified. This is a browser playtest.
 ## Play
 
 Use landscape orientation on a phone, or open the game in a desktop browser. Allow the initial game download to finish, then select **Let it rip**. Subsequent visits can reuse cached assets.
@@ -26,6 +26,13 @@ Use landscape orientation on a phone, or open the game in a desktop browser. All
 Practice a line, catch a wave, or try a three-wave filming set. Learn mode helps released rotations settle; Standard asks for more precise landings.
 
 ## Earlier builds
+
+**[v0.28.0](https://kingmadellc.github.io/Highline/releases/0.28.0/?v=0.28.0)**
+
+Browser sound now starts and recovers through the existing audio context, the wave blocks far-side foam, ordinary faces are roughly six to seven feet, and rebuilt Blender hand alignment drives connected shoulder-led surfing balance. The tube camera and physical exit opening keep the rider readable. Earlier photos and summer progress remain owned.
+
+Verified with 31 Unity validation groups, a zero-error/zero-warning WebGL build, 89 production-touch progression checks, stepped and real-clock motion checks, compiled audio output and recovery in Chromium and WebKit, and actual 0.27-to-0.28 save continuity. Physical-phone listening and comfort remain device checks.
+
 
 **[v0.27.0](https://kingmadellc.github.io/Highline/releases/0.27.0/?v=0.27.0)**
 
