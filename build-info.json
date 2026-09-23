@@ -1,9 +1,9 @@
 {
-  "version": "0.26.0",
-  "source_commit": "45009b2d8b53cc095f287b54ce434d7a436c420a",
-  "entrypoint": "releases/0.26.0/index.html",
-  "artifact_bytes": 77112820,
-  "verification": "Verified integrated WebGL build and 392 production browser assertions, including small-screen layouts, audio controls, replay isolation, and pixel-identical cover save/reload/export. Paired desktop rendering performance remains effectively unchanged from 0.25.1. Formal human playtests and physical-phone validation remain deferred.",
+  "version": "0.27.0",
+  "source_commit": "bd5794c0eae15c52e2fb3d17841c220ca216f863",
+  "entrypoint": "releases/0.27.0/index.html",
+  "artifact_bytes": 77243035,
+  "verification": "Verified WebGL candidate: 30 editor gate groups; 89 production-touch checks with no browser errors; four actual browser-save migration scenarios; six focused manual-tube checks; inspected cover, story, invitation and small-phone layouts. Build has zero errors/warnings. Human enjoyment and physical-phone acceptance remain unmeasured. Native iOS source is included in the private authoring repository, but the missing iOS toolchain prevents a signed iOS release.",
   "cache_policy": "Each release has its own asset directory. The root entry opens the latest release.",
   "files": {
     "releases/0.23.2/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
@@ -25,7 +25,7 @@
     "icon-180.png": "8406332eb1334fd0d0d047cad78b3bd4291f300d52d20dd7f7fcd91ec44f9094",
     "icon-192.png": "ca5ddd9bcb5fc1c21958ddd66edb0b2ecc18e779f87e77881b6295fcab52f1b9",
     "icon-512.png": "8caef8e78d4c5fc40e2c1ad8ad1e805cad3721f7c0d1e2562c74ef1059625a69",
-    "index.html": "a8b593bee6a8cc776e0ebd47093cbec372ee2384265bd2463d47d254348a918d",
+    "index.html": "4a10e04ce9a0a3e0016f74589f93d32a2bd67ab523ffb505bb2c5bccfbdbef5f",
     "manifest.webmanifest": "6afab9fec24dbe51af67ad81a1746c024c8f25d111197eeda2092fc8089af304",
     "social/highline-social-preview-1280x640.jpg": "666b89ae79d92e195d28f6ff03d06db66e0d62a443f081b6857c8e5ccaa6ebdf",
     "social/highline-social-preview-1280x640.png": "5927e516fa763b9f0f0aae5cdc260fd6616ac6cf572689bb2522e8ce7238bb46",
@@ -82,8 +82,8 @@
     "releases/0.25.1/credits.html": "debb4278ede771d408e232f5c1139aa540897b96d85fdb9af502c6dc31c731d3",
     "releases/0.25.1/index.html": "a3a46b2d824b21ad49bfca661e5a65799ab915ecc903dd5237bd3056f6df3435",
     "releases/0.25.1/build-info.json": "3a809227bb424fe543d3ef894b5e33f6edc2a552a6a24e2b6024781897610a90",
-    "CREDITS.md": "dc2698818ffddaccb67a52a92d75a0981c43e8cb01b89cc851b52e20561a5a9b",
-    "README.md": "0f6c431831baf76e3f0405378e767fe6a5886bc2124ae5280a8e83371dc2f6f1",
+    "CREDITS.md": "f6b697b5f11e8015385a7de432da1a743fde9c6ac668ad6612da5db58655a629",
+    "README.md": "2d22dbe5632ac994bcc6816e02ff50ce58fa973e55acbcc936b2cae81477e9eb",
     "releases/0.26.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
     "releases/0.26.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
     "releases/0.26.0/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
@@ -101,7 +101,25 @@
     "releases/0.26.0/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
     "releases/0.26.0/credits.html": "debb4278ede771d408e232f5c1139aa540897b96d85fdb9af502c6dc31c731d3",
     "releases/0.26.0/index.html": "c70ddbe3e3a1e6094a97ff9e28e22a73594da6b603742a9732c0f0639a22df85",
-    "releases/0.26.0/build-info.json": "0f4ccce05434330d11e4d68add85755eedd042c32bdd5cf7b1e1d5ef268998ee"
+    "releases/0.26.0/build-info.json": "0f4ccce05434330d11e4d68add85755eedd042c32bdd5cf7b1e1d5ef268998ee",
+    "releases/0.27.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "releases/0.27.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
+    "releases/0.27.0/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "releases/0.27.0/Brand/HighlineTide.woff2": "3915c602b0a48cd7e31d72b46bbd33f4c0ce4cefd24930f3df586054dc90de62",
+    "releases/0.27.0/Brand/hero-masks.png": "5ac32c7f39fcd3032eb4c7bd189817cffb185bba10e60183e9cb94301bde34fc",
+    "releases/0.27.0/Brand/hero.frag": "b3fb2deada90277a09a67b9a7a7f9de6003c7f632901c900689145bfb29773b1",
+    "releases/0.27.0/Brand/hero.js": "2266a28383e09fe86be4b1adf8b817eb184090d89bd0a8684b507e89bfdee1e2",
+    "releases/0.27.0/Brand/highline-plate.png": "f119f34b48633bac55ee7241e48a90eb302737728b58cb1b882e930a25175e57",
+    "releases/0.27.0/Brand/highline.png": "1e47b821ddc7e69e1b0d6228dc5872b5ef9e0dc960e589bd60c1ffb8e5d54fb7",
+    "releases/0.27.0/Brand/start.css": "8ac7621d198575179801937ad2ac5ee17f04f85240861e8568f77ddd56e3f3b4",
+    "releases/0.27.0/Build/TouchDemo.data": "6c4a2a5192c5789da4c96f66839a51d4bd937e68ae8d1e007b44160a442eb472",
+    "releases/0.27.0/Build/TouchDemo.framework.js": "d10ec7490b2261f9882fff417ccd032bdc4609923eee1560017e1bc8bc4c48ea",
+    "releases/0.27.0/Build/TouchDemo.loader.js": "66c730ed480cb5c543203e3907449ce2b0e6a414dcb8ba570cde7495e4283717",
+    "releases/0.27.0/Build/TouchDemo.wasm": "ab1ed5cfdf869a4296ba4407c64e9070d3a04041441d6bd704f6fa0cb230dbcf",
+    "releases/0.27.0/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
+    "releases/0.27.0/credits.html": "debb4278ede771d408e232f5c1139aa540897b96d85fdb9af502c6dc31c731d3",
+    "releases/0.27.0/index.html": "44ddfa3423b1e4eeb8f2b93a00f9348e63f844274830ac114d0f99f9484275a7",
+    "releases/0.27.0/build-info.json": "c8c76bedd2f477c33c61954a5d707b47643ee4661a27f25854937cc11b71f940"
   },
   "playtests": [
     {
@@ -138,7 +156,16 @@
       "artifact_bytes": 77112820,
       "verification": "Verified integrated WebGL build and 392 production browser assertions, including small-screen layouts, audio controls, replay isolation, and pixel-identical cover save/reload/export. Paired desktop rendering performance remains effectively unchanged from 0.25.1. Formal human playtests and physical-phone validation remain deferred.",
       "changes": "A coordinated surfing polish pass: rail-driven spray and landing water, connected whole-body motion, deeper wave shading, smoother cameras, immediate next-wave actions, refined beach atmosphere, and better recorded magazine photographs."
+    },
+    {
+      "version": "0.27.0",
+      "channel": "public-playtest",
+      "source_commit": "bd5794c0eae15c52e2fb3d17841c220ca216f863",
+      "entrypoint": "releases/0.27.0/index.html",
+      "artifact_bytes": 77243035,
+      "verification": "Verified WebGL candidate: 30 editor gate groups; 89 production-touch checks with no browser errors; four actual browser-save migration scenarios; six focused manual-tube checks; inspected cover, story, invitation and small-phone layouts. Build has zero errors/warnings. Human enjoyment and physical-phone acceptance remain unmeasured. Native iOS source is included in the private authoring repository, but the missing iOS toolchain prevents a signed iOS release.",
+      "changes": "Hightower Summer turns six surfing assignments into a personal six-page issue. Keep favorite photographs, read authored wave sequences, choose guided barrels or earn controlled exits, take optional focused practice back to your original wave, share exact-wave cover invitations, and follow a short original Space Coast chapter. Six editorial prompts stay available. Browser progress uses stable storage with a tested upgrade from 0.26."
     }
   ],
-  "metadata_revision": "The default and versioned 0.26.0 links retain the existing sharing image."
+  "metadata_revision": "The default and versioned 0.27.0 links retain the existing sharing image."
 }
