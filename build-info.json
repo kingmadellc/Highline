@@ -1,9 +1,9 @@
 {
-  "version": "0.29.1",
-  "source_commit": "c445b95d79307712674a13ea50de070322b1e7c5",
-  "entrypoint": "releases/0.29.1/index.html",
-  "artifact_bytes": 79989614,
-  "verification": "Verified with 36 Unity editor check groups, 53 real-time browser checks covering mouse and keyboard catches in all three entry routes plus a separate touch smoke, rendered Controls review at desktop and small landscape sizes, and six first-input/recovery/mute audio groups in each of Chromium and WebKit. Physical iPhone listening, touch feel and performance remain unverified.",
+  "version": "0.30.0",
+  "source_commit": "742692103da201adff73d04c63d01417aa735aa3",
+  "entrypoint": "releases/0.30.0/index.html",
+  "artifact_bytes": 79982951,
+  "verification": "All Unity editor gates passed; WebGL built with zero errors and warnings. Checks include 120 catch-to-tube routes, 60 additional seeded ride-throughs, five distinct wipeout trajectories, 227 audio asset checks, 10 focused browser checks, and 95 real-time touch assertions. Physical-phone feel, audio listening and performance remain unverified.",
   "cache_policy": "Each release has its own asset directory. The root entry opens the latest release.",
   "files": {
     "releases/0.23.2/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
@@ -25,7 +25,7 @@
     "icon-180.png": "8406332eb1334fd0d0d047cad78b3bd4291f300d52d20dd7f7fcd91ec44f9094",
     "icon-192.png": "ca5ddd9bcb5fc1c21958ddd66edb0b2ecc18e779f87e77881b6295fcab52f1b9",
     "icon-512.png": "8caef8e78d4c5fc40e2c1ad8ad1e805cad3721f7c0d1e2562c74ef1059625a69",
-    "index.html": "9a589b7e45754fc7c75a98f70bbac474fddd826caf278a7768182da3f8f6d8dd",
+    "index.html": "23716a135b0df065875abc7bf79922fad362ef6ea00fd3f4ad67e8ab2542de97",
     "manifest.webmanifest": "6afab9fec24dbe51af67ad81a1746c024c8f25d111197eeda2092fc8089af304",
     "social/highline-social-preview-1280x640.jpg": "666b89ae79d92e195d28f6ff03d06db66e0d62a443f081b6857c8e5ccaa6ebdf",
     "social/highline-social-preview-1280x640.png": "5927e516fa763b9f0f0aae5cdc260fd6616ac6cf572689bb2522e8ce7238bb46",
@@ -82,8 +82,8 @@
     "releases/0.25.1/credits.html": "debb4278ede771d408e232f5c1139aa540897b96d85fdb9af502c6dc31c731d3",
     "releases/0.25.1/index.html": "a3a46b2d824b21ad49bfca661e5a65799ab915ecc903dd5237bd3056f6df3435",
     "releases/0.25.1/build-info.json": "3a809227bb424fe543d3ef894b5e33f6edc2a552a6a24e2b6024781897610a90",
-    "CREDITS.md": "69430ae60d08c641bffe4b71fb4e0f7ad535ccaf2b407e6349cfd93de082c0bb",
-    "README.md": "14f1b985eb69940996c2809b613906ea16539a9a5e9571ff19312e1e0b48132d",
+    "CREDITS.md": "27349475afb899e8fc04b2a6b95488c636354dbec510761e23295f023cea4f5c",
+    "README.md": "fc5212a608277aa4c0a14bc607f0e667022079a883f104ad233044984d2af736",
     "releases/0.26.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
     "releases/0.26.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
     "releases/0.26.0/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
@@ -173,7 +173,25 @@
     "releases/0.29.1/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
     "releases/0.29.1/credits.html": "092ab90e685f1e8dc9d2f3f879e9c07229b015c222925c38f76411266026d14e",
     "releases/0.29.1/index.html": "8e734d8cb19bf9895a882452e28102c1d48ab278c2d2b0950fdc755f654f8588",
-    "releases/0.29.1/build-info.json": "5ce96cdc97a6d6d84b6dbc917b7201ae3dc646069717f5705bca1251ea5ed76d"
+    "releases/0.29.1/build-info.json": "5ce96cdc97a6d6d84b6dbc917b7201ae3dc646069717f5705bca1251ea5ed76d",
+    "releases/0.30.0/index.html": "277ebe9e8be4979ae0d282e3631752f6ce753a8b8c0d9cdd520a79edead9f350",
+    "releases/0.30.0/credits.html": "5f6fe259f655aafb8b0d8b2cb06aa57732ea10b78f4ee37075c29ccd5c9090c0",
+    "releases/0.30.0/Brand/highline.png": "1e47b821ddc7e69e1b0d6228dc5872b5ef9e0dc960e589bd60c1ffb8e5d54fb7",
+    "releases/0.30.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "releases/0.30.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
+    "releases/0.30.0/Brand/highline-plate.png": "f119f34b48633bac55ee7241e48a90eb302737728b58cb1b882e930a25175e57",
+    "releases/0.30.0/Brand/start.css": "8ac7621d198575179801937ad2ac5ee17f04f85240861e8568f77ddd56e3f3b4",
+    "releases/0.30.0/Brand/hero-masks.png": "5ac32c7f39fcd3032eb4c7bd189817cffb185bba10e60183e9cb94301bde34fc",
+    "releases/0.30.0/Brand/HighlineTide.woff2": "3915c602b0a48cd7e31d72b46bbd33f4c0ce4cefd24930f3df586054dc90de62",
+    "releases/0.30.0/Brand/hero.js": "2266a28383e09fe86be4b1adf8b817eb184090d89bd0a8684b507e89bfdee1e2",
+    "releases/0.30.0/Brand/hero.frag": "b3fb2deada90277a09a67b9a7a7f9de6003c7f632901c900689145bfb29773b1",
+    "releases/0.30.0/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "releases/0.30.0/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
+    "releases/0.30.0/Build/TouchDemo.data": "089a7466ad81392f2d1d2acdc4db62b1741893296c44c48881f9b3598ecf7836",
+    "releases/0.30.0/Build/TouchDemo.loader.js": "07b9fb06bd8e55be3d23e6a0f88e5f8d8d2707e0377e60436ba00f90ffa8ffaa",
+    "releases/0.30.0/Build/TouchDemo.wasm": "732371deba7eafaf091b76773cff290c4016bfc0978bf19bf4a5d176e3f7d4ea",
+    "releases/0.30.0/Build/TouchDemo.framework.js": "a52066795f6568d53943271c4ae414adab9cfbb3736be0495816d3fda9da6dc3",
+    "releases/0.30.0/build-info.json": "278c641f3eb0e5837ba110148aacdc4c08ad66855c37d4adac746d1dd4759727"
   },
   "playtests": [
     {
@@ -246,7 +264,16 @@
       "artifact_bytes": 79989614,
       "verification": "Verified with 36 Unity editor check groups, 53 real-time browser checks covering mouse and keyboard catches in all three entry routes plus a separate touch smoke, rendered Controls review at desktop and small landscape sizes, and six first-input/recovery/mute audio groups in each of Chromium and WebKit. Physical iPhone listening, touch feel and performance remain unverified.",
       "changes": "Catch waves with one sustained mouse pull, touch pull, controller hold, or Space hold, then release in the clearly marked green window. The SWELL meter explains when to paddle, failed-drill retry stays in place, and Options now includes keyboard and gesture controls."
+    },
+    {
+      "version": "0.30.0",
+      "channel": "public-playtest",
+      "source_commit": "742692103da201adff73d04c63d01417aa735aa3",
+      "entrypoint": "releases/0.30.0/index.html",
+      "artifact_bytes": 79982951,
+      "verification": "All Unity editor gates passed; WebGL built with zero errors and warnings. Checks include 120 catch-to-tube routes, 60 additional seeded ride-throughs, five distinct wipeout trajectories, 227 audio asset checks, 10 focused browser checks, and 95 real-time touch assertions. Physical-phone feel, audio listening and performance remain unverified.",
+      "changes": "Longer ride-through tubes with a clean exit, faster carving and trim recovery, more varied wave height/speed/grip/foam response, and grounded crest grinds unless a jump or over-back exit is deliberate. Catch waves with four paddle strokes. Five articulated wipeout motions and new surfboard paddle recordings add variety. Credits are in Options."
     }
   ],
-  "metadata_revision": "The default and versioned 0.29.1 links retain the existing sharing image."
+  "metadata_revision": "The default and versioned 0.30.0 links retain the existing sharing image."
 }

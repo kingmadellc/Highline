@@ -16,7 +16,7 @@ From v0.22.0 the surfer's body is built from the **realistic male** base mesh in
 - **Big waves hit land.wav** by **straget**, [CC0](https://creativecommons.org/publicdomain/zero/1.0/). [Creator and recording](https://freesound.org/people/straget/sounds/412308/). Adapted for rail, spray, barrel wash, landing, and wipeout effects.
 - **Paddling a Kayak.wav** by **Danjocross**, [CC0](https://creativecommons.org/publicdomain/zero/1.0/). [Creator and recording](https://freesound.org/people/Danjocross/sounds/503208/). Water gestures trimmed, filtered, resampled, faded, and level-adjusted for paddling.
 
-These use the creators' licensed public high-quality MP3 previews. Music and remaining procedural sounds are by King Made. No creator endorsement is implied. [In-game credits](releases/0.29.1/credits.html).
+These use the creators' licensed public high-quality MP3 previews. Music and remaining procedural sounds are by King Made. No creator endorsement is implied. [In-game credits](releases/0.30.0/credits.html).
 
 ## Additional recorded water from v0.29.0
 
@@ -27,3 +27,7 @@ These use the creators' licensed public high-quality MP3 previews. Music and rem
 All three video pages declare **Creative Commons Attribution license (reuse allowed)**; see [YouTube's linked license declaration](https://www.youtube.com/t/creative_commons). Their original audio tracks were excerpted, filtered, resampled, level-adjusted, faded and crossfaded for surfboard paddle contacts, board/rail water, barrel rush, landings, wipeouts and finishes. Some finishes also mix an original quiet two-note response by King Made. Source declarations and exact edit times are preserved in the project's audio manifest.
 
 The three surfboard paddle contacts replace the earlier kayak cuts. The tim.kahn and straget recordings credited above remain in the water palette. Music, boat idle and shark cues are by King Made. No creator endorsement is implied.
+
+## Surfboard paddle contacts from v0.30.0
+
+[**(RAW POV) What It's Like Surfing A Secret Point Break With No One OUT**](https://www.youtube.com/watch?v=yPYFagvYNYg) by **Life with fin0**. The video page declares **Creative Commons Attribution license (reuse allowed)**, linking to [YouTube's Creative Commons declaration](https://www.youtube.com/t/creative_commons). Three short paddle contacts were excerpted, filtered, resampled, level-adjusted and faded. The source declaration and exact edit intervals are archived in the private authoring project. No creator endorsement is implied. Credits are available from **Options → Credits & privacy** in the game.

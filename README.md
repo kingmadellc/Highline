@@ -2,30 +2,37 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing prototype set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.29.1](https://kingmadellc.github.io/Highline/releases/0.29.1/?v=0.29.1) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.30.0](https://kingmadellc.github.io/Highline/releases/0.30.0/?v=0.30.0) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.29.1/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.30.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.29.1/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.30.0/Brand/highline.png).*
 
-## Current playtest: 0.29.1
+## Current playtest: 0.30.0
 
-**[Play Highline 0.29.1](https://kingmadellc.github.io/Highline/releases/0.29.1/?v=0.29.1)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
+**[Play Highline 0.30.0](https://kingmadellc.github.io/Highline/releases/0.30.0/?v=0.30.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
 
-Catch waves with one sustained mouse pull, touch pull, controller hold, or Space hold, then release in the clearly marked green window. The SWELL meter explains when to paddle, failed-drill retry stays in place, and Options now includes keyboard and gesture controls.
+Longer ride-through tubes with a clean exit, faster carving and trim recovery, more varied wave height/speed/grip/foam response, and grounded crest grinds unless a jump or over-back exit is deliberate. Catch waves with four paddle strokes. Five articulated wipeout motions and new surfboard paddle recordings add variety. Credits are in Options.
 
-Verified with 36 Unity editor check groups, 53 real-time browser checks covering mouse and keyboard catches in all three entry routes plus a separate touch smoke, rendered Controls review at desktop and small landscape sizes, and six first-input/recovery/mute audio groups in each of Chromium and WebKit. Physical iPhone listening, touch feel and performance remain unverified.
+All Unity editor gates passed; WebGL built with zero errors and warnings. Checks include 120 catch-to-tube routes, 60 additional seeded ride-throughs, five distinct wipeout trajectories, 227 audio asset checks, 10 focused browser checks, and 95 real-time touch assertions. Physical-phone feel, audio listening and performance remain unverified.
+
 ## Play
 
 Use landscape orientation on a phone, or open the game in a desktop browser. Allow the initial game download to finish, then select **Let it rip**. Subsequent visits can reuse cached assets.
 
-1. Make quick paddle strokes with the swell, then hold the final stroke. Release in the green timing window to stand.
-2. Draw low on the wave to build speed. Approach the lip to ride a high line, or push through the crest to launch.
+1. Pull down and hold through four paddle strokes with the swell. Release in the green timing window to stand.
+2. Draw low on the wave to build speed. Reach the crest for a grounded grind; use a deliberate flick or circle there to launch.
 3. Move sideways in the air to rotate, then release before landing. Keep riding to bank the air and preserve momentum.
 
 Practice a line, catch a wave, or try a three-wave filming set. Learn mode helps released rotations settle; Standard asks for more precise landings.
 
 ## Earlier builds
+
+**[v0.29.1](https://kingmadellc.github.io/Highline/releases/0.29.1/?v=0.29.1)**
+
+Catch waves with one sustained mouse pull, touch pull, controller hold, or Space hold, then release in the clearly marked green window. The SWELL meter explains when to paddle, failed-drill retry stays in place, and Options now includes keyboard and gesture controls.
+
+Verified with 36 Unity editor check groups, 53 real-time browser checks covering mouse and keyboard catches in all three entry routes plus a separate touch smoke, rendered Controls review at desktop and small landscape sizes, and six first-input/recovery/mute audio groups in each of Chromium and WebKit. Physical iPhone listening, touch feel and performance remain unverified.
 
 **[v0.29.0](https://kingmadellc.github.io/Highline/releases/0.29.0/?v=0.29.0)**
 
@@ -87,7 +94,7 @@ Open **http://localhost:8000**. Serve over HTTP instead of opening `index.html` 
 | Path | Purpose |
 | --- | --- |
 | `index.html` | Entry point for the latest release |
-| `releases/0.25.1/` | Versioned game, fonts, audio, and artwork |
+| `releases/0.30.0/` | Versioned game, fonts, audio, and artwork |
 | `build-info.json` | Published version, entry point, and exact file hashes |
 | `CREDITS.md` | Audio and font attribution |
 
