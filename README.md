@@ -2,19 +2,19 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing prototype set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.30.0](https://kingmadellc.github.io/Highline/releases/0.30.0/?v=0.30.0) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.31.0](https://kingmadellc.github.io/Highline/releases/0.31.0/?v=0.31.0) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.30.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.31.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.30.0/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.31.0/Brand/highline.png).*
 
-## Current playtest: 0.30.0
+## Current playtest: 0.31.0
 
-**[Play Highline 0.30.0](https://kingmadellc.github.io/Highline/releases/0.30.0/?v=0.30.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
+**[Play Highline 0.31.0](https://kingmadellc.github.io/Highline/releases/0.31.0/?v=0.31.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
 
-Longer ride-through tubes with a clean exit, faster carving and trim recovery, more varied wave height/speed/grip/foam response, and grounded crest grinds unless a jump or over-back exit is deliberate. Catch waves with four paddle strokes. Five articulated wipeout motions and new surfboard paddle recordings add variety. Credits are in Options.
+The wave now pitches down into a breaking roller and spreads into fading whitewater. Its distant ends stay anchored in the ocean, and the tube exit follows an open shoulder while the breaking section closes behind the surfer. Waves continue collapsing after the ride, with a short unobstructed ride-out before the results card. Four-stroke paddling, deliberate jumps, crest grinds, varied wipeouts and the controls from 0.30.0 remain available.
 
-All Unity editor gates passed; WebGL built with zero errors and warnings. Checks include 120 catch-to-tube routes, 60 additional seeded ride-throughs, five distinct wipeout trajectories, 227 audio asset checks, 10 focused browser checks, and 95 real-time touch assertions. Physical-phone feel, audio listening and performance remain unverified.
+All Unity editor gates passed; WebGL built with zero errors and warnings. Validation includes 24 seeded wave-lifecycle scenarios, 120 catch-to-tube routes, nine camera-clearance routes, replay checks, and 15 production browser assertions covering paddling, crest grinding, a clean tube exit, and post-ride dissipation. Rendered collapse sequences were inspected. This is a research-informed parametric game model. Physical-phone feel and performance remain unverified.
 
 ## Play
 
@@ -27,6 +27,12 @@ Use landscape orientation on a phone, or open the game in a desktop browser. All
 Practice a line, catch a wave, or try a three-wave filming set. Learn mode helps released rotations settle; Standard asks for more precise landings.
 
 ## Earlier builds
+
+**[v0.30.0](https://kingmadellc.github.io/Highline/releases/0.30.0/?v=0.30.0)**
+
+Longer ride-through tubes with a clean exit, faster carving and trim recovery, more varied wave height/speed/grip/foam response, and grounded crest grinds unless a jump or over-back exit is deliberate. Catch waves with four paddle strokes. Five articulated wipeout motions and new surfboard paddle recordings add variety. Credits are in Options.
+
+All Unity editor gates passed; WebGL built with zero errors and warnings. Checks include 120 catch-to-tube routes, 60 additional seeded ride-throughs, five distinct wipeout trajectories, 227 audio asset checks, 10 focused browser checks, and 95 real-time touch assertions. Physical-phone feel, audio listening and performance remain unverified.
 
 **[v0.29.1](https://kingmadellc.github.io/Highline/releases/0.29.1/?v=0.29.1)**
 
@@ -94,7 +100,7 @@ Open **http://localhost:8000**. Serve over HTTP instead of opening `index.html` 
 | Path | Purpose |
 | --- | --- |
 | `index.html` | Entry point for the latest release |
-| `releases/0.30.0/` | Versioned game, fonts, audio, and artwork |
+| `releases/0.31.0/` | Versioned game, fonts, audio, and artwork |
 | `build-info.json` | Published version, entry point, and exact file hashes |
 | `CREDITS.md` | Audio and font attribution |
 

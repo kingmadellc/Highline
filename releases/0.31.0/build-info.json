@@ -1,0 +1,28 @@
+{
+  "version": "0.31.0",
+  "channel": "public-playtest",
+  "source_commit": "918f0689754ecd3858add41f7f4b86b246f194c1",
+  "entrypoint": "releases/0.31.0/index.html",
+  "artifact_bytes": 79986450,
+  "verification": "All Unity editor gates passed; WebGL built with zero errors and warnings. Validation includes 24 seeded wave-lifecycle scenarios, 120 catch-to-tube routes, nine camera-clearance routes, replay checks, and 15 production browser assertions covering paddling, crest grinding, a clean tube exit, and post-ride dissipation. Rendered collapse sequences were inspected. This is a research-informed parametric game model. Physical-phone feel and performance remain unverified.",
+  "changes": "The wave now pitches down into a breaking roller and spreads into fading whitewater. Its distant ends stay anchored in the ocean, and the tube exit follows an open shoulder while the breaking section closes behind the surfer. Waves continue collapsing after the ride, with a short unobstructed ride-out before the results card. Four-stroke paddling, deliberate jumps, crest grinds, varied wipeouts and the controls from 0.30.0 remain available.",
+  "files": {
+    "releases/0.31.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "releases/0.31.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
+    "releases/0.31.0/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "releases/0.31.0/Brand/HighlineTide.woff2": "3915c602b0a48cd7e31d72b46bbd33f4c0ce4cefd24930f3df586054dc90de62",
+    "releases/0.31.0/Brand/hero-masks.png": "5ac32c7f39fcd3032eb4c7bd189817cffb185bba10e60183e9cb94301bde34fc",
+    "releases/0.31.0/Brand/hero.frag": "b3fb2deada90277a09a67b9a7a7f9de6003c7f632901c900689145bfb29773b1",
+    "releases/0.31.0/Brand/hero.js": "2266a28383e09fe86be4b1adf8b817eb184090d89bd0a8684b507e89bfdee1e2",
+    "releases/0.31.0/Brand/highline-plate.png": "f119f34b48633bac55ee7241e48a90eb302737728b58cb1b882e930a25175e57",
+    "releases/0.31.0/Brand/highline.png": "1e47b821ddc7e69e1b0d6228dc5872b5ef9e0dc960e589bd60c1ffb8e5d54fb7",
+    "releases/0.31.0/Brand/start.css": "8ac7621d198575179801937ad2ac5ee17f04f85240861e8568f77ddd56e3f3b4",
+    "releases/0.31.0/Build/TouchDemo.data": "e38b85e3d3184e7c9748633a21f8ccb803a124663162bca6c703ba6ffd41bbea",
+    "releases/0.31.0/Build/TouchDemo.framework.js": "559b0c32505e19a80aa41441ca29758f75402cb0570c5e65f211ea333223909e",
+    "releases/0.31.0/Build/TouchDemo.loader.js": "e3ed0e8d3a3b38c975887d8de8df772da0e4bb3ec179f6fdaead538cbe66345d",
+    "releases/0.31.0/Build/TouchDemo.wasm": "12efdd5e45a80103ef46fa3022ed4ecceccc04cf90fa683e0d8767e40c4b2366",
+    "releases/0.31.0/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
+    "releases/0.31.0/credits.html": "5f6fe259f655aafb8b0d8b2cb06aa57732ea10b78f4ee37075c29ccd5c9090c0",
+    "releases/0.31.0/index.html": "3ad71ac51726ec6645220aa1c8914d76f4043c7f7b2c8d9c18438fe7a8d5f74d"
+  }
+}
