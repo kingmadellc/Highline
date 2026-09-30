@@ -1,20 +1,20 @@
 # Highline
 
-Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing prototype set in Satellite Beach, Florida, by King Made.
+Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing game set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.32.0](https://kingmadellc.github.io/Highline/releases/0.32.0/?v=0.32.0) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.33.0](https://kingmadellc.github.io/Highline/releases/0.33.0/?v=0.33.0) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.32.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.33.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.32.0/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.33.0/Brand/highline.png).*
 
-## Current playtest: 0.32.0
+## Current release: 0.33.0
 
-**[Play Highline 0.32.0](https://kingmadellc.github.io/Highline/releases/0.32.0/?v=0.32.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
+**[Play Highline 0.33.0](https://kingmadellc.github.io/Highline/releases/0.33.0/?v=0.33.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this release.
 
-The approved surfer appearance joins the taller, wider tube and breaking-wave improvements in one build. Both hands give a shaka after a clean tube exit, then the surfer lowers onto the board and paddles offshore. The highlight replay includes the full exit sequence. Four-stroke paddling, responsive carving, deliberate jumps, grounded crest grinds and varied wipeouts remain available.
+Six approved print-style menus now connect the cover, Beach Bulletin, Ride Journal, Surf Club, darkroom Results and workshop Options. Live conditions, earned journal and club records, persistent preferences and recorded-pose photographs ship together, preserving the approved surfer, waves and fixed magazine branding.
 
-All combined Unity editor validation gates passed. WebGL built with zero errors and warnings. Validation includes 120 catch-to-tube routes, 32 wider tube entries, nine camera-clearance routes, 601 character exit-animation samples and 24 production browser assertions with no page errors. The exit, return paddling and highlight replay were visually inspected. Physical-phone feel and performance remain unverified.
+The combined production build passed all 45 Unity validation groups with zero build errors or warnings, 220 browser menu checks, 143 main-cover layout/art checks and 53 recorded-photo checks. Photo selection, native-size PNG exports and image persistence after reload were verified. Separate graphics-enabled editor checks covered distinct carve, air and tube captures. Physical-device performance, audio and Apple certification remain unverified.
 
 ## Play
 
@@ -27,6 +27,14 @@ Use landscape orientation on a phone, or open the game in a desktop browser. All
 Practice a line, catch a wave, or try a three-wave filming set. Learn mode helps released rotations settle; Standard asks for more precise landings.
 
 ## Earlier builds
+
+**[v0.32.0](https://kingmadellc.github.io/Highline/releases/0.32.0/?v=0.32.0)**
+
+**[Play Highline 0.32.0](https://kingmadellc.github.io/Highline/releases/0.32.0/?v=0.32.0)** on your phone in landscape or in a desktop browser.
+
+The approved surfer appearance joins the taller, wider tube and breaking-wave improvements in one build. Both hands give a shaka after a clean tube exit, then the surfer lowers onto the board and paddles offshore. The highlight replay includes the full exit sequence. Four-stroke paddling, responsive carving, deliberate jumps, grounded crest grinds and varied wipeouts remain available.
+
+All combined Unity editor validation gates passed. WebGL built with zero errors and warnings. Validation includes 120 catch-to-tube routes, 32 wider tube entries, nine camera-clearance routes, 601 character exit-animation samples and 24 production browser assertions with no page errors. The exit, return paddling and highlight replay were visually inspected. Physical-phone feel and performance remain unverified.
 
 **[v0.31.0](https://kingmadellc.github.io/Highline/releases/0.31.0/?v=0.31.0)**
 
@@ -106,7 +114,7 @@ Open **http://localhost:8000**. Serve over HTTP instead of opening `index.html` 
 | Path | Purpose |
 | --- | --- |
 | `index.html` | Entry point for the latest release |
-| `releases/0.31.0/` | Versioned game, fonts, audio, and artwork |
+| `releases/0.33.0/` | Versioned game, fonts, audio, and artwork |
 | `build-info.json` | Published version, entry point, and exact file hashes |
 | `CREDITS.md` | Audio and font attribution |
 
