@@ -1,9 +1,9 @@
 {
-  "version": "0.33.0",
-  "source_commit": "e227a911a46ed206a872153efc970f5403c56b6a",
-  "entrypoint": "releases/0.33.0/index.html",
-  "artifact_bytes": 110405514,
-  "verification": "The combined production build passed all 45 Unity validation groups with zero build errors or warnings, 220 browser menu checks, 143 main-cover layout/art checks and 53 recorded-photo checks. Photo selection, native-size PNG exports and image persistence after reload were verified. Separate graphics-enabled editor checks covered distinct carve, air and tube captures. Physical-device performance, audio and Apple certification remain unverified.",
+  "version": "0.33.1",
+  "source_commit": "475c650f0311400a4d941a62ee6511b028b6352e",
+  "entrypoint": "releases/0.33.1/index.html",
+  "artifact_bytes": 112730073,
+  "verification": "The production WebGL build completed with zero errors and warnings. All 235 focused browser checks passed across six viewport sizes with standard and larger text, covering layout fidelity, display density, safe bounds, touch and keyboard navigation, submenu returns, covered startup handoff and entry into Free Surf. The headed action-client check also passed. Physical iPhone Home Screen, native iOS and controller hardware acceptance remain separate checks.",
   "cache_policy": "Each release has its own asset directory. The root entry opens the latest release.",
   "files": {
     "releases/0.23.2/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
@@ -25,7 +25,7 @@
     "icon-180.png": "8406332eb1334fd0d0d047cad78b3bd4291f300d52d20dd7f7fcd91ec44f9094",
     "icon-192.png": "ca5ddd9bcb5fc1c21958ddd66edb0b2ecc18e779f87e77881b6295fcab52f1b9",
     "icon-512.png": "8caef8e78d4c5fc40e2c1ad8ad1e805cad3721f7c0d1e2562c74ef1059625a69",
-    "index.html": "b7f88e8cb621d0d1394a7a33af00276e90c36995e88d9427be50c5b6f2b33efa",
+    "index.html": "04aa42e7ffbc1974f6ff5134eea6740496c96a9a2bc264b037c1e2ca6d3ea40a",
     "manifest.webmanifest": "6afab9fec24dbe51af67ad81a1746c024c8f25d111197eeda2092fc8089af304",
     "social/highline-social-preview-1280x640.jpg": "666b89ae79d92e195d28f6ff03d06db66e0d62a443f081b6857c8e5ccaa6ebdf",
     "social/highline-social-preview-1280x640.png": "5927e516fa763b9f0f0aae5cdc260fd6616ac6cf572689bb2522e8ce7238bb46",
@@ -83,7 +83,7 @@
     "releases/0.25.1/index.html": "a3a46b2d824b21ad49bfca661e5a65799ab915ecc903dd5237bd3056f6df3435",
     "releases/0.25.1/build-info.json": "3a809227bb424fe543d3ef894b5e33f6edc2a552a6a24e2b6024781897610a90",
     "CREDITS.md": "36f0279368145782d1f5bd3f58cd5ce557db153cee9bf1bed04b228fc2284382",
-    "README.md": "f72f0475992cbbfa9cf4720f46cc4490c684cf032fc3e47c1df88442d7d26946",
+    "README.md": "86c39b4c33cd9226cbd2974548866f3807296a6c9ba17dec21e13a7bc7dd5a48",
     "releases/0.26.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
     "releases/0.26.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
     "releases/0.26.0/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
@@ -247,7 +247,27 @@
     "releases/0.33.0/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
     "releases/0.33.0/credits.html": "5f6fe259f655aafb8b0d8b2cb06aa57732ea10b78f4ee37075c29ccd5c9090c0",
     "releases/0.33.0/index.html": "218557883d8d8803a81bda3586e5ad0b7808dbaca4f0e65660149ca29f3457b8",
-    "releases/0.33.0/build-info.json": "75ba51261f7d8b9932c58de5c50cdcb13dba5c53e701723a78953ccb9ca75b09"
+    "releases/0.33.0/build-info.json": "75ba51261f7d8b9932c58de5c50cdcb13dba5c53e701723a78953ccb9ca75b09",
+    "releases/0.33.1/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "releases/0.33.1/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
+    "releases/0.33.1/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "releases/0.33.1/Brand/HighlineTide.woff2": "3915c602b0a48cd7e31d72b46bbd33f4c0ce4cefd24930f3df586054dc90de62",
+    "releases/0.33.1/Brand/hero-masks.png": "5ac32c7f39fcd3032eb4c7bd189817cffb185bba10e60183e9cb94301bde34fc",
+    "releases/0.33.1/Brand/hero.frag": "b3fb2deada90277a09a67b9a7a7f9de6003c7f632901c900689145bfb29773b1",
+    "releases/0.33.1/Brand/hero.js": "2266a28383e09fe86be4b1adf8b817eb184090d89bd0a8684b507e89bfdee1e2",
+    "releases/0.33.1/Brand/highline-plate.png": "f119f34b48633bac55ee7241e48a90eb302737728b58cb1b882e930a25175e57",
+    "releases/0.33.1/Brand/highline.png": "1e47b821ddc7e69e1b0d6228dc5872b5ef9e0dc960e589bd60c1ffb8e5d54fb7",
+    "releases/0.33.1/Brand/main-cover-backdrop.png": "575fe119abeca9698943fabf1dd739ec17df0844b9e7421c5f645d52a090b29d",
+    "releases/0.33.1/Brand/print-atlas.png": "acf66f163173f4ac55dd547c2d4b2a48d311891817f71196c6d824326c8f0b1b",
+    "releases/0.33.1/Brand/start.css": "50e119715ba5df51f6d191b0ddf3a9abe9ef78e2273d7552ee9ab90e767ac211",
+    "releases/0.33.1/Build/TouchDemo.data": "e158589c4fec759ed73b70ed55f870ba97d17b9321a3dda5d5b942d3fc8de858",
+    "releases/0.33.1/Build/TouchDemo.framework.js": "8bb2905bb75d65231d631c0ee9c516ff69f21a9a6ec45ce57ce34f9041173032",
+    "releases/0.33.1/Build/TouchDemo.loader.js": "5c6e3bcca382b5159394055b30c84a5e879d17ba53cebf41502db9e6cb318007",
+    "releases/0.33.1/Build/TouchDemo.wasm": "68162f33d587d86e12a4a3a3d581b69abe8cd9b8c936f568d0f41b69d55c3b36",
+    "releases/0.33.1/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
+    "releases/0.33.1/credits.html": "5f6fe259f655aafb8b0d8b2cb06aa57732ea10b78f4ee37075c29ccd5c9090c0",
+    "releases/0.33.1/index.html": "d1418ab76c8b68b0c0cec9970d121623bbd344df622c070ea71031e185bc7d2a",
+    "releases/0.33.1/build-info.json": "17dd2c0f916ac0dca8ea4a48229fa4974451e3933d208bdb39cf93d94c2121ee"
   },
   "playtests": [
     {
@@ -356,7 +376,16 @@
       "artifact_bytes": 110405514,
       "verification": "The combined production build passed all 45 Unity validation groups with zero build errors or warnings, 220 browser menu checks, 143 main-cover layout/art checks and 53 recorded-photo checks. Photo selection, native-size PNG exports and image persistence after reload were verified. Separate graphics-enabled editor checks covered distinct carve, air and tube captures. Physical-device performance, audio and Apple certification remain unverified.",
       "changes": "Six approved print-style menus now connect the cover, Beach Bulletin, Ride Journal, Surf Club, darkroom Results and workshop Options. Live conditions, earned journal and club records, persistent preferences and recorded-pose photographs ship together, preserving the approved surfer, waves and fixed magazine branding."
+    },
+    {
+      "version": "0.33.1",
+      "channel": "public-release",
+      "source_commit": "475c650f0311400a4d941a62ee6511b028b6352e",
+      "entrypoint": "releases/0.33.1/index.html",
+      "artifact_bytes": 112730073,
+      "verification": "The production WebGL build completed with zero errors and warnings. All 235 focused browser checks passed across six viewport sizes with standard and larger text, covering layout fidelity, display density, safe bounds, touch and keyboard navigation, submenu returns, covered startup handoff and entry into Free Surf. The headed action-client check also passed. Physical iPhone Home Screen, native iOS and controller hardware acceptance remain separate checks.",
+      "changes": "The original animated Highline key art returns at startup, covering engine loading until Let it rip opens the main menu. The approved editorial menu now uses sharp live brand text, larger touch targets and responsive layouts, with a logo-free Space Coast scene showing the crew watching a launch. The fixed magazine issue line, existing Surf Club styling, recorded photos and gameplay remain intact. Beach Bulletin retains its four-card arrangement with a clearer Back action."
     }
   ],
-  "metadata_revision": "0.33.0 is the default. Root and versioned links retain the current official social-card artwork."
+  "metadata_revision": "The default and versioned 0.33.1 links retain the existing sharing image."
 }
