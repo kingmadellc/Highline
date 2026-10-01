@@ -2,21 +2,19 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing game set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.34.0](https://kingmadellc.github.io/Highline/releases/0.34.0/?v=0.34.0) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.35.0](https://kingmadellc.github.io/Highline/releases/0.35.0/?v=0.35.0) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.34.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.35.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.34.0/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.35.0/Brand/highline.png).*
 
-## Current release: 0.34.0
+## Current release: 0.35.0
 
-**[Play Highline 0.34.0](https://kingmadellc.github.io/Highline/releases/0.34.0/?v=0.34.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
+**[Play Highline 0.35.0](https://kingmadellc.github.io/Highline/releases/0.35.0/?v=0.35.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
 
-Carving now builds speed through connected turns, with five more distinct handling settings and scoring that rewards varied lines. Clean tube exits have a quicker double-shaka and return to paddling, and caught exits keep the fall readable above the controls.
+Completes responsive magazine and photo menus, adds celebration selection and animated previews, Free Surf score preferences, dated historical sessions and current regional NOAA conditions delivery. Preserves approved startup artwork and the five handling modes and tube-exit celebrations.
 
-Menus render at the display backing resolution, and saved surf photos use native capture resolution within available memory. The approved cover, Beach Bulletin and Surf Club artwork remain intact. Further Photo Desk and archive layouts, and selectors for additional celebrations and observed conditions, are still in development.
-
-Verified with a successful Unity WebGL build with zero errors or warnings, automated gameplay and exit checks, phone-density and 4K browser menu checks, and native photo save/reload/export checks. Physical iPhone playtesting and subjective handling feedback remain open. Historical observed conditions are available to the underlying system; current browser data requests fall back explicitly when the provider blocks cross-origin access.
+Successful Unity WebGL build with zero errors or warnings; 1673 actual-player browser assertions across phone and 4K layouts, all five exits and replays, saved photos and native scene exports, fresh observations and offline fallbacks. Preview pixels, resizing and paused-ride preservation verified. Physical-device playtesting remains open; original approved illustrations retain source resolution and photo exports adapt to measured memory headroom. Automatic observation-feed scheduling is configured but its first scheduled run remains unverified.
 ## Play
 
 Use landscape orientation on a phone, or open the game in a desktop browser. Allow the initial game download to finish, then select **Let it rip**. Subsequent visits can reuse cached assets.
@@ -28,6 +26,15 @@ Use landscape orientation on a phone, or open the game in a desktop browser. All
 Practice a line, catch a wave, or try a three-wave filming set. Learn mode helps released rotations settle; Standard asks for more precise landings.
 
 ## Earlier builds
+
+**[v0.34.0](https://kingmadellc.github.io/Highline/releases/0.34.0/?v=0.34.0)**
+
+Carving now builds speed through connected turns, with five more distinct handling settings and scoring that rewards varied lines. Clean tube exits have a quicker double-shaka and return to paddling, and caught exits keep the fall readable above the controls.
+
+Menus render at the display backing resolution, and saved surf photos use native capture resolution within available memory. The approved cover, Beach Bulletin and Surf Club artwork remain intact. Further Photo Desk and archive layouts, and selectors for additional celebrations and observed conditions, are still in development.
+
+Verified with a successful Unity WebGL build with zero errors or warnings, automated gameplay and exit checks, phone-density and 4K browser menu checks, and native photo save/reload/export checks. Physical iPhone playtesting and subjective handling feedback remain open. Historical observed conditions are available to the underlying system; current browser data requests fall back explicitly when the provider blocks cross-origin access.
+
 
 **[v0.33.2](https://kingmadellc.github.io/Highline/releases/0.33.2/?v=0.33.2)**
 
