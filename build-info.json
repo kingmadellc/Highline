@@ -1,9 +1,9 @@
 {
-  "version": "0.34.0",
-  "source_commit": "ee34aa7523cf265f90ece5d677e5cfb4856464af",
-  "entrypoint": "releases/0.34.0/index.html",
-  "artifact_bytes": 113196879,
-  "verification": "Verified with a successful Unity WebGL build with zero errors or warnings, automated gameplay and exit checks, phone-density and 4K browser menu checks, and native photo save/reload/export checks. Physical iPhone playtesting and subjective handling feedback remain open. Historical observed conditions are available to the underlying system; current browser data requests fall back explicitly when the provider blocks cross-origin access.",
+  "version": "0.35.0",
+  "source_commit": "cbfeabba95f1783138465ed290867f92007ae65a",
+  "entrypoint": "releases/0.35.0/index.html",
+  "artifact_bytes": 123813613,
+  "verification": "Successful Unity WebGL build with zero errors or warnings; 1673 actual-player browser assertions across phone and 4K layouts, all five exits and replays, saved photos and native scene exports, fresh observations and offline fallbacks. Preview pixels, resizing and paused-ride preservation verified. Physical-device playtesting remains open; original approved illustrations retain source resolution and photo exports adapt to measured memory headroom. Automatic observation-feed scheduling is configured but its first scheduled run remains unverified.",
   "cache_policy": "Each release has its own asset directory. The root entry opens the latest release.",
   "files": {
     "releases/0.23.2/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
@@ -25,7 +25,7 @@
     "icon-180.png": "8406332eb1334fd0d0d047cad78b3bd4291f300d52d20dd7f7fcd91ec44f9094",
     "icon-192.png": "ca5ddd9bcb5fc1c21958ddd66edb0b2ecc18e779f87e77881b6295fcab52f1b9",
     "icon-512.png": "8caef8e78d4c5fc40e2c1ad8ad1e805cad3721f7c0d1e2562c74ef1059625a69",
-    "index.html": "2d67c8c462086c0809060d474ac4690efcd8e73eb1b29f5772280eaf853a693f",
+    "index.html": "b1e6dde0cd58cc92a4c94939df76a6c3f2a8e10e3036e9749f2b17420f5c5964",
     "manifest.webmanifest": "6afab9fec24dbe51af67ad81a1746c024c8f25d111197eeda2092fc8089af304",
     "social/highline-social-preview-1280x640.jpg": "666b89ae79d92e195d28f6ff03d06db66e0d62a443f081b6857c8e5ccaa6ebdf",
     "social/highline-social-preview-1280x640.png": "5927e516fa763b9f0f0aae5cdc260fd6616ac6cf572689bb2522e8ce7238bb46",
@@ -83,7 +83,7 @@
     "releases/0.25.1/index.html": "a3a46b2d824b21ad49bfca661e5a65799ab915ecc903dd5237bd3056f6df3435",
     "releases/0.25.1/build-info.json": "3a809227bb424fe543d3ef894b5e33f6edc2a552a6a24e2b6024781897610a90",
     "CREDITS.md": "36f0279368145782d1f5bd3f58cd5ce557db153cee9bf1bed04b228fc2284382",
-    "README.md": "bdd1bbaac0bbd4ba2af55e3ca8c24972cc99105eb567f2d4c91eabb3664c5076",
+    "README.md": "f105e435fc170adfd9947f102cf4064178c0cf068b3a51316ff6030f79010151",
     "releases/0.26.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
     "releases/0.26.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
     "releases/0.26.0/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
@@ -307,7 +307,27 @@
     "releases/0.34.0/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
     "releases/0.34.0/credits.html": "5f6fe259f655aafb8b0d8b2cb06aa57732ea10b78f4ee37075c29ccd5c9090c0",
     "releases/0.34.0/index.html": "ca0e636837cf852805d5d1408af0c2f89c8b61468651e729691ced8019be73d4",
-    "releases/0.34.0/build-info.json": "96bced0ae3fcd4b6bc693ef22a9acfee7a9e0fac6ee1a5377cbb1d0755bcfc89"
+    "releases/0.34.0/build-info.json": "96bced0ae3fcd4b6bc693ef22a9acfee7a9e0fac6ee1a5377cbb1d0755bcfc89",
+    "releases/0.35.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "releases/0.35.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
+    "releases/0.35.0/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "releases/0.35.0/Brand/HighlineTide.woff2": "3915c602b0a48cd7e31d72b46bbd33f4c0ce4cefd24930f3df586054dc90de62",
+    "releases/0.35.0/Brand/hero-masks.png": "5ac32c7f39fcd3032eb4c7bd189817cffb185bba10e60183e9cb94301bde34fc",
+    "releases/0.35.0/Brand/hero.frag": "b3fb2deada90277a09a67b9a7a7f9de6003c7f632901c900689145bfb29773b1",
+    "releases/0.35.0/Brand/hero.js": "2266a28383e09fe86be4b1adf8b817eb184090d89bd0a8684b507e89bfdee1e2",
+    "releases/0.35.0/Brand/highline-plate.png": "f119f34b48633bac55ee7241e48a90eb302737728b58cb1b882e930a25175e57",
+    "releases/0.35.0/Brand/highline.png": "1e47b821ddc7e69e1b0d6228dc5872b5ef9e0dc960e589bd60c1ffb8e5d54fb7",
+    "releases/0.35.0/Brand/main-cover-backdrop.png": "575fe119abeca9698943fabf1dd739ec17df0844b9e7421c5f645d52a090b29d",
+    "releases/0.35.0/Brand/print-atlas.png": "acf66f163173f4ac55dd547c2d4b2a48d311891817f71196c6d824326c8f0b1b",
+    "releases/0.35.0/Brand/start.css": "50e119715ba5df51f6d191b0ddf3a9abe9ef78e2273d7552ee9ab90e767ac211",
+    "releases/0.35.0/Build/TouchDemo.data": "1fb19d225131aa23ed5fa3dbe9b7f3a9eb2cd8b4bd000dae5be0a1852744722a",
+    "releases/0.35.0/Build/TouchDemo.framework.js": "49e41a34280bc29f915209ec5a56c01c7e86411ae1a64b1aa12f6ebd8dbf73c8",
+    "releases/0.35.0/Build/TouchDemo.loader.js": "099f1e6ff69cc3c5d75ee916cb6d47fd84e5433ebb0d37a43c0d5bd5ee5ab47a",
+    "releases/0.35.0/Build/TouchDemo.wasm": "eed8465eb7a127ca8c73f47504da35188be3cd079d6c0a465a4b12d07d37fa44",
+    "releases/0.35.0/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
+    "releases/0.35.0/credits.html": "5f6fe259f655aafb8b0d8b2cb06aa57732ea10b78f4ee37075c29ccd5c9090c0",
+    "releases/0.35.0/index.html": "fb00971001e32f3e9f6d3bf6f91bf2e54fa610385adf1e77789073bad2179caf",
+    "releases/0.35.0/build-info.json": "3b6bd16fa43ac736e98a07b97eefef0ff64b5c2bb93e7761fc14797ee39eda79"
   },
   "playtests": [
     {
@@ -443,7 +463,16 @@
       "artifact_bytes": 113196879,
       "verification": "Verified with a successful Unity WebGL build with zero errors or warnings, automated gameplay and exit checks, phone-density and 4K browser menu checks, and native photo save/reload/export checks. Physical iPhone playtesting and subjective handling feedback remain open. Historical observed conditions are available to the underlying system; current browser data requests fall back explicitly when the provider blocks cross-origin access.",
       "changes": "Carving now builds speed through connected turns, with five more distinct handling settings and scoring that rewards varied lines. Clean tube exits have a quicker double-shaka and return to paddling, and caught exits keep the fall readable above the controls.\n\nMenus render at the display backing resolution, and saved surf photos use native capture resolution within available memory. The approved cover, Beach Bulletin and Surf Club artwork remain intact. Further Photo Desk and archive layouts, and selectors for additional celebrations and observed conditions, are still in development."
+    },
+    {
+      "version": "0.35.0",
+      "channel": "public-release",
+      "source_commit": "cbfeabba95f1783138465ed290867f92007ae65a",
+      "entrypoint": "releases/0.35.0/index.html",
+      "artifact_bytes": 123813613,
+      "verification": "Successful Unity WebGL build with zero errors or warnings; 1673 actual-player browser assertions across phone and 4K layouts, all five exits and replays, saved photos and native scene exports, fresh observations and offline fallbacks. Preview pixels, resizing and paused-ride preservation verified. Physical-device playtesting remains open; original approved illustrations retain source resolution and photo exports adapt to measured memory headroom. Automatic observation-feed scheduling is configured but its first scheduled run remains unverified.",
+      "changes": "Completes responsive magazine and photo menus, adds celebration selection and animated previews, Free Surf score preferences, dated historical sessions and current regional NOAA conditions delivery. Preserves approved startup artwork and the five handling modes and tube-exit celebrations."
     }
   ],
-  "metadata_revision": "The default and versioned 0.34.0 links retain the existing sharing image."
+  "metadata_revision": "The default and versioned 0.35.0 links retain the existing sharing image."
 }
