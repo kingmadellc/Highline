@@ -2,19 +2,19 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing game set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.35.0](https://kingmadellc.github.io/Highline/releases/0.35.0/?v=0.35.0) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.36.0](https://kingmadellc.github.io/Highline/releases/0.36.0/?v=0.36.0) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.35.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.36.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.35.0/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.36.0/Brand/highline.png).*
 
-## Current release: 0.35.0
+## Current release: 0.36.0
 
-**[Play Highline 0.35.0](https://kingmadellc.github.io/Highline/releases/0.35.0/?v=0.35.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
+**[Play Highline 0.36.0](https://kingmadellc.github.io/Highline/releases/0.36.0/?v=0.36.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
 
-Completes responsive magazine and photo menus, adds celebration selection and animated previews, Free Surf score preferences, dated historical sessions and current regional NOAA conditions delivery. Preserves approved startup artwork and the five handling modes and tube-exit celebrations.
+Surf Club pairs each activity with its own Highline scene: surfing, dunes, an aerial, filming and printmaking. Ride Journal and Results display photographs from the player's actual session or completed ride. The repeated decorative barrel pictures are retired, and menu artwork now releases unused memory when moving between screens.
 
-Successful Unity WebGL build with zero errors or warnings; 1673 actual-player browser assertions across phone and 4K layouts, all five exits and replays, saved photos and native scene exports, fresh observations and offline fallbacks. Preview pixels, resizing and paused-ride preservation verified. Physical-device playtesting remains open; original approved illustrations retain source resolution and photo exports adapt to measured memory headroom. Automatic observation-feed scheduling is configured but its first scheduled run remains unverified.
+Verified at phone display density and 4K with 86 browser checks, 21 native scene-rendering checks, and the standard keyboard-client smoke. The Unity build completed with zero errors and warnings. Actual ride photos retain their source identity through saving, resizing and reload. Physical-phone acceptance remains open for this release.
 ## Play
 
 Use landscape orientation on a phone, or open the game in a desktop browser. Allow the initial game download to finish, then select **Let it rip**. Subsequent visits can reuse cached assets.
@@ -26,6 +26,13 @@ Use landscape orientation on a phone, or open the game in a desktop browser. All
 Practice a line, catch a wave, or try a three-wave filming set. Learn mode helps released rotations settle; Standard asks for more precise landings.
 
 ## Earlier builds
+
+**[v0.35.0](https://kingmadellc.github.io/Highline/releases/0.35.0/?v=0.35.0)**
+
+Completes responsive magazine and photo menus, adds celebration selection and animated previews, Free Surf score preferences, dated historical sessions and current regional NOAA conditions delivery. Preserves approved startup artwork and the five handling modes and tube-exit celebrations.
+
+Successful Unity WebGL build with zero errors or warnings; 1673 actual-player browser assertions across phone and 4K layouts, all five exits and replays, saved photos and native scene exports, fresh observations and offline fallbacks. Preview pixels, resizing and paused-ride preservation verified. Physical-device playtesting remains open; original approved illustrations retain source resolution and photo exports adapt to measured memory headroom. Automatic observation-feed scheduling is configured but its first scheduled run remains unverified.
+
 
 **[v0.34.0](https://kingmadellc.github.io/Highline/releases/0.34.0/?v=0.34.0)**
 
