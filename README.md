@@ -2,19 +2,21 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing game set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.33.2](https://kingmadellc.github.io/Highline/releases/0.33.2/?v=0.33.2) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.34.0](https://kingmadellc.github.io/Highline/releases/0.34.0/?v=0.34.0) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.33.2/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.34.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.33.2/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.34.0/Brand/highline.png).*
 
-## Current release: 0.33.2
+## Current release: 0.34.0
 
-**[Play Highline 0.33.2](https://kingmadellc.github.io/Highline/releases/0.33.2/?v=0.33.2)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
+**[Play Highline 0.34.0](https://kingmadellc.github.io/Highline/releases/0.34.0/?v=0.34.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
 
-Beach Bulletin now uses crisp live brand text and scalable pinned cards from phones through 4K displays. The four surf modes retain their approved order, real Free Surf conditions and fixed issue footer. Full-card touch targets activate on release, scrolling preserves every description, and Cover remains available. The approved main menu, original animated key-art loading screen, other menus and gameplay are preserved.
+Carving now builds speed through connected turns, with five more distinct handling settings and scoring that rewards varied lines. Clean tube exits have a quicker double-shaka and return to paddling, and caught exits keep the fall readable above the controls.
 
-Reviewed candidate: 496 Beach browser checks, 235 main/startup checks and 1,939 conditions assertions. The committed 0.33.2 release rebuild has zero errors/warnings and passes 197 fresh phone/4K browser checks. Physical iPhone Home Screen and Apple TV hardware acceptance remain separate.
+Menus render at the display backing resolution, and saved surf photos use native capture resolution within available memory. The approved cover, Beach Bulletin and Surf Club artwork remain intact. Further Photo Desk and archive layouts, and selectors for additional celebrations and observed conditions, are still in development.
+
+Verified with a successful Unity WebGL build with zero errors or warnings, automated gameplay and exit checks, phone-density and 4K browser menu checks, and native photo save/reload/export checks. Physical iPhone playtesting and subjective handling feedback remain open. Historical observed conditions are available to the underlying system; current browser data requests fall back explicitly when the provider blocks cross-origin access.
 ## Play
 
 Use landscape orientation on a phone, or open the game in a desktop browser. Allow the initial game download to finish, then select **Let it rip**. Subsequent visits can reuse cached assets.
@@ -26,6 +28,13 @@ Use landscape orientation on a phone, or open the game in a desktop browser. All
 Practice a line, catch a wave, or try a three-wave filming set. Learn mode helps released rotations settle; Standard asks for more precise landings.
 
 ## Earlier builds
+
+**[v0.33.2](https://kingmadellc.github.io/Highline/releases/0.33.2/?v=0.33.2)**
+
+Beach Bulletin now uses crisp live brand text and scalable pinned cards from phones through 4K displays. The four surf modes retain their approved order, real Free Surf conditions and fixed issue footer. Full-card touch targets activate on release, scrolling preserves every description, and Cover remains available. The approved main menu, original animated key-art loading screen, other menus and gameplay are preserved.
+
+Reviewed candidate: 496 Beach browser checks, 235 main/startup checks and 1,939 conditions assertions. The committed 0.33.2 release rebuild has zero errors/warnings and passes 197 fresh phone/4K browser checks. Physical iPhone Home Screen and Apple TV hardware acceptance remain separate.
+
 
 **[v0.33.1](https://kingmadellc.github.io/Highline/releases/0.33.1/?v=0.33.1)**
 
