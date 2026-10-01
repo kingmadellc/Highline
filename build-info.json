@@ -1,9 +1,9 @@
 {
-  "version": "0.33.1",
-  "source_commit": "475c650f0311400a4d941a62ee6511b028b6352e",
-  "entrypoint": "releases/0.33.1/index.html",
-  "artifact_bytes": 112730073,
-  "verification": "The production WebGL build completed with zero errors and warnings. All 235 focused browser checks passed across six viewport sizes with standard and larger text, covering layout fidelity, display density, safe bounds, touch and keyboard navigation, submenu returns, covered startup handoff and entry into Free Surf. The headed action-client check also passed. Physical iPhone Home Screen, native iOS and controller hardware acceptance remain separate checks.",
+  "version": "0.33.2",
+  "source_commit": "f738e9a0cd7c8c4fa82b40b37dbe4ff564393115",
+  "entrypoint": "releases/0.33.2/index.html",
+  "artifact_bytes": 112766852,
+  "verification": "Reviewed candidate: 496 Beach browser checks, 235 main/startup checks and 1,939 conditions assertions. The committed 0.33.2 release rebuild has zero errors/warnings and passes 197 fresh phone/4K browser checks. Physical iPhone Home Screen and Apple TV hardware acceptance remain separate.",
   "cache_policy": "Each release has its own asset directory. The root entry opens the latest release.",
   "files": {
     "releases/0.23.2/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
@@ -25,7 +25,7 @@
     "icon-180.png": "8406332eb1334fd0d0d047cad78b3bd4291f300d52d20dd7f7fcd91ec44f9094",
     "icon-192.png": "ca5ddd9bcb5fc1c21958ddd66edb0b2ecc18e779f87e77881b6295fcab52f1b9",
     "icon-512.png": "8caef8e78d4c5fc40e2c1ad8ad1e805cad3721f7c0d1e2562c74ef1059625a69",
-    "index.html": "04aa42e7ffbc1974f6ff5134eea6740496c96a9a2bc264b037c1e2ca6d3ea40a",
+    "index.html": "231b1d01b5d97ee8403119eafe875aaba84b76efdfce853577107dde91ce77cd",
     "manifest.webmanifest": "6afab9fec24dbe51af67ad81a1746c024c8f25d111197eeda2092fc8089af304",
     "social/highline-social-preview-1280x640.jpg": "666b89ae79d92e195d28f6ff03d06db66e0d62a443f081b6857c8e5ccaa6ebdf",
     "social/highline-social-preview-1280x640.png": "5927e516fa763b9f0f0aae5cdc260fd6616ac6cf572689bb2522e8ce7238bb46",
@@ -83,7 +83,7 @@
     "releases/0.25.1/index.html": "a3a46b2d824b21ad49bfca661e5a65799ab915ecc903dd5237bd3056f6df3435",
     "releases/0.25.1/build-info.json": "3a809227bb424fe543d3ef894b5e33f6edc2a552a6a24e2b6024781897610a90",
     "CREDITS.md": "36f0279368145782d1f5bd3f58cd5ce557db153cee9bf1bed04b228fc2284382",
-    "README.md": "86c39b4c33cd9226cbd2974548866f3807296a6c9ba17dec21e13a7bc7dd5a48",
+    "README.md": "16a26c02a92e9c29dae8a88108a65e2b240ac4d50dfe01b7487d3115a1f862b9",
     "releases/0.26.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
     "releases/0.26.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
     "releases/0.26.0/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
@@ -267,7 +267,27 @@
     "releases/0.33.1/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
     "releases/0.33.1/credits.html": "5f6fe259f655aafb8b0d8b2cb06aa57732ea10b78f4ee37075c29ccd5c9090c0",
     "releases/0.33.1/index.html": "d1418ab76c8b68b0c0cec9970d121623bbd344df622c070ea71031e185bc7d2a",
-    "releases/0.33.1/build-info.json": "17dd2c0f916ac0dca8ea4a48229fa4974451e3933d208bdb39cf93d94c2121ee"
+    "releases/0.33.1/build-info.json": "17dd2c0f916ac0dca8ea4a48229fa4974451e3933d208bdb39cf93d94c2121ee",
+    "releases/0.33.2/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "releases/0.33.2/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
+    "releases/0.33.2/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "releases/0.33.2/Brand/HighlineTide.woff2": "3915c602b0a48cd7e31d72b46bbd33f4c0ce4cefd24930f3df586054dc90de62",
+    "releases/0.33.2/Brand/hero-masks.png": "5ac32c7f39fcd3032eb4c7bd189817cffb185bba10e60183e9cb94301bde34fc",
+    "releases/0.33.2/Brand/hero.frag": "b3fb2deada90277a09a67b9a7a7f9de6003c7f632901c900689145bfb29773b1",
+    "releases/0.33.2/Brand/hero.js": "2266a28383e09fe86be4b1adf8b817eb184090d89bd0a8684b507e89bfdee1e2",
+    "releases/0.33.2/Brand/highline-plate.png": "f119f34b48633bac55ee7241e48a90eb302737728b58cb1b882e930a25175e57",
+    "releases/0.33.2/Brand/highline.png": "1e47b821ddc7e69e1b0d6228dc5872b5ef9e0dc960e589bd60c1ffb8e5d54fb7",
+    "releases/0.33.2/Brand/main-cover-backdrop.png": "575fe119abeca9698943fabf1dd739ec17df0844b9e7421c5f645d52a090b29d",
+    "releases/0.33.2/Brand/print-atlas.png": "acf66f163173f4ac55dd547c2d4b2a48d311891817f71196c6d824326c8f0b1b",
+    "releases/0.33.2/Brand/start.css": "50e119715ba5df51f6d191b0ddf3a9abe9ef78e2273d7552ee9ab90e767ac211",
+    "releases/0.33.2/Build/TouchDemo.data": "21de0713def67192f3ba1ca77f3e8569651e2a1ab9e710e68ac1dd86911a69bd",
+    "releases/0.33.2/Build/TouchDemo.framework.js": "5dff07950db30776272e5b71964735ed3f58fe388169dac41381fec5d5652f82",
+    "releases/0.33.2/Build/TouchDemo.loader.js": "99006b19c96cc7837acc952055290b37bad7193a94de15bc493f308c3de8ba83",
+    "releases/0.33.2/Build/TouchDemo.wasm": "9e3ee46e06999394a49345e96ec4815305a079959098996bf95ade3268a41603",
+    "releases/0.33.2/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
+    "releases/0.33.2/credits.html": "5f6fe259f655aafb8b0d8b2cb06aa57732ea10b78f4ee37075c29ccd5c9090c0",
+    "releases/0.33.2/index.html": "cc322ecca7afe87b39bf61bb469cbc41272c8b38870fa4509351bb098662aab4",
+    "releases/0.33.2/build-info.json": "9331bb269b397f47deeb3b4215a3410cbd736b641ac7dd5ad0dd59d619ee3584"
   },
   "playtests": [
     {
@@ -385,7 +405,16 @@
       "artifact_bytes": 112730073,
       "verification": "The production WebGL build completed with zero errors and warnings. All 235 focused browser checks passed across six viewport sizes with standard and larger text, covering layout fidelity, display density, safe bounds, touch and keyboard navigation, submenu returns, covered startup handoff and entry into Free Surf. The headed action-client check also passed. Physical iPhone Home Screen, native iOS and controller hardware acceptance remain separate checks.",
       "changes": "The original animated Highline key art returns at startup, covering engine loading until Let it rip opens the main menu. The approved editorial menu now uses sharp live brand text, larger touch targets and responsive layouts, with a logo-free Space Coast scene showing the crew watching a launch. The fixed magazine issue line, existing Surf Club styling, recorded photos and gameplay remain intact. Beach Bulletin retains its four-card arrangement with a clearer Back action."
+    },
+    {
+      "version": "0.33.2",
+      "channel": "public-release",
+      "source_commit": "f738e9a0cd7c8c4fa82b40b37dbe4ff564393115",
+      "entrypoint": "releases/0.33.2/index.html",
+      "artifact_bytes": 112766852,
+      "verification": "Reviewed candidate: 496 Beach browser checks, 235 main/startup checks and 1,939 conditions assertions. The committed 0.33.2 release rebuild has zero errors/warnings and passes 197 fresh phone/4K browser checks. Physical iPhone Home Screen and Apple TV hardware acceptance remain separate.",
+      "changes": "Beach Bulletin now uses crisp live brand text and scalable pinned cards from phones through 4K displays. The four surf modes retain their approved order, real Free Surf conditions and fixed issue footer. Full-card touch targets activate on release, scrolling preserves every description, and Cover remains available. The approved main menu, original animated key-art loading screen, other menus and gameplay are preserved."
     }
   ],
-  "metadata_revision": "The default and versioned 0.33.1 links retain the existing sharing image."
+  "metadata_revision": "The default and versioned 0.33.2 links retain the existing sharing image."
 }
