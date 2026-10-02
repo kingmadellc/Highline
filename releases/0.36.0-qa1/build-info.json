@@ -1,0 +1,13 @@
+{
+  "version": "0.36.0",
+  "channel": "qa-preview",
+  "label": "0.36.0-qa1",
+  "source_commit": "f4138977c9b074d99ea9d92f066270d24b59d178",
+  "source_branch": "claude/highline-qa-followthrough-036",
+  "source_tree_sha256": "67c5dc95b98b728be14aa5c4861d62d3f8c9ff56e9bd68748db1e14321c71a4f",
+  "web_tree_sha256": "c0fc933b9fa3c6ab53f974edc3cce0f6529b21a8d7cf06eb0e206daeba12f2b1",
+  "entrypoint": "releases/0.36.0-qa1/index.html",
+  "artifact_bytes": 122672751,
+  "note": "QA follow-through preview for hardware testing. Not the public release: the site entry point still serves 0.36.0. Shares saved progress with the live game on this origin.",
+  "changes": "Barrel traversal 200 vs set-up/earned 500; too-low landing cue; shark rationed per session; portrait pauses and restores; OS reduced motion honoured until chosen; start-screen art and button at device density; BEST on the FLOW plate; REPEAT chip; hit-stop and event haptics; controller spin 600 deg/s; bridge hardening."
+}
