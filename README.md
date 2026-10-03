@@ -2,19 +2,19 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing game set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.36.0](https://kingmadellc.github.io/Highline/releases/0.36.0/?v=0.36.0) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.39.0](https://kingmadellc.github.io/Highline/releases/0.39.0/?v=0.39.0) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.36.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.39.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.36.0/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.39.0/Brand/highline.png).*
 
-## Current release: 0.36.0
+## Current release: 0.39.0
 
-**[Play Highline 0.36.0](https://kingmadellc.github.io/Highline/releases/0.36.0/?v=0.36.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
+**[Play Highline 0.39.0](https://kingmadellc.github.io/Highline/releases/0.39.0/?v=0.39.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
 
-Surf Club pairs each activity with its own Highline scene: surfing, dunes, an aerial, filming and printmaking. Ride Journal and Results display photographs from the player's actual session or completed ride. The repeated decorative barrel pictures are retired, and menu artwork now releases unused memory when moving between screens.
+Five quick play improvements: condition BEST records and NEW BEST stamps; a clearer first catch with a paddle hint and swell swash; Drop in again after a wipeout, 25 metres back on the same wave as a practice attempt; tier chimes, rising pocket ticks and brief landing/slide beats; and a guaranteed first shark cameo followed by a 15% chance. The existing board hiss and rail audio remain. Choose the record to chase in Options → Session & more → Wave.
 
-Verified at phone display density and 4K with 86 browser checks, 21 native scene-rendering checks, and the standard keyboard-client smoke. The Unity build completed with zero errors and warnings. Actual ride photos retain their source identity through saving, resizing and reload. Physical-phone acceptance remains open for this release.
+Unity validation and the WebGL build passed with zero errors or warnings. A 22-check browser test used real keyboard/mouse input to verify condition selection, the welcome, a full catch, wipeout, stable retry choices, same-seed practice drop-in and a full eligible paddle retry. Loading-shell layouts passed at small-phone through 4K sizes. Native builds, physical-device play and listening tests remain pending.
 ## Play
 
 Use landscape orientation on a phone, or open the game in a desktop browser. Allow the initial game download to finish, then select **Let it rip**. Subsequent visits can reuse cached assets.
@@ -26,6 +26,20 @@ Use landscape orientation on a phone, or open the game in a desktop browser. All
 Practice a line, catch a wave, or try a three-wave filming set. Learn mode helps released rotations settle; Standard asks for more precise landings.
 
 ## Earlier builds
+
+**[v0.38.0](https://kingmadellc.github.io/Highline/releases/0.38.0/?v=0.38.0)**
+
+Promotes the approved 0.37.0-playtest3 candidate to release 0.38.0 with only the version changed.
+
+Built from the approved 0.37.0-playtest3 source with only the version changed. The QA follow-through candidate passed all 40 Unity editor suites with zero errors and warnings, deterministic and real-time browser probes, phone/small/4K menu, gameplay and tube-exit checks, and a native Mac Retina check; the hosted Playtest 3 build re-passed the barrel, landing, shark, portrait, reduced-motion, rules and replay probes and was approved by the owner after playing it.
+
+
+**[v0.36.0](https://kingmadellc.github.io/Highline/releases/0.36.0/?v=0.36.0)**
+
+Surf Club pairs each activity with its own Highline scene: surfing, dunes, an aerial, filming and printmaking. Ride Journal and Results display photographs from the player's actual session or completed ride. The repeated decorative barrel pictures are retired, and menu artwork now releases unused memory when moving between screens.
+
+Verified at phone display density and 4K with 86 browser checks, 21 native scene-rendering checks, and the standard keyboard-client smoke. The Unity build completed with zero errors and warnings. Actual ride photos retain their source identity through saving, resizing and reload. Physical-phone acceptance remains open for this release.
+
 
 **[v0.35.0](https://kingmadellc.github.io/Highline/releases/0.35.0/?v=0.35.0)**
 
