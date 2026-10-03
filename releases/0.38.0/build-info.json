@@ -1,0 +1,9 @@
+{
+  "version": "0.38.0",
+  "channel": "public-release",
+  "source_commit": "4581c34f0757aebb2f25af3239589cb752ed38de",
+  "entrypoint": "releases/0.38.0/index.html",
+  "artifact_bytes": 122742511,
+  "verification": "Built from the approved 0.37.0-playtest3 source with only the version changed. The QA follow-through candidate passed all 40 Unity editor suites with zero errors and warnings, deterministic and real-time browser probes, phone/small/4K menu, gameplay and tube-exit checks, and a native Mac Retina check; the hosted Playtest 3 build re-passed the barrel, landing, shark, portrait, reduced-motion, rules and replay probes and was approved by the owner after playing it.",
+  "changes": "Barrel traversal pays 200 and a set-up or earned exit pays 500; a too-low landing cue; the shark appears once per session, then rarely; portrait pauses the ride and restores it; system reduced motion is honoured until you choose; sharper start screen and a larger start button on 4K; BEST on the FLOW plate; a REPEAT chip when a repeated move pays less; hit-stop and controller haptics; controller spin 600 deg/s. Also legible type from phone to 4K, pocket-line payout variety, Coaching Auto/Off/On, closeout fixes, and cloud, lineup and gull presentation."
+}
