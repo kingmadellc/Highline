@@ -1,0 +1,11 @@
+{
+  "version": "0.36.0",
+  "channel": "qa-preview",
+  "label": "0.37.0-playtest3",
+  "source_commit": "0946c2c2feaa3148acf10ccd8537fda38268e712",
+  "source_branch": "claude/highline-playtest3-037",
+  "entrypoint": "releases/0.37.0-playtest3/index.html",
+  "artifact_bytes": 122744003,
+  "note": "Playtest 3 preview for hardware testing. Not the public release: the site entry point still serves 0.36.0. Shares saved progress with the live game on this origin.",
+  "changes": "Legible type phone-to-4K (Surf Club and Ride Journal reflow on phones); pocket badge and FLOW plate fixes; clean focused buttons; Coaching Auto/Off/On; Pocket Line payout variety with re-entry bonus and same-line decay; closeout folds the uncommitted rider; seeded shoulder buildup and takeoff position; looser arms, tube-exit punch, softer skin; cloud layer, more lineup surfers and gulls."
+}
