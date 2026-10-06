@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="768" viewBox="0 0 768 768">
+  <filter id="sand" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+    <feTurbulence type="fractalNoise" baseFrequency=".88" numOctaves="3" seed="19" stitchTiles="stitch" result="fine"/>
+    <feTurbulence type="fractalNoise" baseFrequency=".009 .015" numOctaves="3" seed="8" stitchTiles="stitch" result="soft"/>
+    <feComposite in="fine" in2="soft" operator="arithmetic" k1="0" k2=".75" k3=".25" k4="0" result="grain"/>
+    <feColorMatrix in="grain" type="saturate" values="0" result="gray"/>
+    <feColorMatrix in="gray" values=".29 0 0 0 .8154 0 .29 0 0 .7609 0 0 .29 0 .6558 0 0 0 0 1"/>
+  </filter>
+  <path fill="#f5e7cc" filter="url(#sand)" d="M0 0h768v768H0z"/>
+</svg>
