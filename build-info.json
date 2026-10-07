@@ -1,9 +1,9 @@
 {
-  "version": "0.41.0",
-  "source_commit": "1e3a013a0d11a84167e2e67eb70cef51af898afe",
-  "entrypoint": "releases/0.41.0/index.html",
-  "artifact_bytes": 134004577,
-  "verification": "Unity Web build passed with zero errors and warnings. Chromium verification passed 442 journey/menu assertions from phone-sized viewports through 4K, 139 consent/export/erase assertions, and 24 earned-photo persistence/continuation assertions. Automated checks are not human playtests. Desktop Chrome is the verified browser path for this release. Pinned Playwright WebKit 26.0 reproduces fullscreen blank output and incomplete rider rendering on both 0.40 and 0.41; Safari and physical iPhone acceptance remain open. Compact Club strip text at 4K still needs polish. Native signing, TestFlight, device haptics/audio/VoiceOver/performance and human retention testing are not verified.",
+  "version": "0.42.0",
+  "source_commit": "ae5aa29c4438e58ec560a69d41d49cf272b72f08",
+  "entrypoint": "releases/0.42.0/index.html",
+  "artifact_bytes": 137106606,
+  "verification": "Unity\u2019s required editor gates and WebGL export passed. The daily loop, score preservation, shared standings and responsive menus were checked in Chromium with an isolated score database. The daily publisher and score service have focused automated coverage. The leaderboard does not yet replay gameplay on the server; physical-device and Safari acceptance remain open.",
   "cache_policy": "Each release has its own asset directory. The root entry opens the latest release.",
   "files": {
     "releases/0.23.2/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
@@ -25,7 +25,7 @@
     "icon-180.png": "8406332eb1334fd0d0d047cad78b3bd4291f300d52d20dd7f7fcd91ec44f9094",
     "icon-192.png": "ca5ddd9bcb5fc1c21958ddd66edb0b2ecc18e779f87e77881b6295fcab52f1b9",
     "icon-512.png": "8caef8e78d4c5fc40e2c1ad8ad1e805cad3721f7c0d1e2562c74ef1059625a69",
-    "index.html": "41e0acca21297d2861eb2c558ef27cf30f3968bb81dc23dd86f205e6ef263915",
+    "index.html": "5b099a6fe6b05da0eabd31f7d51dfcee9efd537e918b58f74449d9448dd184b0",
     "manifest.webmanifest": "6afab9fec24dbe51af67ad81a1746c024c8f25d111197eeda2092fc8089af304",
     "social/highline-social-preview-1280x640.jpg": "666b89ae79d92e195d28f6ff03d06db66e0d62a443f081b6857c8e5ccaa6ebdf",
     "social/highline-social-preview-1280x640.png": "5927e516fa763b9f0f0aae5cdc260fd6616ac6cf572689bb2522e8ce7238bb46",
@@ -83,7 +83,7 @@
     "releases/0.25.1/index.html": "a3a46b2d824b21ad49bfca661e5a65799ab915ecc903dd5237bd3056f6df3435",
     "releases/0.25.1/build-info.json": "3a809227bb424fe543d3ef894b5e33f6edc2a552a6a24e2b6024781897610a90",
     "CREDITS.md": "36f0279368145782d1f5bd3f58cd5ce557db153cee9bf1bed04b228fc2284382",
-    "README.md": "43a4816fa6f4ca11150b2e507b8c17d456936a7ac79c4c6ae78a86f79e4cb5d7",
+    "README.md": "292de89ebc44f8b2215346e017381ee62870978e75775c96a3855dbe4feb05f8",
     "releases/0.26.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
     "releases/0.26.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
     "releases/0.26.0/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
@@ -449,7 +449,28 @@
     "releases/0.41.0/StreamingAssets/highline-how-to-play.mp4": "7b3ebb45615354670b6e2866e1c0707a701dc1a43cd2375e9a8c67a1f15485fb",
     "releases/0.41.0/credits.html": "5f6fe259f655aafb8b0d8b2cb06aa57732ea10b78f4ee37075c29ccd5c9090c0",
     "releases/0.41.0/index.html": "325c50d18cf964632830915e0b2d50b55b9d82b2dcb458fec133e476a84300c2",
-    "releases/0.41.0/build-info.json": "11d67a88a7655cd8a90b3364c66827e5d0b316d97e6e275c95816316690df02e"
+    "releases/0.41.0/build-info.json": "11d67a88a7655cd8a90b3364c66827e5d0b316d97e6e275c95816316690df02e",
+    "releases/0.42.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "releases/0.42.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
+    "releases/0.42.0/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "releases/0.42.0/Brand/HighlineTide.woff2": "3915c602b0a48cd7e31d72b46bbd33f4c0ce4cefd24930f3df586054dc90de62",
+    "releases/0.42.0/Brand/hero-masks.png": "5ac32c7f39fcd3032eb4c7bd189817cffb185bba10e60183e9cb94301bde34fc",
+    "releases/0.42.0/Brand/hero.frag": "c869b5b6b59acd8aa0900f2fd8d399a605e3757bb5154319ea17bc9dc54b4b42",
+    "releases/0.42.0/Brand/hero.js": "c7ee6e8bb91f704962441eaea18521f7b8174a379bba06593523378e9a02e396",
+    "releases/0.42.0/Brand/highline-plate.png": "f119f34b48633bac55ee7241e48a90eb302737728b58cb1b882e930a25175e57",
+    "releases/0.42.0/Brand/highline.png": "1e47b821ddc7e69e1b0d6228dc5872b5ef9e0dc960e589bd60c1ffb8e5d54fb7",
+    "releases/0.42.0/Brand/main-cover-backdrop.png": "575fe119abeca9698943fabf1dd739ec17df0844b9e7421c5f645d52a090b29d",
+    "releases/0.42.0/Brand/print-atlas.png": "acf66f163173f4ac55dd547c2d4b2a48d311891817f71196c6d824326c8f0b1b",
+    "releases/0.42.0/Brand/start.css": "e14adccee362e57965a44bc2102d41d1077fb22362b83758e52ab833d7ce9f24",
+    "releases/0.42.0/Build/TouchDemo.data": "76811df479c3bd2dcd707e7597cd222824f53a172e05ed76e01863b1aafc8ea5",
+    "releases/0.42.0/Build/TouchDemo.framework.js": "234f6ff1f250d6ac2bcd2f9241cf376ef466bc4332a5c352317603571b35f9f1",
+    "releases/0.42.0/Build/TouchDemo.loader.js": "0d059fa853fcdf845eb9a6ec69e27f86ca5e83c0230f589fb4345909474dfc17",
+    "releases/0.42.0/Build/TouchDemo.wasm": "87da34f72d901b987d89723367a6b30a1e486fb096e149e27cfb251c2e9c7f50",
+    "releases/0.42.0/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
+    "releases/0.42.0/StreamingAssets/highline-how-to-play.mp4": "7b3ebb45615354670b6e2866e1c0707a701dc1a43cd2375e9a8c67a1f15485fb",
+    "releases/0.42.0/credits.html": "5f6fe259f655aafb8b0d8b2cb06aa57732ea10b78f4ee37075c29ccd5c9090c0",
+    "releases/0.42.0/index.html": "4d0e3b544157d8d059c58b9e8d696ad9c52a414d1251c26a876fdf3241fdf4f6",
+    "releases/0.42.0/build-info.json": "54445140f0e7da2fa51307610bd37bb6d2cd86f3c7aaba1a92e2821bd63c9149"
   },
   "playtests": [
     {
@@ -648,7 +669,16 @@
       "artifact_bytes": 134004577,
       "verification": "Unity Web build passed with zero errors and warnings. Chromium verification passed 442 journey/menu assertions from phone-sized viewports through 4K, 139 consent/export/erase assertions, and 24 earned-photo persistence/continuation assertions. Automated checks are not human playtests. Desktop Chrome is the verified browser path for this release. Pinned Playwright WebKit 26.0 reproduces fullscreen blank output and incomplete rider rendering on both 0.40 and 0.41; Safari and physical iPhone acceptance remain open. Compact Club strip text at 4K still needs polish. Native signing, TestFlight, device haptics/audio/VoiceOver/performance and human retention testing are not verified.",
       "changes": "Start with a guided First wave, resume your lesson, follow clearer Summer assignments, and Keep photo & continue into the next session. Weekly prompts add new reasons to return; scoring rewards varied surfing and reduces repeated-pair farming. Free Surf, existing keepsakes, accepted cover art, and the six-page Summer issue remain available. Optional playtest notes stay local, off by default, and under player control."
+    },
+    {
+      "version": "0.42.0",
+      "channel": "public-release",
+      "source_commit": "ae5aa29c4438e58ec560a69d41d49cf272b72f08",
+      "entrypoint": "releases/0.42.0/index.html",
+      "artifact_bytes": 137106606,
+      "verification": "Unity\u2019s required editor gates and WebGL export passed. The daily loop, score preservation, shared standings and responsive menus were checked in Chromium with an isolated score database. The daily publisher and score service have focused automated coverage. The leaderboard does not yet replay gameplay on the server; physical-device and Safari acceptance remain open.",
+      "changes": "Today\u2019s Wave is now the main event: one shared Satellite Beach morning wave, unlimited attempts, and an automatically posted daily best. The cleaner menu puts Surf now, Best and World first. Free Surf, First Wave lessons, Surf Club and the journal remain close by. Global standings are in beta with basic submission validation."
     }
   ],
-  "metadata_revision": "The default and versioned 0.41.0 links retain the existing sharing image."
+  "metadata_revision": "The default and versioned 0.42.0 links retain the existing sharing image."
 }
