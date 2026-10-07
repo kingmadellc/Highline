@@ -2,19 +2,20 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing game set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.42.1](https://kingmadellc.github.io/Highline/releases/0.42.1/?v=0.42.1) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.43.0](https://kingmadellc.github.io/Highline/releases/0.43.0/?v=0.43.0) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.42.1/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.43.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.42.1/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.43.0/Brand/highline.png).*
 
-## Current release: 0.42.1
+## Current release: 0.43.0
 
-**[Play Highline 0.42.1](https://kingmadellc.github.io/Highline/releases/0.42.1/?v=0.42.1)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
+**[Play Highline 0.43.0](https://kingmadellc.github.io/Highline/releases/0.43.0/?v=0.43.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
 
-Fixes empty borders on iPhone: the game fills the display while controls remain clear of the notch and Home indicator.
+More foam and spray at the honeyhole, a progressive wave exit, richer water detail, and stronger celebrations. Mix it up now visits all five takes evenly, remembers the rotation across visits, and preserves the selected take in highlights. Includes the installed iPhone full-screen correction.
 
-Unity export: zero errors and warnings. All 146 compiled browser layout and interaction assertions passed, including safe controls, portrait/landscape rotation, and viewport-height changes. Physical iPhone confirmation remains pending.
+Unity export succeeded with zero errors and one build warning; all 56 editor gates and 248 compiled browser checks passed. Physical iPhone and Safari acceptance remain pending; this release is published for owner phone testing.
+
 ## Play
 
 Use landscape orientation on a phone, or open the game in a desktop browser. Allow the initial game download to finish, then select **Let it rip**. Subsequent visits can reuse cached assets.
@@ -26,6 +27,10 @@ Use landscape orientation on a phone, or open the game in a desktop browser. All
 Practice a line, catch a wave, or try a three-wave filming set. Learn mode helps released rotations settle; Standard asks for more precise landings.
 
 ## Earlier builds
+
+**[v0.42.1](https://kingmadellc.github.io/Highline/releases/0.42.1/?v=0.42.1)**
+
+Fixes empty borders on iPhone while keeping controls clear of the notch and Home indicator.
 
 **[v0.42.0](https://kingmadellc.github.io/Highline/releases/0.42.0/?v=0.42.0)**
 
