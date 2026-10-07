@@ -1,9 +1,9 @@
 {
-  "version": "0.43.0",
-  "source_commit": "d8a3954f7b3ed9c34e57c30a5606b472d227634b",
-  "entrypoint": "releases/0.43.0/index.html",
-  "artifact_bytes": 137119637,
-  "verification": "Unity export succeeded with zero errors and one build warning; all 56 editor gates and 248 compiled browser checks passed. Physical iPhone and Safari acceptance remain pending; this release is published for owner phone testing.",
+  "version": "0.43.1",
+  "source_commit": "2842630f975323e1d6bed467239feee66ee28081",
+  "entrypoint": "releases/0.43.1/index.html",
+  "artifact_bytes": 137121659,
+  "verification": "Unity export succeeded with zero errors and warnings; all 56 editor PASS entries and 12 compiled exit/replay checks passed. Free Surf and gameplay screenshots were inspected. Physical iPhone motion, performance and full-screen acceptance remain pending owner testing.",
   "cache_policy": "Each release has its own asset directory. The root entry opens the latest release.",
   "files": {
     "releases/0.23.2/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
@@ -25,7 +25,7 @@
     "icon-180.png": "8406332eb1334fd0d0d047cad78b3bd4291f300d52d20dd7f7fcd91ec44f9094",
     "icon-192.png": "ca5ddd9bcb5fc1c21958ddd66edb0b2ecc18e779f87e77881b6295fcab52f1b9",
     "icon-512.png": "8caef8e78d4c5fc40e2c1ad8ad1e805cad3721f7c0d1e2562c74ef1059625a69",
-    "index.html": "0034c509cb77a9c1177cd090f053feba12c284ba6226f1cd73bb00160ea12faf",
+    "index.html": "b1ad7f4e7f880f679457aa34e48bb07290bc4fe7226c92065bc6b02130256275",
     "manifest.webmanifest": "6afab9fec24dbe51af67ad81a1746c024c8f25d111197eeda2092fc8089af304",
     "social/highline-social-preview-1280x640.jpg": "666b89ae79d92e195d28f6ff03d06db66e0d62a443f081b6857c8e5ccaa6ebdf",
     "social/highline-social-preview-1280x640.png": "5927e516fa763b9f0f0aae5cdc260fd6616ac6cf572689bb2522e8ce7238bb46",
@@ -83,7 +83,7 @@
     "releases/0.25.1/index.html": "a3a46b2d824b21ad49bfca661e5a65799ab915ecc903dd5237bd3056f6df3435",
     "releases/0.25.1/build-info.json": "3a809227bb424fe543d3ef894b5e33f6edc2a552a6a24e2b6024781897610a90",
     "CREDITS.md": "36f0279368145782d1f5bd3f58cd5ce557db153cee9bf1bed04b228fc2284382",
-    "README.md": "daa015c400e9ff90763c9f48111ca47822b54d6594f96f2a57c0d1a1549656d0",
+    "README.md": "589d2ab0cf6e4763974014c56bf59500ff9b14cf079537b0c7f9d114f29b63d0",
     "releases/0.26.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
     "releases/0.26.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
     "releases/0.26.0/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
@@ -514,7 +514,29 @@
     "releases/0.43.0/StreamingAssets/highline-how-to-play.mp4": "7b3ebb45615354670b6e2866e1c0707a701dc1a43cd2375e9a8c67a1f15485fb",
     "releases/0.43.0/credits.html": "5f6fe259f655aafb8b0d8b2cb06aa57732ea10b78f4ee37075c29ccd5c9090c0",
     "releases/0.43.0/index.html": "0454cefad3d3b9605e55ce7de0741e26cbb14269e41540cddbfa92690f295e26",
-    "releases/0.43.0/build-info.json": "49c7101020c3e148258d654126a9153891abd4c47f93dfd2f7cd0d67b8fabb6c"
+    "releases/0.43.0/build-info.json": "49c7101020c3e148258d654126a9153891abd4c47f93dfd2f7cd0d67b8fabb6c",
+    "releases/0.43.1/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "releases/0.43.1/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
+    "releases/0.43.1/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "releases/0.43.1/Brand/HighlineTide.woff2": "3915c602b0a48cd7e31d72b46bbd33f4c0ce4cefd24930f3df586054dc90de62",
+    "releases/0.43.1/Brand/hero-masks.png": "5ac32c7f39fcd3032eb4c7bd189817cffb185bba10e60183e9cb94301bde34fc",
+    "releases/0.43.1/Brand/hero.frag": "c869b5b6b59acd8aa0900f2fd8d399a605e3757bb5154319ea17bc9dc54b4b42",
+    "releases/0.43.1/Brand/hero.js": "c7ee6e8bb91f704962441eaea18521f7b8174a379bba06593523378e9a02e396",
+    "releases/0.43.1/Brand/highline-plate.png": "f119f34b48633bac55ee7241e48a90eb302737728b58cb1b882e930a25175e57",
+    "releases/0.43.1/Brand/highline.png": "1e47b821ddc7e69e1b0d6228dc5872b5ef9e0dc960e589bd60c1ffb8e5d54fb7",
+    "releases/0.43.1/Brand/main-cover-backdrop.png": "575fe119abeca9698943fabf1dd739ec17df0844b9e7421c5f645d52a090b29d",
+    "releases/0.43.1/Brand/print-atlas.png": "acf66f163173f4ac55dd547c2d4b2a48d311891817f71196c6d824326c8f0b1b",
+    "releases/0.43.1/Brand/start.css": "8ed6c7972eef6694f745c81793f6e1bc3f4d66bd7386add7f3619897dc38bbe0",
+    "releases/0.43.1/Brand/viewport.js": "046c8f622131a223cad9497b289616a140e11af7bac7c544f5b19881a6bab126",
+    "releases/0.43.1/Build/TouchDemo.data": "279a4a50308628e0106550c455f17b26ee00f9fd703e5eeb9d0df10e1e23f26b",
+    "releases/0.43.1/Build/TouchDemo.framework.js": "ccb8beaecb481c29bff6ceb6cf5398ee427d9895c9a58c042da80765933ac0ad",
+    "releases/0.43.1/Build/TouchDemo.loader.js": "c917d54c27d6d30ea482e3a05f93c6dff13f9117e3cd23e2f7f0801b782ad360",
+    "releases/0.43.1/Build/TouchDemo.wasm": "2079590d1841944c3dde1ebd1893a671fc2262ae77bf224994615f76fb69991b",
+    "releases/0.43.1/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
+    "releases/0.43.1/StreamingAssets/highline-how-to-play.mp4": "7b3ebb45615354670b6e2866e1c0707a701dc1a43cd2375e9a8c67a1f15485fb",
+    "releases/0.43.1/credits.html": "5f6fe259f655aafb8b0d8b2cb06aa57732ea10b78f4ee37075c29ccd5c9090c0",
+    "releases/0.43.1/index.html": "4b2d2f03345c466aef9927d702e79ee89911d8364d7a046c141eef331b2a826b",
+    "releases/0.43.1/build-info.json": "b8218876531c6bd1202599c84336400df12cfb728b45aee6b910d01f8644fc64"
   },
   "playtests": [
     {
@@ -731,7 +753,16 @@
       "artifact_bytes": 137108702,
       "verification": "Unity export: zero errors and warnings. All 146 compiled browser layout and interaction assertions passed, including safe controls, portrait/landscape rotation, and viewport-height changes. Physical iPhone confirmation remains pending.",
       "changes": "Fixes empty borders on iPhone: the game fills the display while controls remain clear of the notch and Home indicator."
+    },
+    {
+      "version": "0.43.1",
+      "channel": "public-release",
+      "source_commit": "2842630f975323e1d6bed467239feee66ee28081",
+      "entrypoint": "releases/0.43.1/index.html",
+      "artifact_bytes": 137121659,
+      "verification": "Unity export succeeded with zero errors and warnings; all 56 editor PASS entries and 12 compiled exit/replay checks passed. Free Surf and gameplay screenshots were inspected. Physical iPhone motion, performance and full-screen acceptance remain pending owner testing.",
+      "changes": "The wave carries its crest forward after a clean tube exit and transfers into sustained rolling whitewater. Foam and spray follow the advancing front as its height gradually settles. Includes all 0.43 ocean, celebration and iPhone viewport improvements."
     }
   ],
-  "metadata_revision": "The default and versioned 0.42.1 links retain the existing sharing image."
+  "metadata_revision": "The default entry opens 0.43.1; prior versioned releases and the approved sharing image are preserved."
 }

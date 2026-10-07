@@ -2,19 +2,19 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing game set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.43.0](https://kingmadellc.github.io/Highline/releases/0.43.0/?v=0.43.0) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.43.1](https://kingmadellc.github.io/Highline/releases/0.43.1/?v=0.43.1) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.43.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.43.1/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.43.0/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.43.1/Brand/highline.png).*
 
-## Current release: 0.43.0
+## Current release: 0.43.1
 
-**[Play Highline 0.43.0](https://kingmadellc.github.io/Highline/releases/0.43.0/?v=0.43.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
+**[Play Highline 0.43.1](https://kingmadellc.github.io/Highline/releases/0.43.1/?v=0.43.1)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
 
-More foam and spray at the honeyhole, a progressive wave exit, richer water detail, and stronger celebrations. Mix it up now visits all five takes evenly, remembers the rotation across visits, and preserves the selected take in highlights. Includes the installed iPhone full-screen correction.
+The wave carries its crest forward after a clean tube exit and transfers into sustained rolling whitewater. Foam and spray follow the advancing front as its height gradually settles. Includes all 0.43 ocean, celebration and iPhone viewport improvements.
 
-Unity export succeeded with zero errors and one build warning; all 56 editor gates and 248 compiled browser checks passed. Physical iPhone and Safari acceptance remain pending; this release is published for owner phone testing.
+Unity export succeeded with zero errors and warnings; all 56 editor PASS entries and 12 compiled exit/replay checks passed. Free Surf and gameplay screenshots were inspected. Physical iPhone motion, performance and full-screen acceptance remain pending owner testing.
 
 ## Play
 
@@ -27,6 +27,10 @@ Use landscape orientation on a phone, or open the game in a desktop browser. All
 Practice a line, catch a wave, or try a three-wave filming set. Learn mode helps released rotations settle; Standard asks for more precise landings.
 
 ## Earlier builds
+
+**[v0.43.0](https://kingmadellc.github.io/Highline/releases/0.43.0/?v=0.43.0)**
+
+More foam and spray at the honeyhole, richer water detail, and stronger celebrations. Mix it up visits all five takes evenly and preserves the selected take in highlights. Includes the installed iPhone full-screen correction.
 
 **[v0.42.1](https://kingmadellc.github.io/Highline/releases/0.42.1/?v=0.42.1)**
 
@@ -197,7 +201,7 @@ Open **http://localhost:8000**. Serve over HTTP instead of opening `index.html` 
 | Path | Purpose |
 | --- | --- |
 | `index.html` | Entry point for the latest release |
-| `releases/0.33.0/` | Versioned game, fonts, audio, and artwork |
+| `releases/0.43.1/` | Versioned game, fonts, audio, and artwork |
 | `build-info.json` | Published version, entry point, and exact file hashes |
 | `CREDITS.md` | Audio and font attribution |
 
