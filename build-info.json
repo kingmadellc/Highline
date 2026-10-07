@@ -1,9 +1,9 @@
 {
-  "version": "0.42.0",
-  "source_commit": "ae5aa29c4438e58ec560a69d41d49cf272b72f08",
-  "entrypoint": "releases/0.42.0/index.html",
-  "artifact_bytes": 137106606,
-  "verification": "Unity\u2019s required editor gates and WebGL export passed. The daily loop, score preservation, shared standings and responsive menus were checked in Chromium with an isolated score database. The daily publisher and score service have focused automated coverage. The leaderboard does not yet replay gameplay on the server; physical-device and Safari acceptance remain open.",
+  "version": "0.42.1",
+  "source_commit": "02ccd86aac24a47bf786265e6b52296b9f49fb73",
+  "entrypoint": "releases/0.42.1/index.html",
+  "artifact_bytes": 137108702,
+  "verification": "Unity export: zero errors and warnings. All 146 compiled browser layout and interaction assertions passed, including safe controls, portrait/landscape rotation, and viewport-height changes. Physical iPhone confirmation remains pending.",
   "cache_policy": "Each release has its own asset directory. The root entry opens the latest release.",
   "files": {
     "releases/0.23.2/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
@@ -25,7 +25,7 @@
     "icon-180.png": "8406332eb1334fd0d0d047cad78b3bd4291f300d52d20dd7f7fcd91ec44f9094",
     "icon-192.png": "ca5ddd9bcb5fc1c21958ddd66edb0b2ecc18e779f87e77881b6295fcab52f1b9",
     "icon-512.png": "8caef8e78d4c5fc40e2c1ad8ad1e805cad3721f7c0d1e2562c74ef1059625a69",
-    "index.html": "5b099a6fe6b05da0eabd31f7d51dfcee9efd537e918b58f74449d9448dd184b0",
+    "index.html": "281031503f1a7040ff79a5dcd08365f6bbde611cb1cb0b64674c66a9fa4f0b65",
     "manifest.webmanifest": "6afab9fec24dbe51af67ad81a1746c024c8f25d111197eeda2092fc8089af304",
     "social/highline-social-preview-1280x640.jpg": "666b89ae79d92e195d28f6ff03d06db66e0d62a443f081b6857c8e5ccaa6ebdf",
     "social/highline-social-preview-1280x640.png": "5927e516fa763b9f0f0aae5cdc260fd6616ac6cf572689bb2522e8ce7238bb46",
@@ -83,7 +83,7 @@
     "releases/0.25.1/index.html": "a3a46b2d824b21ad49bfca661e5a65799ab915ecc903dd5237bd3056f6df3435",
     "releases/0.25.1/build-info.json": "3a809227bb424fe543d3ef894b5e33f6edc2a552a6a24e2b6024781897610a90",
     "CREDITS.md": "36f0279368145782d1f5bd3f58cd5ce557db153cee9bf1bed04b228fc2284382",
-    "README.md": "292de89ebc44f8b2215346e017381ee62870978e75775c96a3855dbe4feb05f8",
+    "README.md": "ba774b74feeb27c3cbfc0e7a3801a584c1291253f5e7fa27ac2f67e75a360f90",
     "releases/0.26.0/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
     "releases/0.26.0/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
     "releases/0.26.0/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
@@ -470,7 +470,29 @@
     "releases/0.42.0/StreamingAssets/highline-how-to-play.mp4": "7b3ebb45615354670b6e2866e1c0707a701dc1a43cd2375e9a8c67a1f15485fb",
     "releases/0.42.0/credits.html": "5f6fe259f655aafb8b0d8b2cb06aa57732ea10b78f4ee37075c29ccd5c9090c0",
     "releases/0.42.0/index.html": "4d0e3b544157d8d059c58b9e8d696ad9c52a414d1251c26a876fdf3241fdf4f6",
-    "releases/0.42.0/build-info.json": "54445140f0e7da2fa51307610bd37bb6d2cd86f3c7aaba1a92e2821bd63c9149"
+    "releases/0.42.0/build-info.json": "54445140f0e7da2fa51307610bd37bb6d2cd86f3c7aaba1a92e2821bd63c9149",
+    "releases/0.42.1/Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "releases/0.42.1/Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
+    "releases/0.42.1/Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "releases/0.42.1/Brand/HighlineTide.woff2": "3915c602b0a48cd7e31d72b46bbd33f4c0ce4cefd24930f3df586054dc90de62",
+    "releases/0.42.1/Brand/hero-masks.png": "5ac32c7f39fcd3032eb4c7bd189817cffb185bba10e60183e9cb94301bde34fc",
+    "releases/0.42.1/Brand/hero.frag": "c869b5b6b59acd8aa0900f2fd8d399a605e3757bb5154319ea17bc9dc54b4b42",
+    "releases/0.42.1/Brand/hero.js": "c7ee6e8bb91f704962441eaea18521f7b8174a379bba06593523378e9a02e396",
+    "releases/0.42.1/Brand/highline-plate.png": "f119f34b48633bac55ee7241e48a90eb302737728b58cb1b882e930a25175e57",
+    "releases/0.42.1/Brand/highline.png": "1e47b821ddc7e69e1b0d6228dc5872b5ef9e0dc960e589bd60c1ffb8e5d54fb7",
+    "releases/0.42.1/Brand/main-cover-backdrop.png": "575fe119abeca9698943fabf1dd739ec17df0844b9e7421c5f645d52a090b29d",
+    "releases/0.42.1/Brand/print-atlas.png": "acf66f163173f4ac55dd547c2d4b2a48d311891817f71196c6d824326c8f0b1b",
+    "releases/0.42.1/Brand/start.css": "4b52e4855027d1adf0277aa3c496a27cea2983abe2f3ff240b5e2b24a4aabf1a",
+    "releases/0.42.1/Brand/viewport.js": "bd71f23c3f7c56bf27bf346501383a15f316c64ff28c2a77580ea1418b02431b",
+    "releases/0.42.1/Build/TouchDemo.data": "ecc73b45847f484e025bd3b40fcbb0709253eee8216a119bf6be12951a7cfa42",
+    "releases/0.42.1/Build/TouchDemo.framework.js": "47e119187967edc3e4a52cb0081bc35bb806a5399650d7d9a1ab9e5540bbb2c3",
+    "releases/0.42.1/Build/TouchDemo.loader.js": "65a1cc885346343be7205b1c98f8f9af6b25e1598a9f2128e8d4b2d018b236f9",
+    "releases/0.42.1/Build/TouchDemo.wasm": "be98836c7ae932bb448ac9a60adf634fa6bb3d15706a6e7cf10b9279700fd07c",
+    "releases/0.42.1/StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
+    "releases/0.42.1/StreamingAssets/highline-how-to-play.mp4": "7b3ebb45615354670b6e2866e1c0707a701dc1a43cd2375e9a8c67a1f15485fb",
+    "releases/0.42.1/credits.html": "5f6fe259f655aafb8b0d8b2cb06aa57732ea10b78f4ee37075c29ccd5c9090c0",
+    "releases/0.42.1/index.html": "7e0145d01410714dac6384e2daf918959887c472f53c48f02b939671028ac7d9",
+    "releases/0.42.1/build-info.json": "3723743bbfd47451e1a08ad6eeb9bd33542fb4051da37740663637027d52f03b"
   },
   "playtests": [
     {
@@ -678,7 +700,16 @@
       "artifact_bytes": 137106606,
       "verification": "Unity\u2019s required editor gates and WebGL export passed. The daily loop, score preservation, shared standings and responsive menus were checked in Chromium with an isolated score database. The daily publisher and score service have focused automated coverage. The leaderboard does not yet replay gameplay on the server; physical-device and Safari acceptance remain open.",
       "changes": "Today\u2019s Wave is now the main event: one shared Satellite Beach morning wave, unlimited attempts, and an automatically posted daily best. The cleaner menu puts Surf now, Best and World first. Free Surf, First Wave lessons, Surf Club and the journal remain close by. Global standings are in beta with basic submission validation."
+    },
+    {
+      "version": "0.42.1",
+      "channel": "public-release",
+      "source_commit": "02ccd86aac24a47bf786265e6b52296b9f49fb73",
+      "entrypoint": "releases/0.42.1/index.html",
+      "artifact_bytes": 137108702,
+      "verification": "Unity export: zero errors and warnings. All 146 compiled browser layout and interaction assertions passed, including safe controls, portrait/landscape rotation, and viewport-height changes. Physical iPhone confirmation remains pending.",
+      "changes": "Fixes empty borders on iPhone: the game fills the display while controls remain clear of the notch and Home indicator."
     }
   ],
-  "metadata_revision": "The default and versioned 0.42.0 links retain the existing sharing image."
+  "metadata_revision": "The default and versioned 0.42.1 links retain the existing sharing image."
 }

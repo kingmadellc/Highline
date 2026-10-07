@@ -2,19 +2,19 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing game set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.42.0](https://kingmadellc.github.io/Highline/releases/0.42.0/?v=0.42.0) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.42.1](https://kingmadellc.github.io/Highline/releases/0.42.1/?v=0.42.1) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.42.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.42.1/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.42.0/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.42.1/Brand/highline.png).*
 
-## Current release: 0.42.0
+## Current release: 0.42.1
 
-**[Play Highline 0.42.0](https://kingmadellc.github.io/Highline/releases/0.42.0/?v=0.42.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
+**[Play Highline 0.42.1](https://kingmadellc.github.io/Highline/releases/0.42.1/?v=0.42.1)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
 
-Today’s Wave is now the main event: one shared Satellite Beach morning wave, unlimited attempts, and an automatically posted daily best. The cleaner menu puts Surf now, Best and World first. Free Surf, First Wave lessons, Surf Club and the journal remain close by. Global standings are in beta with basic submission validation.
+Fixes empty borders on iPhone: the game fills the display while controls remain clear of the notch and Home indicator.
 
-Unity’s required editor gates and WebGL export passed. The daily loop, score preservation, shared standings and responsive menus were checked in Chromium with an isolated score database. The daily publisher and score service have focused automated coverage. The leaderboard does not yet replay gameplay on the server; physical-device and Safari acceptance remain open.
+Unity export: zero errors and warnings. All 146 compiled browser layout and interaction assertions passed, including safe controls, portrait/landscape rotation, and viewport-height changes. Physical iPhone confirmation remains pending.
 ## Play
 
 Use landscape orientation on a phone, or open the game in a desktop browser. Allow the initial game download to finish, then select **Let it rip**. Subsequent visits can reuse cached assets.
@@ -26,6 +26,13 @@ Use landscape orientation on a phone, or open the game in a desktop browser. All
 Practice a line, catch a wave, or try a three-wave filming set. Learn mode helps released rotations settle; Standard asks for more precise landings.
 
 ## Earlier builds
+
+**[v0.42.0](https://kingmadellc.github.io/Highline/releases/0.42.0/?v=0.42.0)**
+
+Today’s Wave is now the main event: one shared Satellite Beach morning wave, unlimited attempts, and an automatically posted daily best. The cleaner menu puts Surf now, Best and World first. Free Surf, First Wave lessons, Surf Club and the journal remain close by. Global standings are in beta with basic submission validation.
+
+Unity’s required editor gates and WebGL export passed. The daily loop, score preservation, shared standings and responsive menus were checked in Chromium with an isolated score database. The daily publisher and score service have focused automated coverage. The leaderboard does not yet replay gameplay on the server; physical-device and Safari acceptance remain open.
+
 
 **[v0.41.0](https://kingmadellc.github.io/Highline/releases/0.41.0/?v=0.41.0)**
 
