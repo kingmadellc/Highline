@@ -2,19 +2,19 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing game set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.41.0](https://kingmadellc.github.io/Highline/releases/0.41.0/?v=0.41.0) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.42.0](https://kingmadellc.github.io/Highline/releases/0.42.0/?v=0.42.0) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.41.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.42.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.41.0/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.42.0/Brand/highline.png).*
 
-## Current release: 0.41.0
+## Current release: 0.42.0
 
-**[Play Highline 0.41.0](https://kingmadellc.github.io/Highline/releases/0.41.0/?v=0.41.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
+**[Play Highline 0.42.0](https://kingmadellc.github.io/Highline/releases/0.42.0/?v=0.42.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
 
-Start with a guided First wave, resume your lesson, follow clearer Summer assignments, and Keep photo & continue into the next session. Weekly prompts add new reasons to return; scoring rewards varied surfing and reduces repeated-pair farming. Free Surf, existing keepsakes, accepted cover art, and the six-page Summer issue remain available. Optional playtest notes stay local, off by default, and under player control.
+Today’s Wave is now the main event: one shared Satellite Beach morning wave, unlimited attempts, and an automatically posted daily best. The cleaner menu puts Surf now, Best and World first. Free Surf, First Wave lessons, Surf Club and the journal remain close by. Global standings are in beta with basic submission validation.
 
-Unity Web build passed with zero errors and warnings. Chromium verification passed 442 journey/menu assertions from phone-sized viewports through 4K, 139 consent/export/erase assertions, and 24 earned-photo persistence/continuation assertions. Automated checks are not human playtests. Desktop Chrome is the verified browser path for this release. Pinned Playwright WebKit 26.0 reproduces fullscreen blank output and incomplete rider rendering on both 0.40 and 0.41; Safari and physical iPhone acceptance remain open. Compact Club strip text at 4K still needs polish. Native signing, TestFlight, device haptics/audio/VoiceOver/performance and human retention testing are not verified.
+Unity’s required editor gates and WebGL export passed. The daily loop, score preservation, shared standings and responsive menus were checked in Chromium with an isolated score database. The daily publisher and score service have focused automated coverage. The leaderboard does not yet replay gameplay on the server; physical-device and Safari acceptance remain open.
 ## Play
 
 Use landscape orientation on a phone, or open the game in a desktop browser. Allow the initial game download to finish, then select **Let it rip**. Subsequent visits can reuse cached assets.
@@ -26,6 +26,13 @@ Use landscape orientation on a phone, or open the game in a desktop browser. All
 Practice a line, catch a wave, or try a three-wave filming set. Learn mode helps released rotations settle; Standard asks for more precise landings.
 
 ## Earlier builds
+
+**[v0.41.0](https://kingmadellc.github.io/Highline/releases/0.41.0/?v=0.41.0)**
+
+Start with a guided First wave, resume your lesson, follow clearer Summer assignments, and Keep photo & continue into the next session. Weekly prompts add new reasons to return; scoring rewards varied surfing and reduces repeated-pair farming. Free Surf, existing keepsakes, accepted cover art, and the six-page Summer issue remain available. Optional playtest notes stay local, off by default, and under player control.
+
+Unity Web build passed with zero errors and warnings. Chromium verification passed 442 journey/menu assertions from phone-sized viewports through 4K, 139 consent/export/erase assertions, and 24 earned-photo persistence/continuation assertions. Automated checks are not human playtests. Desktop Chrome is the verified browser path for this release. Pinned Playwright WebKit 26.0 reproduces fullscreen blank output and incomplete rider rendering on both 0.40 and 0.41; Safari and physical iPhone acceptance remain open. Compact Club strip text at 4K still needs polish. Native signing, TestFlight, device haptics/audio/VoiceOver/performance and human retention testing are not verified.
+
 
 **[v0.40.0](https://kingmadellc.github.io/Highline/releases/0.40.0/?v=0.40.0)**
 
