@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="A touch-first surfing game set in Satellite Beach, Florida, by King Made.">
+<meta property="og:title" content="Highline · Satellite Beach, FL">
+<meta property="og:description" content="A touch-first surfing game set in Satellite Beach, Florida, by King Made.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Highline">
+<meta property="og:url" content="https://kingmadellc.github.io/Highline/releases/0.44.1/">
+<meta property="og:image" content="https://kingmadellc.github.io/Highline/social/highline-social-preview-1280x640.jpg">
+<meta property="og:image:secure_url" content="https://kingmadellc.github.io/Highline/social/highline-social-preview-1280x640.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="640">
+<meta property="og:image:alt" content="Illustrated surfer riding a red board inside a turquoise wave beside the cream and red Highline wordmark.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Highline · Satellite Beach, FL">
+<meta name="twitter:description" content="A touch-first surfing game set in Satellite Beach, Florida, by King Made.">
+<meta name="twitter:image" content="https://kingmadellc.github.io/Highline/social/highline-social-preview-1280x640.jpg">
+<meta name="twitter:image:alt" content="Illustrated surfer riding a red board inside a turquoise wave beside the cream and red Highline wordmark.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#07363b">
+  <link rel="icon" href="data:,">
+  <link rel="preload" as="font" href="Brand/HighlineTide.woff2" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="Brand/start.css">
+  <link rel="manifest" href="../../manifest.webmanifest">
+  <link rel="apple-touch-icon" href="../../icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Highline">
+  <style>
+    #a2hs{margin:10px 0 0 auto;max-width:300px;font:500 13px/1.35 Barlow,system-ui,sans-serif;color:#fff0d7;background:#07363bd9;border:1px solid #fff0d733;border-radius:10px;padding:8px 30px 8px 12px;position:relative;text-align:left}
+    #a2hs[hidden]{display:none}
+    #a2hs b{font-weight:700;color:#fff}
+    #a2hs>button{all:unset;position:absolute;top:4px;right:6px;width:22px;height:22px;display:grid;place-items:center;font:18px/1 system-ui,sans-serif;color:#fff0d7;cursor:pointer;opacity:.8}
+    #a2hs>button::before,#a2hs>button::after{content:none!important;display:none!important}
+    /* How to play: a quiet second line under Let it rip, and the film itself in a dialog. */
+    #howto{all:unset;display:inline-block;margin-top:clamp(8px,.6vw,16px);font:500 clamp(13px,1.05vw,26px)/1.3 Barlow,system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#fff0d7;cursor:pointer;padding:6px 2px;border-bottom:2px solid #e24b35;min-height:0;width:auto;box-shadow:none;border-radius:0}
+    #howto:hover{color:#fff}#howto:focus-visible{outline:3px solid #e24b35;outline-offset:5px}#howto[hidden]{display:none!important}
+    #howto-dialog{border:0;padding:0;background:transparent;max-width:min(96vw,1400px);max-height:96dvh;width:min(96vw,calc((96dvh - 88px)*16/9));color:#fff0d7}
+    #howto-dialog:not([open]){display:none!important}
+    #howto-dialog::backdrop{background:rgba(2,20,24,.88)}
+    #howto-dialog .film{position:relative;background:#07363b;border-radius:10px;padding:10px;box-shadow:0 6px 0 #e24b35}
+    #howto-dialog video{display:block;width:100%;max-height:calc(96dvh - 88px);aspect-ratio:16/9;background:#000;border-radius:6px;object-fit:contain}
+    #howto-dialog .bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 4px 2px;font:500 clamp(13px,1vw,22px)/1.3 Barlow,system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+    #howto-dialog .close{all:unset;cursor:pointer;font:600 clamp(14px,1.05vw,24px)/1 Barlow,system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#07363b;background:#fff0d7;border-radius:6px;padding:.7em 1.2em;box-shadow:0 3px 0 #e24b35;min-height:44px;box-sizing:border-box}
+    #howto-dialog .close:focus-visible{outline:3px solid #e24b35;outline-offset:4px}
+    @media(max-height:400px){#howto-dialog .bar{font-size:11px;padding-top:6px}#howto-dialog .close{flex-shrink:0}}
+  </style>
+  <title>Highline · Satellite Beach, FL</title>
+</head>
+<body>
+  <main id="game">
+    <canvas id="unity-canvas" width="1280" height="720" tabindex="0" aria-label="Highline surfing game"></canvas>
+    <section id="loading" aria-label="Highline start screen">
+      <img class="keyart" src="Brand/highline.png" alt="Highline — a surfer on a red board inside a sunlit turquoise wave, with the cream and red Highline wordmark above Hightower Beach">
+      <canvas id="hero-motion" class="ocean-motion" aria-hidden="true"></canvas><div class="shade" aria-hidden="true"></div>
+      <h1 class="sr-only">Highline</h1>
+      <div class="launch">
+        <h2>Satellite Beach, FL</h2>
+        <div class="ready"><progress id="progress" value="0" max="1" aria-label="Loading Highline"></progress><p id="status" role="status" aria-live="polite">Loading…</p><button id="enter" hidden>Let it rip</button><p id="entry-hint">Pull down and hold to paddle. Release in green to stand.</p><button id="howto" type="button" hidden aria-haspopup="dialog">How to play · 48 sec</button><p id="a2hs" hidden>For full screen, tap <b>Share</b> then <b>Add to Home Screen</b> and launch Highline from there.<button type="button" aria-label="Dismiss">×</button></p></div>
+      </div>
+    </section>
+    <div id="entry-swell" aria-hidden="true"></div>
+    <dialog id="howto-dialog" aria-label="How to play Highline">
+      <div class="film">
+        <video id="howto-video" playsinline controls preload="none" src="StreamingAssets/highline-how-to-play.mp4"></video>
+        <div class="bar"><span>Paddle · Stand up · Control · Tricks · Scoring</span><button class="close" type="button">Close</button></div>
+      </div>
+    </dialog>
+    <aside id="rotate"><span class="rotate-mark" aria-hidden="true">Highline</span><h2>Rotate to landscape.</h2></aside>
+  </main>
+  <script src="Brand/viewport.js"></script>
+  <script>
+    const canvas=document.getElementById('unity-canvas');
+    const qaBuild='0'==='1';
+    if(matchMedia('(pointer: fine)').matches)document.getElementById('entry-hint').textContent='SPACE: paddle, release in green. WASD / arrows: carve and spin.';
+    // Full inspection is demand-driven. Ordinary surfing does not allocate and
+    // parse a large diagnostic snapshot every display frame.
+    if(qaBuild)window.render_game_to_text=()=>{
+      unity?.SendMessage('Hightower Surf Demo','RefreshSnapshot');
+      return JSON.stringify(window.surfState||{mode:'loading'});
+    };
+    // Register before Unity: entering the shell must not also activate the
+    // currently selected Unity menu action behind it.
+    window.addEventListener('keydown',event=>{
+      if((!document.getElementById('loading').hidden||window.highlineEntering)&&['Enter',' ','ArrowDown','ArrowUp'].includes(event.key)){
+        event.preventDefault();event.stopImmediatePropagation();
+        if(document.getElementById('howto-dialog').open||document.activeElement===document.getElementById('howto'))return;
+        if((event.key==='Enter'||event.key===' ')&&!document.getElementById('enter').hidden)document.getElementById('enter').click();
+      }
+    },true);
+    let unity;
+    const motion=matchMedia('(prefers-reduced-motion: reduce)');
+    const syncMotion=()=>unity?.SendMessage('Hightower Surf Demo','SetMenuSystemMotion',motion.matches?'reduced':'full');
+    motion.addEventListener('change',syncMotion);
+    // Portrait: the rotate overlay is only a picture unless the game also stops
+    // listening. Hold input and pause an active ride while upright; restore the
+    // previous pause state on return to landscape (handled in SetPortraitHold).
+    const portrait=matchMedia('(orientation: portrait)');
+    let portraitSent=false;
+    const syncPortrait=()=>{const hold=portrait.matches&&!!window.highlineSurfing;document.getElementById('rotate').style.display=hold?'grid':'none';if(!!hold!==portraitSent){portraitSent=!!hold;unity?.SendMessage('Hightower Surf Demo','SetPortraitHold',hold?'1':'0');}};
+    window.highlineSyncPortrait=syncPortrait;
+    portrait.addEventListener('change',syncPortrait);
+    window.highlinePortraitHeld=()=>portraitSent;
+    const ready=new Promise(resolve=>window.surfReady=resolve);
+    if(qaBuild)window.advanceTime=async ms=>{
+      await ready;
+      if(window.highlineTransition)await window.highlineTransition;
+      while(!window.surfState)await new Promise(requestAnimationFrame);
+      await new Promise(requestAnimationFrame);
+      unity.SendMessage('Hightower Surf Demo','Advance',String(ms));
+      await new Promise(requestAnimationFrame);
+    };
+    const fail=message=>{const status=document.getElementById('status');status.textContent=message;status.hidden=false;document.getElementById('progress').hidden=true;console.error(message);};
+    // Keep the poster opaque until Unity has painted the destination at the
+    // current size. Two subsequent frames allow submitted GUI work to present.
+    async function waitForMenuPaint(){
+      const after=window.highlineMenuPaint?.frame??-1;
+      let elapsed=0,last=performance.now();
+      while(elapsed<30000){
+        await new Promise(requestAnimationFrame);
+        const now=performance.now();
+        // Waiting at the rotation prompt or in a background tab is not a load failure.
+        if(!document.hidden&&canvas.clientWidth>=canvas.clientHeight)elapsed+=Math.min(now-last,1000);
+        last=now;
+        const paint=window.highlineMenuPaint,ratio=window.highlineMenuResolution?.ratio??Math.min(devicePixelRatio||1,3);
+        if(paint?.ready&&paint.frame>=after+2&&paint.width===canvas.width&&paint.height===canvas.height&&Math.abs(canvas.width-canvas.clientWidth*ratio)<2)return paint;
+      }
+      throw Error('The menu could not finish drawing. Please reload.');
+    }
+    const script=document.createElement('script');script.src='Build/TouchDemo.loader.js';
+    script.onerror=()=>fail('The beach could not load. Check your connection and reload.');
+    script.onload=()=>createUnityInstance(canvas,{
+      dataUrl:'Build/TouchDemo.data.unityweb',frameworkUrl:'Build/TouchDemo.framework.js.unityweb',codeUrl:'Build/TouchDemo.wasm.unityweb',
+      streamingAssetsUrl:'StreamingAssets',companyName:'King Made',productName:'Highline',productVersion:'0.44.1',
+      devicePixelRatio:Math.min(window.devicePixelRatio||1,3),matchWebGLToCanvasSize:true,
+      showBanner:(message,type)=>{if(type==='error')fail(message);}
+    },p=>document.getElementById('progress').value=p).then(async instance=>{
+      unity=instance;if(qaBuild)window.surfUnity=unity;unity.SendMessage('Hightower Surf Demo','SetMenuShellVisible','1');syncMotion();syncPortrait();window.surfReady();
+      await waitForMenuPaint();window.highlineEntryReady=true;
+      document.getElementById('progress').hidden=true;document.getElementById('status').textContent='';document.getElementById('status').hidden=true;document.getElementById('enter').hidden=false;document.getElementById('howto').hidden=false;
+    }).catch(error=>fail('The beach could not start. Please reload. '+error.message));
+    document.body.appendChild(script);
+    const standalone=matchMedia('(display-mode: fullscreen)').matches||matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
+    const iOS=/iP(hone|od|ad)/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+    const hint=document.getElementById('a2hs');
+    let hintDismissed=false;try{hintDismissed=localStorage.getItem('highline.a2hs')==='1';}catch(e){}
+    if(iOS&&!standalone&&!hintDismissed)hint.hidden=false;
+    hint.querySelector('button').onclick=()=>{hint.hidden=true;try{localStorage.setItem('highline.a2hs','1');}catch(e){}};
+    const goFullscreen=()=>{
+      if(standalone||iOS||document.fullscreenElement||!document.fullscreenEnabled)return Promise.resolve();
+      const game=document.getElementById('game');
+      return game.requestFullscreen({navigationUI:'hide'}).then(()=>screen.orientation?.lock?.('landscape').catch(()=>{})).catch(()=>{});
+    };
+    document.getElementById('enter').onclick=event=>{
+      if(!window.highlineEntryReady||window.highlineEntering||document.getElementById('loading').hidden)return;
+      // Resume Unity's real context while this click/key activation is still live,
+      // before fullscreen or the asynchronous entry transition can consume it.
+      window.highlineAudio?.enter(event);
+      const fullscreenReady=goFullscreen();
+      const shell=document.getElementById('loading'),button=document.getElementById('enter');
+      const reduced=motion.matches||window.highlineShellState?.reducedMotion;
+      window.highlineEntering=true;button.disabled=true;
+      unity?.SendMessage('Hightower Surf Demo','SetMenuPhase','3');
+      window.highlineTransition=(async()=>{
+        try{
+          await fullscreenReady;
+          const paint=await waitForMenuPaint();
+          window.highlineEntryPaint=paint;
+          document.getElementById('game').classList.add('entered');
+          if(!reduced){
+            shell.classList.add('entering');
+            await new Promise(resolve=>setTimeout(resolve,180));
+          }
+          shell.hidden=true;window.highlineHero?.dispose();
+          unity.SendMessage('Hightower Surf Demo','SetMenuShellVisible','0');
+          window.highlineEntering=false;canvas.focus();
+        }catch(error){shell.classList.remove('entering');window.highlineEntering=false;button.disabled=false;fail(error.message);}
+      })();
+    };
+    // How to play from the start screen: the same film the game bundles, in a dialog
+    // that Close, Escape or the backdrop dismiss. The game is untouched behind it.
+    {
+      const dialog=document.getElementById('howto-dialog'),video=document.getElementById('howto-video');
+      const closeFilm=()=>{video.pause();if(dialog.open)dialog.close();(document.getElementById('loading').hidden?canvas:document.getElementById('howto')).focus();};
+      const openFilm=()=>{if(dialog.open)return;dialog.showModal();video.currentTime=0;video.play().catch(()=>{});};
+      dialog.addEventListener('cancel',event=>{event.preventDefault();closeFilm();});
+      document.getElementById('howto').onclick=openFilm;
+      dialog.querySelector('.close').onclick=closeFilm;
+      dialog.addEventListener('close',()=>video.pause());
+      dialog.addEventListener('click',event=>{if(event.target===dialog)closeFilm();});
+      window.highlineHowToPlay={open:openFilm,close:closeFilm,isOpen:()=>dialog.open};
+    }
+    document.addEventListener('keydown',event=>{if(document.getElementById('howto-dialog').open||event.repeat)return;if(event.key.toLowerCase()==='f'&&unity){event.preventDefault();if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});else goFullscreen();}});
+    canvas.addEventListener('contextmenu',event=>event.preventDefault());
+  </script>
+  <script src="Brand/hero.js"></script>
+</body>
+</html>
