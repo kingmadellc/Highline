@@ -2,19 +2,19 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing game set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.43.2](https://kingmadellc.github.io/Highline/releases/0.43.2/?v=0.43.2) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.44.1](https://kingmadellc.github.io/Highline/releases/0.44.1/?v=0.44.1) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.43.2/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.44.1/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.43.2/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.44.1/Brand/highline.png).*
 
-## Current release: 0.43.2
+## Current release: 0.44.1
 
-**[Play Highline 0.43.2](https://kingmadellc.github.io/Highline/releases/0.43.2/?v=0.43.2)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
+**[Play Highline 0.44.1](https://kingmadellc.github.io/Highline/releases/0.44.1/?v=0.44.1)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this same release.
 
-New players go from the bundled how-to film into a guided first wave. Returning players enter Today’s Wave directly. Lessons stay in Settings, ordinary retries no longer offer practice detours, and gameplay labels fit their boxes with Larger Text.
+Preserves the original Highline splash. Let It Rip opens a separate home with Daily Wave Competition and Free Surf, plus secondary Settings and How to play. Corrects viewport and fullscreen-container sizing, hides startup HUD/video leakage, and keeps the help Close control visible. Daily competition/global standings and Free Surf Surf Again/Main Menu remain. Retired magazine/story/progression routes stay retired; saves, physics, scoring and cue fixes are preserved.
 
-Unity export succeeded with zero errors and warnings; 56 editor PASS entries and 33 compiled first-visit/menu/HUD checks passed. First-use film, gameplay and small-screen Larger Text screenshots were inspected. Physical iPhone acceptance remains an owner check.
+Both QA and production WebGL exports passed with zero errors and warnings. The full editor gate passed 53 groups; final focused gates passed 190 assertions per build. Final browser suites passed 621 assertions covering both modes, real fullscreen APIs, resizing, retries and save preservation. Desktop windowed and landscape phone-profile pixels were inspected. Native fullscreen visual acceptance and physical iPhone/Safari testing remain pending. Browser emulation is not device testing.
 
 ## Play
 
@@ -24,9 +24,15 @@ Use landscape orientation on a phone, or open the game in a desktop browser. All
 2. Draw low on the wave to build speed. Reach the crest for a grounded grind; use a deliberate flick or circle there to launch.
 3. Move sideways in the air to rotate, then release before landing. Keep riding to bank the air and preserve momentum.
 
-Practice a line, catch a wave, or try a three-wave filming set. Learn mode helps released rotations settle; Standard asks for more precise landings.
+Choose **Daily Wave Competition** for the shared ranked wave and global leaderboard, or **Free Surf** for unranked surfing. Settings and How to play remain reachable from home and pause.
 
 ## Earlier builds
+
+**[v0.43.2](https://kingmadellc.github.io/Highline/releases/0.43.2/?v=0.43.2)**
+
+New players go from the bundled how-to film into a guided first wave. Returning players enter Today’s Wave directly. Lessons stay in Settings, ordinary retries no longer offer practice detours, and gameplay labels fit their boxes with Larger Text.
+
+Unity export succeeded with zero errors and warnings; 56 editor PASS entries and 33 compiled first-visit/menu/HUD checks passed. First-use film, gameplay and small-screen Larger Text screenshots were inspected. Physical iPhone acceptance remains an owner check.
 
 **[v0.43.1](https://kingmadellc.github.io/Highline/releases/0.43.1/?v=0.43.1)**
 
