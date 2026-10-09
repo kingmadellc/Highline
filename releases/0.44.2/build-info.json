@@ -1,0 +1,32 @@
+{
+  "version": "0.44.2",
+  "channel": "public-release",
+  "source_commit": "85c0c56f542d23a4f4b9e5dba15c9d75c234858a",
+  "entrypoint": "releases/0.44.2/index.html",
+  "artifact_bytes": 85396954,
+  "verification": "Both 0.44.2 WebGL exports passed with zero errors and warnings, with 190 core, route, save migration, accessibility and cue checks each. Desktop and landscape mobile browser checks cover Settings, saved preferences, support routes and both surf modes. Actual fullscreen API entry, exit and resizing pass. Production diagnostic gating and local production routes pass. Physical iPhone/Safari, native fullscreen visuals, audio, haptics and performance remain owner playtest checks.",
+  "changes": "Extends the home screen red-button treatment, Highline Tide and Barlow typography throughout Settings, preferences and contextual help. Preserves the workshop layout, original splash, separate two-mode home, daily leaderboard, Free Surf, gameplay, scoring and saved preferences.",
+  "files": {
+    "index.html": "dd472888d7fbe2b1e7546f402d0e611f7955437f7703ee986106c56b80a92834",
+    "credits.html": "5f6fe259f655aafb8b0d8b2cb06aa57732ea10b78f4ee37075c29ccd5c9090c0",
+    "Brand/highline.png": "1e47b821ddc7e69e1b0d6228dc5872b5ef9e0dc960e589bd60c1ffb8e5d54fb7",
+    "Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
+    "Brand/highline-plate.png": "f119f34b48633bac55ee7241e48a90eb302737728b58cb1b882e930a25175e57",
+    "Brand/main-cover-backdrop.png": "575fe119abeca9698943fabf1dd739ec17df0844b9e7421c5f645d52a090b29d",
+    "Brand/print-atlas.png": "acf66f163173f4ac55dd547c2d4b2a48d311891817f71196c6d824326c8f0b1b",
+    "Brand/start.css": "66ae7fcd3a1ef4a7592e2fd357b36f238266fb181e01425daceba802f1d5eda7",
+    "Brand/hero-masks.png": "5ac32c7f39fcd3032eb4c7bd189817cffb185bba10e60183e9cb94301bde34fc",
+    "Brand/HighlineTide.woff2": "3915c602b0a48cd7e31d72b46bbd33f4c0ce4cefd24930f3df586054dc90de62",
+    "Brand/hero.js": "c7ee6e8bb91f704962441eaea18521f7b8174a379bba06593523378e9a02e396",
+    "Brand/hero.frag": "c869b5b6b59acd8aa0900f2fd8d399a605e3757bb5154319ea17bc9dc54b4b42",
+    "Brand/viewport.js": "f769879f430d9df7101b02ae6b93af60658d92bedd92c49ab7e8c2ead77678a6",
+    "Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "StreamingAssets/highline-how-to-play.mp4": "7b3ebb45615354670b6e2866e1c0707a701dc1a43cd2375e9a8c67a1f15485fb",
+    "StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
+    "Build/TouchDemo.loader.js": "0b3ecc30d25c6bd59859649a706c3531cb8dba35b054f43e378e77e43bb13d25",
+    "Build/TouchDemo.framework.js.unityweb": "f6f687dbaf51922fa312dd67e81e4e360b838be40d0944d4a70a7ecf66d1a713",
+    "Build/TouchDemo.wasm.unityweb": "678ae965bef8f66d892441d65cae33a4095100ebba929dd0bf800a907eebe170",
+    "Build/TouchDemo.data.unityweb": "4b8055e955d1b650804b984d3849f841fbda2d7690d3c5c0b328a94af6d7bc82"
+  }
+}
