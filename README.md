@@ -2,19 +2,19 @@
 
 Catch a wave, find your line, and carry the landing into the next move. **Highline** is a touch-first Unity surfing game set in Satellite Beach, Florida, by King Made.
 
-**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.44.2](https://kingmadellc.github.io/Highline/releases/0.44.2/?v=0.44.2) · [King Made](https://kingmade.co/games/#highline)
+**[Play Highline](https://kingmadellc.github.io/Highline/)** · [Version 0.45.0](https://kingmadellc.github.io/Highline/releases/0.45.0/?v=0.45.0) · [King Made](https://kingmade.co/games/#highline)
 
-[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.44.2/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
+[![Highline illustrated key art: a surfer riding a turquoise wave beside the Highline wordmark](releases/0.45.0/Brand/highline.png)](https://kingmadellc.github.io/Highline/)
 
-*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.44.2/Brand/highline.png).*
+*Illustrated key art, 1672 × 941. [Open the full-resolution artwork](releases/0.45.0/Brand/highline.png).*
 
-## Current release: 0.44.2
+## Current release: 0.45.0
 
-**[Play Highline 0.44.2](https://kingmadellc.github.io/Highline/releases/0.44.2/?v=0.44.2)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this release.
+**[Play Highline 0.45.0](https://kingmadellc.github.io/Highline/releases/0.45.0/?v=0.45.0)** on your phone in landscape or in a desktop browser. The main Play Highline link opens this release.
 
-Extends the home screen red-button treatment, Highline Tide and Barlow typography throughout Settings, preferences and contextual help. Preserves the workshop layout, original splash, separate two-mode home, daily leaderboard, Free Surf, gameplay, scoring and saved preferences.
+Adds deliberate reverse commitment, physical crest grinds and momentum-dependent airs. Release-to-settle guidance is shown only for supported landing actions. Preserves the original splash, distinct two-mode home, Settings and help. Daily competition uses separate 0.45 rules/API/feed and a new save database with safe legacy import; earlier saves, releases, players and scores remain recoverable.
 
-Both 0.44.2 WebGL exports passed with zero errors and warnings, with 190 core, route, save migration, accessibility and cue checks each. Desktop and landscape mobile browser checks cover Settings, saved preferences, support routes and both surf modes. Actual fullscreen API entry, exit and resizing pass. Production diagnostic gating and local production routes pass. Physical iPhone/Safari, native fullscreen visuals, audio, haptics and performance remain owner playtest checks.
+Both WebGL exports passed with zero errors and warnings; 57 Unity regression groups and 1,760 browser assertions passed, including actual fullscreen entry/exit/resizing, both modes, Settings and concurrent 0.44.2/0.45 save safety. Landing guidance passed 504,312 native assertions and all 12 ordinary-touch reaction/sign/release combinations, with zero false promises in those tests. Old/new service and feed compatibility, idempotent retries and rollback passed in isolated databases. Physical iPhone/Safari, native fullscreen pixels, sustained performance, audio, haptics and subjective feel remain owner checks.
 
 ## Play
 
@@ -27,6 +27,16 @@ Use landscape orientation on a phone, or open the game in a desktop browser. All
 Choose **Daily Wave Competition** for the shared ranked wave and global leaderboard, or **Free Surf** for unranked surfing. Settings and How to play remain reachable from home and pause.
 
 ## Earlier builds
+
+**[v0.44.2](https://kingmadellc.github.io/Highline/releases/0.44.2/?v=0.44.2)**
+
+
+**[Play Highline 0.44.2](https://kingmadellc.github.io/Highline/releases/0.44.2/?v=0.44.2)** on your phone in landscape or in a desktop browser. The versioned link remains available for rollback.
+
+Extends the home screen red-button treatment, Highline Tide and Barlow typography throughout Settings, preferences and contextual help. Preserves the workshop layout, original splash, separate two-mode home, daily leaderboard, Free Surf, gameplay, scoring and saved preferences.
+
+Both 0.44.2 WebGL exports passed with zero errors and warnings, with 190 core, route, save migration, accessibility and cue checks each. Desktop and landscape mobile browser checks cover Settings, saved preferences, support routes and both surf modes. Actual fullscreen API entry, exit and resizing pass. Production diagnostic gating and local production routes pass. Physical iPhone/Safari, native fullscreen visuals, audio, haptics and performance remain owner playtest checks.
+
 
 **[v0.44.1](https://kingmadellc.github.io/Highline/releases/0.44.1/?v=0.44.1)**
 
