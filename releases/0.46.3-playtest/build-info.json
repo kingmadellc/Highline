@@ -1,0 +1,32 @@
+{
+  "version": "0.46.3-playtest",
+  "channel": "playtest",
+  "source_commit": "c41d6ed8d961a727b21fc6bb02cc3cb4e286037a",
+  "entrypoint": "releases/0.46.3-playtest/index.html",
+  "artifact_bytes": 85423252,
+  "verification": "Unity 6000.3.0f1 WebGL export succeeded with 0 errors and 0 warnings; 147 playtest checks passed, including Session 5 regression (too-low/shoulder/deep-flats within 30 m of FinishX now see Barrel height cue; Deep flats DangerCue suppressed in that window) and prior pocket/paddle-in tube checks. Local only before publish. Not verified on a physical device. Does not replace 0.45.0, 0.46.0-playtest, 0.46.1-playtest or 0.46.2-playtest.",
+  "changes": "Wider barrel-height approach coaching. Within 30 m of the end section, any rideable height below the tube band (pocket, shoulder, too-low, deep flats) shows 'Barrel height \u00b7 ease UP under the lip \u00b7 opening in N m'. FinishCue prefers that cue over Too low/shoulder; Deep flats DangerCue does not fire inside the window so GameplayCue can show the climb. Tube thresholds, art, characters and paddle WAIT behavior unchanged from 0.46.2-playtest. Separate save database unchanged; Daily scores are not posted.",
+  "files": {
+    "Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
+    "Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "Brand/HighlineTide.woff2": "3915c602b0a48cd7e31d72b46bbd33f4c0ce4cefd24930f3df586054dc90de62",
+    "Brand/hero-masks.png": "5ac32c7f39fcd3032eb4c7bd189817cffb185bba10e60183e9cb94301bde34fc",
+    "Brand/hero.frag": "c869b5b6b59acd8aa0900f2fd8d399a605e3757bb5154319ea17bc9dc54b4b42",
+    "Brand/hero.js": "c7ee6e8bb91f704962441eaea18521f7b8174a379bba06593523378e9a02e396",
+    "Brand/highline-plate.png": "f119f34b48633bac55ee7241e48a90eb302737728b58cb1b882e930a25175e57",
+    "Brand/highline.png": "1e47b821ddc7e69e1b0d6228dc5872b5ef9e0dc960e589bd60c1ffb8e5d54fb7",
+    "Brand/main-cover-backdrop.png": "575fe119abeca9698943fabf1dd739ec17df0844b9e7421c5f645d52a090b29d",
+    "Brand/print-atlas.png": "acf66f163173f4ac55dd547c2d4b2a48d311891817f71196c6d824326c8f0b1b",
+    "Brand/start.css": "591851e1a743e5435df3f0980a0104040f734e80cbcf7a55c5166e5a92552f08",
+    "Brand/viewport.js": "f769879f430d9df7101b02ae6b93af60658d92bedd92c49ab7e8c2ead77678a6",
+    "Build/TouchDemo.data.unityweb": "59fd92916f3634150d24e2ccbd17a8a24098b5258100db8a5736590a95b2dd7c",
+    "Build/TouchDemo.framework.js.unityweb": "3df0c3ea9b1a7baaa5d8f41567a090d1d98d34a14f886d74bea905b10fd74d6a",
+    "Build/TouchDemo.loader.js": "3bdfb78368079a8eb06de7818fa75f032db2d07eeb1a1c7873fbe7fb0790d601",
+    "Build/TouchDemo.wasm.unityweb": "46444a70a16b19cd6d003003b41cc32ddd2bc20374c8543bd6c6d56c41999f2e",
+    "StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
+    "StreamingAssets/highline-how-to-play.mp4": "7b3ebb45615354670b6e2866e1c0707a701dc1a43cd2375e9a8c67a1f15485fb",
+    "credits.html": "5f6fe259f655aafb8b0d8b2cb06aa57732ea10b78f4ee37075c29ccd5c9090c0",
+    "index.html": "f581cb8158e5ac18118aeaa2648f46271813f794aff098706ea2e80f13ad2406"
+  }
+}
