@@ -1,0 +1,32 @@
+{
+  "version": "0.46.1-playtest",
+  "channel": "playtest",
+  "source_commit": "ee2243f7d0c00397b89ca6c5fd1837862b8f39d7",
+  "entrypoint": "releases/0.46.1-playtest/index.html",
+  "artifact_bytes": 85418994,
+  "verification": "Unity 6000.3.0f1 WebGL export succeeded with 0 errors and 0 warnings; 80 playtest checks passed (rhythm paddling, longer SAVE IT with HIGH telegraph + timely save / late wipeout, Free Surf tube > 0.25s on seed 11, speed/bonus sections). Local headless browser: HTTP 200, mouse and locator click enter Let it rip, STAND NOW start copy. Not verified on a physical device. Does not replace 0.45.0 or 0.46.0-playtest.",
+  "changes": "Session 3 playtest fixes only. Longer SAVE IT window (~1.28s Balanced) with earlier HIGH telegraph; widened Free Surf tube entry so Tube time can bank; Let it rip uses pointerdown for reliable mouse entry; start/HUD coaching aligned to STAND NOW (no AIM FOR GREEN / stand on green). Separate save database unchanged; Daily scores are not posted.",
+  "files": {
+    "Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
+    "Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "Brand/HighlineTide.woff2": "3915c602b0a48cd7e31d72b46bbd33f4c0ce4cefd24930f3df586054dc90de62",
+    "Brand/hero-masks.png": "5ac32c7f39fcd3032eb4c7bd189817cffb185bba10e60183e9cb94301bde34fc",
+    "Brand/hero.frag": "c869b5b6b59acd8aa0900f2fd8d399a605e3757bb5154319ea17bc9dc54b4b42",
+    "Brand/hero.js": "c7ee6e8bb91f704962441eaea18521f7b8174a379bba06593523378e9a02e396",
+    "Brand/highline-plate.png": "f119f34b48633bac55ee7241e48a90eb302737728b58cb1b882e930a25175e57",
+    "Brand/highline.png": "1e47b821ddc7e69e1b0d6228dc5872b5ef9e0dc960e589bd60c1ffb8e5d54fb7",
+    "Brand/main-cover-backdrop.png": "575fe119abeca9698943fabf1dd739ec17df0844b9e7421c5f645d52a090b29d",
+    "Brand/print-atlas.png": "acf66f163173f4ac55dd547c2d4b2a48d311891817f71196c6d824326c8f0b1b",
+    "Brand/start.css": "591851e1a743e5435df3f0980a0104040f734e80cbcf7a55c5166e5a92552f08",
+    "Brand/viewport.js": "f769879f430d9df7101b02ae6b93af60658d92bedd92c49ab7e8c2ead77678a6",
+    "Build/TouchDemo.data.unityweb": "f15f76000d30578903beed84aaf44f612250b32e8bdfea177b5b4adce22c8c60",
+    "Build/TouchDemo.framework.js.unityweb": "3df0c3ea9b1a7baaa5d8f41567a090d1d98d34a14f886d74bea905b10fd74d6a",
+    "Build/TouchDemo.loader.js": "b73f2fb538f718b443a555f5f6945696382aa11227bb1f377e1d4dfba639cc20",
+    "Build/TouchDemo.wasm.unityweb": "a7ed059e53ceb094cbfa08c3c8a89d56a92052c106222b9178e36ac07ce8328b",
+    "StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
+    "StreamingAssets/highline-how-to-play.mp4": "7b3ebb45615354670b6e2866e1c0707a701dc1a43cd2375e9a8c67a1f15485fb",
+    "credits.html": "5f6fe259f655aafb8b0d8b2cb06aa57732ea10b78f4ee37075c29ccd5c9090c0",
+    "index.html": "d39fed218719fd2c7840f9332ab1db81fd77145e8f918ac5774a4a0c8d79f919"
+  }
+}
