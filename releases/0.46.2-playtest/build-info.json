@@ -1,0 +1,32 @@
+{
+  "version": "0.46.2-playtest",
+  "channel": "playtest",
+  "source_commit": "3dbc1513f48f41b34c738518b15f28d6364093ac",
+  "entrypoint": "releases/0.46.2-playtest/index.html",
+  "artifact_bytes": 85394962,
+  "verification": "Unity 6000.3.0f1 WebGL export succeeded with 0 errors and 0 warnings; 92 playtest checks passed, including the approach cue for pocket riders on 5 seeds and a full paddle-in Free Surf ride (no teleport, no speed assist) that follows the cue and banks ~4.7-5.0s Tube with a clean finish on 7/7 seeds, while holding the pocket banks 0. Local headless browser: HTTP 200, mouse enters Let it rip. Not verified on a physical device. Does not replace 0.45.0, 0.46.0-playtest or 0.46.1-playtest.",
+  "changes": "Barrel-height approach coaching only. When a rider holds the pocket (between the shoulder and the tube band) within 30 m of the end section, the HUD reads 'Barrel height \u00b7 ease UP under the lip \u00b7 opening in N m'. Tube thresholds, art, characters and paddle WAIT behavior unchanged from 0.46.1-playtest. Separate save database unchanged; Daily scores are not posted.",
+  "files": {
+    "Brand/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "Brand/BarlowMedium.woff2": "a6984285c4a81954474a03e354245df2c13d7991b45dd9f8d07176f35de384f0",
+    "Brand/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "Brand/HighlineTide.woff2": "3915c602b0a48cd7e31d72b46bbd33f4c0ce4cefd24930f3df586054dc90de62",
+    "Brand/hero-masks.png": "5ac32c7f39fcd3032eb4c7bd189817cffb185bba10e60183e9cb94301bde34fc",
+    "Brand/hero.frag": "c869b5b6b59acd8aa0900f2fd8d399a605e3757bb5154319ea17bc9dc54b4b42",
+    "Brand/hero.js": "c7ee6e8bb91f704962441eaea18521f7b8174a379bba06593523378e9a02e396",
+    "Brand/highline-plate.png": "f119f34b48633bac55ee7241e48a90eb302737728b58cb1b882e930a25175e57",
+    "Brand/highline.png": "1e47b821ddc7e69e1b0d6228dc5872b5ef9e0dc960e589bd60c1ffb8e5d54fb7",
+    "Brand/main-cover-backdrop.png": "575fe119abeca9698943fabf1dd739ec17df0844b9e7421c5f645d52a090b29d",
+    "Brand/print-atlas.png": "acf66f163173f4ac55dd547c2d4b2a48d311891817f71196c6d824326c8f0b1b",
+    "Brand/start.css": "591851e1a743e5435df3f0980a0104040f734e80cbcf7a55c5166e5a92552f08",
+    "Brand/viewport.js": "f769879f430d9df7101b02ae6b93af60658d92bedd92c49ab7e8c2ead77678a6",
+    "Build/TouchDemo.data.unityweb": "0c4aac17c8931139dda13fe27af221b03a8b5ca6b773d6a5c383968211903fd3",
+    "Build/TouchDemo.framework.js.unityweb": "3df0c3ea9b1a7baaa5d8f41567a090d1d98d34a14f886d74bea905b10fd74d6a",
+    "Build/TouchDemo.loader.js": "70ba680a3067ff4222be0bae802a76b10408b6c0efd1083b8ceb61c8fb21616b",
+    "Build/TouchDemo.wasm.unityweb": "1e808f0513f9bb0c7274f806d35ca58ef99e42fc498d558178c6195fae7971f1",
+    "StreamingAssets/Highline-font-licenses.txt": "33166093915dcceeedee6444f8f6b1a91c839823ac12afabac0cf37be094c8a8",
+    "StreamingAssets/highline-how-to-play.mp4": "7b3ebb45615354670b6e2866e1c0707a701dc1a43cd2375e9a8c67a1f15485fb",
+    "credits.html": "5f6fe259f655aafb8b0d8b2cb06aa57732ea10b78f4ee37075c29ccd5c9090c0",
+    "index.html": "d6c1898db9f5a22542de5f8e0f5c7074b234ac1319562073ea1c953de8d57fa0"
+  }
+}
